@@ -7,21 +7,19 @@ fields in an expanding universe**. It can simulate (so far) the dynamics of 1) g
 
 ## Download
 
-CosmoLattice can be downloaded from the GitHub repository **[cosmolattice/cosmolattice](http://https://github.com/cosmolattice/cosmolattice)**
+CosmoLattice can be downloaded from the GitHub repository **[cosmolattice/cosmolattice](http://github.com/cosmolattice/cosmolattice)**
 
 ## If you use CosmoLattice
 
 - Please cite [arXiv:2006.15122](https://arxiv.org/pdf/2101.XXXXX.pdf) and [arXiv:2101.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf) in your research.
-- Let us now if you publish a paper using CosmoLattice. We plan to upload a list of papers to this website in the future.
+- If you want, let us know if you publish a paper using CosmoLattice. We plan to upload a list of papers to this website in the future.
 
 ## Documentation
 
-- _User manual_: Explains how to install CosmoLattice and run scalar and gauge simulations.
-[arXiv:2101.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf)
+- _User manual_. [arXiv:2101.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf). Explains how to install CosmoLattice and run scalar and gauge simulations.
 
-- _The art of simulating the early universe_: A dissertation meant as a primer on lattice techniques for the simulation of scalar-gauge field theories. It provides the theoretical basis for the equations implemented in CosmoLattice.
 
-[arXiv:2006.15122](https://arxiv.org/pdf/2006.15122.pdf)
+- _The art of simulating the early universe_. [arXiv:2006.15122](https://arxiv.org/pdf/2006.15122.pdf). A dissertation meant as a primer on lattice techniques for the simulation of scalar-gauge field theories. It provides the theoretical basis for the equations implemented in CosmoLattice. 
 
 ## Mailing list
 
