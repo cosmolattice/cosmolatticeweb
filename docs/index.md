@@ -1,4 +1,4 @@
-![Image](CLlogo-)
+![Image](CLlogo.png)
 
 ## What is CosmoLattice?
 
@@ -17,10 +17,12 @@ CosmoLattice can be downloaded from the GitHub repository [cosmolattice/cosmolat
 ## Documentation
 
 - _User manual_: Explains how to install CosmoLattice and run scalar and gauge simulations.
-https://arxiv.org/pdf/2101.XXXXX.pdf
+
+https://arxiv.org/pdf/2101.XXXXX.pdf(https://arxiv.org/pdf/2101.XXXXX.pdf)
 
 - _The art of simulating the early universe_: A dissertation meant as a primer on lattice techniques for the simulation of scalar-gauge field theories. It provides the theoretical basis for the equations implemented in CosmoLattice.
-https://arxiv.org/pdf/2006.15122.pdf
+
+https://arxiv.org/pdf/2006.15122.pdf(https://arxiv.org/pdf/2101.XXXXX.pdf)
 
 ## Mailing list
 
