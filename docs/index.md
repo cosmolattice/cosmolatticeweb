@@ -1,4 +1,6 @@
-![Image](CLlogo.png)
+<p align="center">
+  <img src="CLlogo.png" />
+</p>
 
 ## What is CosmoLattice?
 
