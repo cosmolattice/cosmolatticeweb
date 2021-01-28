@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+![Image](CLlogo-)
 
-You can use the [editor on GitHub](https://github.com/cosmolattice/cosmolattice.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## What is CosmoLattice?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+CosmoLattice is a program designed to simulate the evolution of interacting scalar and gauge
+fields in an expanding universe. It can simulate (so far) the dynamics of 1) global theories, ii) Abelian U(1) gauge theories, and iii) non-Abelian SU(2) gauge theories. It can simulate the dynamics of such fields either in a flat space-time background, or in a homogeneous and isotropic (spatially flat) expanding background. CosmoLattice is written in C++, and is fully parallelized using Message Passing Interface (MPI). For more details, see [arXiv:2101.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf)
 
-### Markdown
+## Download
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+CosmoLattice can be downloaded from the GitHub repository [cosmolattice/cosmolattice](http://https://github.com/cosmolattice/cosmolattice)
 
-```markdown
-Syntax highlighted code block
+## If you use CosmoLattice
 
-# Header 1
-## Header 2
-### Header 3
+- Please cite [arXiv:2006.15122](https://arxiv.org/pdf/2101.XXXXX.pdf) and [arXiv:2101.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf) in your research.
+- Let us now if you publish a paper using CosmoLattice. We plan to upload a list of papers to this website in the future.
 
-- Bulleted
-- List
+## Documentation
 
-1. Numbered
-2. List
+- _User manual_: Explains how to install CosmoLattice and run scalar and gauge simulations.
+https://arxiv.org/pdf/2101.XXXXX.pdf
 
-**Bold** and _Italic_ and `Code` text
+- _The art of simulating the early universe_: A dissertation meant as a primer on lattice techniques for the simulation of scalar-gauge field theories. It provides the theoretical basis for the equations implemented in CosmoLattice.
+https://arxiv.org/pdf/2006.15122.pdf
 
-[Link](url) and ![Image](src)
-```
+## Mailing list
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+We have created a mailing list in order to share information on new updates, report buggs, inform about events, etc. In order to subscribe, send a blank e-mail to cosmolattice+subscribe@googlegroups.com
 
-### Jekyll Themes
+## Authors 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cosmolattice/cosmolattice.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Daniel G. Figueroa (IFIC, UV/CSIC)
+- Adrien Florio (Stony Brook U.)
+- Francisco Torrenti (U. Basel)
+- Wessel Valkenburg
 
-### Support or Contact
+## Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Send an e-mail to: daniel.figueroa@ific.uv.es, adrien.florio@stonybrook.edu, f.torrenti@unibas.ch
