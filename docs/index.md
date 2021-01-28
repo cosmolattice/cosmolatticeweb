@@ -25,7 +25,7 @@ CosmoLattice can be downloaded from the GitHub repository **[cosmolattice/cosmol
 
 ## Mailing list
 
-We have created a mailing list in order to share information on new updates, report buggs, inform about events, etc. In order to subscribe, send a blank e-mail to: **[cosmolattice+subscribe@googlegroups.com](cosmolattice+subscribe@googlegroups.com)**
+We have created a mailing list in order to share information on new updates, report buggs, inform about events, etc. In order to subscribe, send a blank e-mail to: **<cosmolattice+subscribe@googlegroups.com>**
 
 ## Authors 
 
@@ -36,4 +36,4 @@ We have created a mailing list in order to share information on new updates, rep
 
 ## Contact
 
-Send an e-mail to: daniel.figueroa@ific.uv.es, adrien.florio@stonybrook.edu, f.torrenti@unibas.ch
+Send an e-mail to: <daniel.figueroa@ific.uv.es>, <adrien.florio@stonybrook.edu>, <f.torrenti@unibas.ch>
