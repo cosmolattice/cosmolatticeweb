@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="CL_iconSequence-removebgbis.png"   alt="drawing" width="800"
+  <img src="CL_iconSequence-removebgbis.png"   alt="drawing" width="600"
  />
 </p>
 
