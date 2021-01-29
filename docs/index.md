@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="CL_iconSequence-removebg.png" />
+  <img src="CL_iconSequence-removebgbis.png"   alt="drawing" width="800"
+ />
 </p>
 
 ## What is CosmoLattice?
