@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="CL_iconSequence-removebgbis.png"   alt="drawing" width="600"
+  <img src="images/CL_iconSequence-removebgbis.png"   alt="drawing" width="700"
  />
 </p>
 
@@ -9,13 +9,17 @@ CosmoLattice is a modern package for **lattice simulations of interacting field 
 
 The current version of CosmoLattice (**version 1.0**) can simulate the dynamics of 1) global theories, ii) Abelian U(1) gauge theories, and iii) non-Abelian SU(2) gauge theories, both in flat and (spatially flat) FLRW backgrounds.  As such, it can simulate the dynamics of field theories described by an action and metric of the type:
 
-$$
-S = - \int d^4 x \left\{\frac{1}{2}\partial_{\mu} \phi \partial ^{\mu}\phi + (D_{\mu}^A \varphi)^{*}(D_A^{\mu} \varphi) +  (D_{\mu}\Phi )^{\dagger} (D^{\mu} \Phi) + \frac{1}{4} F_{\mu \nu} F^{\mu \nu} + \frac{1}{2}{\rm Tr}\{G_{\mu \nu}G^{\mu \nu}\} + V(\phi,|\varphi|, |\Phi|) \right\} 
-$$
+<p align="center">
+  <img src="images/action.svg"
+ />
+</p>
 
-$$
-ds^2 = -a^{2\alpha}(\eta)d\eta^2 + a^2(\eta) \, \delta_{ij} \, dx^i dx^j
-$$
+
+<p align="center">
+  <img src="images/metric.svg"
+ />
+</p>
+
 
 However, we conceive CosmoLattice as an **evolving package that we plan to upgrade constantly**, by further developing new modules for other tasks. To mention just a few, we plan to add in the future the computation of gravitational waves (**now in development!**), an initializer for the creation a cosmic defects, the handing of theories with non-canonical kinetic terms, and the inclusion of axion-couplings to a gauge sector. 
 
@@ -58,7 +62,7 @@ CosmoLattice can be downloaded from the **GitHub repository**: **[cosmolattice/c
 
 ## Mailing list
 
-We have created a mailing list in order to share information on new updates, report buggs, inform about events, etc. In order to subscribe, send a blank e-mail to: **<cosmolattice+subscribe@googlegroups.com>**
+We have created a mailing list in order to share information on new updates, report bugs, inform about events, etc. In order to subscribe, send a blank e-mail to: **<cosmolattice+subscribe@googlegroups.com>**
 
 
 ## Contact
