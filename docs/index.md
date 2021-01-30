@@ -22,7 +22,7 @@ field theories described by an action and metric of the type:
 
 
 <p align="center">
-  <img src="images/metric.svg" width="350"
+  <img src="images/metric.svg" width="300"
  />
 </p>
 
@@ -52,8 +52,8 @@ well-separated scales, running very high resolution simulations, or simply very 
 - It introduces its own **symbolic language**, defining field variables and operations 
 over them. This way, one can introduce differential equations and operators in a manner 
 as close as possible to the continuum.
--  it includes a library of **numerical algorithms**, ranging from <img src="https://quicklatex.com/cache3/2c/ql_a52b59a5ad209be468171a26cb49402c_l3.png">
-to <img src="https://quicklatex.com/cache3/7d/ql_9bf70fd00cb52d76d633ca21a6883e7d_l3.png"> methods, suitable for simulating global and gauge theories 
+-  it includes a library of **numerical algorithms**, ranging from second-order to tenth-order 
+accuracy methods, suitable for simulating global and gauge theories 
 in an expanding grid.
 - Our algorithms **conserve energy up** to the accuracy set by the order of the evolution 
 algorithm, reaching even machine precision in the case of the highest order integrators. 
