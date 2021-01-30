@@ -5,18 +5,24 @@
 
 # What is CosmoLattice?
 
-CosmoLattice is a modern package for **lattice simulations of interacting field dynamics in an expanding universe**. We have developed CosmoLattice with the intention of providing a new up-to-date, relevant numerical tool for the scientific community working in the **physics of the early universe**.
+CosmoLattice is a modern package for **lattice simulations of interacting field dynamics in 
+an expanding universe**. We have developed CosmoLattice with the intention of providing a 
+new up-to-date, relevant numerical tool for the scientific community working in the **physics 
+of the early universe**.
 
-The current version of CosmoLattice (**version 1.0**) can simulate the dynamics of 1) global theories, ii) Abelian U(1) gauge theories, and iii) non-Abelian SU(2) gauge theories, both in flat and (spatially flat) FLRW backgrounds.  As such, it can simulate the dynamics of field theories described by an action and metric of the type:
+The current version of CosmoLattice (**version 1.0**) can simulate the dynamics of 1) global 
+theories, ii) Abelian U(1) gauge theories, and iii) non-Abelian SU(2) gauge theories, both 
+in flat and (spatially flat) FLRW backgrounds.  As such, it can simulate the dynamics of 
+field theories described by an action and metric of the type:
 
 <p align="center">
-  <img src="images/action.svg" width="115%"
+  <img src="images/action.svg" width="830"
  />
 </p>
 
 
 <p align="center">
-  <img src="images/metric.svg" width="115%"
+  <img src="images/metric.svg" width="400"
  />
 </p>
 
@@ -46,8 +52,8 @@ well-separated scales, running very high resolution simulations, or simply very 
 - It introduces its own **symbolic language**, defining field variables and operations 
 over them. This way, one can introduce differential equations and operators in a manner 
 as close as possible to the continuum.
--  it includes a library of **numerical algorithms**, ranging from $\mathcal{O}(\delta t^2)$ 
-to $\mathcal{O}(\delta t^{10})$ methods, suitable for simulating global and gauge theories 
+-  it includes a library of **numerical algorithms**, ranging from O(δt<sup>2</sup>) 
+to O(δt<sup>10</sup>) methods, suitable for simulating global and gauge theories 
 in an expanding grid.
 - Our algorithms **conserve energy up** to the accuracy set by the order of the evolution 
 algorithm, reaching even machine precision in the case of the highest order integrators. 
