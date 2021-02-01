@@ -77,6 +77,26 @@ CosmoLattice and the different required libraries, 2) the general structure of t
 the most important files, 3) how to set up and run a simulation for the first time, for both 
 scalar and scalar-gauge theories.
 
+## Basic installation
+All options of Cosmolattice as well has how to activate them and how to install the optional external libraries
+are explained at length in the [user-manual](https://arxiv.org/pdf/2102.XXXXX.pdf). Here we show the most basic steps 
+to have the serial version of CosmoLattice running on your PC.
+
+*Minimal requirements:* `CMake` version 3 or above, `g++` version 5 or above, `fftw3`.
+
+```
+git clone https://github.com/cosmolattice/cosmolattice.git
+cd cosmolattice/bin
+cmake -DMODEL=lphi4 ../
+make cosmolattice
+```
+
+This will compile the ``lphi4`` model. To run it with the default input file, you can do
+
+``
+./lphi4 input=../src/models/parameter-files/lphi4.in
+``
+
 
 ## If you use CosmoLattice
 
