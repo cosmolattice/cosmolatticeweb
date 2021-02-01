@@ -27,8 +27,8 @@ and a background metric of the type:
  />
 </p>
 
-We conceive CosmoLattice as an **evolving package that we plan to upgrade successively**, 
-by further developing new modules for other tasks. To mention just a few, we plan to eventually add e.g. the computation of gravitational waves (**now in development**), new initializer routines and evolution algorithms.
+We have conceived CosmoLattice as an **evolving package that we plan to upgrade successively**, 
+by further developing modules for new tasks. To mention just a few, we plan to add e.g. the computation of gravitational waves (**now in development**), new initialization routines, and different evolution algorithms. CosmoLattice is in fact a platform to implement any system of dynamical equations suitable for discretization on a lattice, as it introduces its own language describing fields and operations between them, and hence it is a natural platform to implement new libraries to solve arbitrary field problems (related or not to cosmology).
 
 
 ## Some features:
