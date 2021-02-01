@@ -120,7 +120,7 @@ inform about events, etc.  In order to subscribe, send a blank e-mail to:
 ## Authors
 
 - Daniel G. Figueroa
-- Adrien Florio
+- [Adrien Florio](https://afloriosite.wordpress.com/)
 - Francisco Torrenti
 - Wessel Valkenburg
 
