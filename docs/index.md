@@ -85,8 +85,8 @@ using CosmoLattice in your research, no matter how much (or little) you modify t
 **please cite both [arXiv:2006.15122](https://arxiv.org/pdf/2101.XXXXX.pdf) 
 and [arXiv:2102.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf) in your papers**. 
 
-- Also, if you publish a paper using CosmoLattice, we would love to hear about them. We 
-plan to keep an **updated list of papers** using the code in this website.
+- Also, if you publish a paper using CosmoLattice, we would love to hear about it. We 
+plan to keep an **updated list of papers** using the code on this website.
 
 - Finally, if you would like to **help developing** some aspects of CosmoLattice, or even 
 implement your own modules with some new functionality we have not envisaged, please contact 
