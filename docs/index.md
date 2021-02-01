@@ -60,6 +60,9 @@ algorithm, reaching even machine precision in the case of the highest order inte
 Our algorithms for gauge theories also respect the **Gauss constraint to machine precision**.
 - **Relevant observables** are provided for each algorithm, such as field amplitudes and 
 spectra,  energy density, or lattice snapshots. 
+- The core library **TempLat**, which implements fields and algebraic operations as well as the parallelization,
+works **in arbitrary dimensions**, also bigger than 3. It makes it an ideal tool to develop new software 
+to solve problems in higher dimensions.
 
 
 ## Documentation
