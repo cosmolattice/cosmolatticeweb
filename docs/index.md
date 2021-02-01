@@ -3,7 +3,7 @@
  />
 </p>
 
-# What is CosmoLattice?
+# What is [CosmoLattice](https://github.com/cosmolattice/cosmolattice)?
 
 CosmoLattice is a modern package for **lattice simulations of interacting field dynamics in 
 an expanding universe**. We have developed CosmoLattice with the intention of providing a 
