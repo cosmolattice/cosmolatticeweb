@@ -4,11 +4,14 @@
 </p>
 
 # What is CosmoLattice?
-
-<div align=”justify”> CosmoLattice is a modern package for **lattice simulations of interacting field dynamics in 
+ <p align=”justify”>
+  
+CosmoLattice is a modern package for **lattice simulations of interacting field dynamics in 
 an expanding universe**. We have developed CosmoLattice with the intention of providing a 
 new up-to-date, relevant numerical tool for the scientific community working in the **physics 
-of the early universe**.</div>
+of the early universe**.
+
+</p>
 
 The current version of CosmoLattice (**version 1.0**) can simulate the dynamics of 1) global 
 theories, ii) Abelian U(1) gauge theories, and iii) non-Abelian SU(2) gauge theories, both 
