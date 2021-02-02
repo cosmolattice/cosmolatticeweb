@@ -61,7 +61,7 @@ spectra,  energy density components, or 3D lattice snapshots.
 A dissertation on lattice techniques for the simulation of scalar-gauge field theories. 
 It provides the theoretical basis for the equations implemented in CosmoLattice. 
 
-- _**CosmoLattice user manual**_ [[**arXiv:2102.XXXXX**]](https://arxiv.org/pdf/2102.XXXXX.pdf). 
+- _**CosmoLattice user manual**_  <b>[<a href=https://arxiv.org/pdf/2102.01031.pdf target="_blank" rel="noopener noreferrer" > arXiv:2102.01031</a>]</b> .  
 A manual that explains in detail the use and structure of the code, including: 1) how to install 
 CosmoLattice and the different required libraries, 2) the general structure of the code and 
 the most important files, 3) how to set up and run a simulation for the first time, for both 
@@ -96,7 +96,7 @@ libraries are explained at length there.
 - CosmoLattice is freely available to anyone who wants to use or modify it. However, whenever 
 using CosmoLattice in your research, no matter how much (or little) you modify the code, 
 <b>please cite both <a href=https://arxiv.org/pdf/2006.15122.pdf target="_blank" rel="noopener noreferrer" > arXiv:2006.15122</a> 
-and [arXiv:2102.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf) in your papers</b>. 
+and <a href=https://arxiv.org/pdf/2102.01031.pdf target="_blank" rel="noopener noreferrer" > arXiv:2102.01031</a> in your papers</b>. 
 
 - Also, if you publish a paper using CosmoLattice, we would love to hear about it. We 
 plan to keep an **updated list of papers** using the code on this website.
