@@ -87,7 +87,7 @@ This will compile the ``lphi4`` model. To run it with the default input file, yo
 ``
 
 The above commands just represent a very brief guide for the installation and execution of CosmoLattice. 
-For further information, see  Appendix A of the [user-manual](https://arxiv.org/pdf/2102.XXXXX.pdf).
+For further information, see  Appendix A of the [user-manual](https://arxiv.org/pdf/2102.01031.pdf).
 All options of CosmoLattice, as well as how to activate them and how to install the optional external 
 libraries are explained at length there.
 
