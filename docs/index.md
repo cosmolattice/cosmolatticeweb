@@ -57,7 +57,7 @@ spectra,  energy density components, or 3D lattice snapshots.
 
 ## Documentation
 
-- ***The Art of Simulating the Early Universe*** [[**arXiv:2006.15122**]](https://arxiv.org/pdf/2006.15122.pdf). 
+- ***The Art of Simulating the Early Universe*** <b>[<a href=https://arxiv.org/pdf/2006.15122.pdf target="_blank" rel="noopener noreferrer" > arXiv:2006.15122</a>]</b> . 
 A dissertation on lattice techniques for the simulation of scalar-gauge field theories. 
 It provides the theoretical basis for the equations implemented in CosmoLattice. 
 
@@ -95,8 +95,8 @@ libraries are explained at length there.
 
 - CosmoLattice is freely available to anyone who wants to use or modify it. However, whenever 
 using CosmoLattice in your research, no matter how much (or little) you modify the code, 
-**please cite both [arXiv:2006.15122](https://arxiv.org/pdf/2006.15122.pdf) 
-and [arXiv:2102.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf) in your papers**. 
+<b>please cite both <a href=https://arxiv.org/pdf/2006.15122.pdf target="_blank" rel="noopener noreferrer" > arXiv:2006.15122</a> 
+and [arXiv:2102.XXXXX](https://arxiv.org/pdf/2101.XXXXX.pdf) in your papers</b>. 
 
 - Also, if you publish a paper using CosmoLattice, we would love to hear about it. We 
 plan to keep an **updated list of papers** using the code on this website.
@@ -108,7 +108,7 @@ us and let us know about your idea(s).
 ## Download
 
 CosmoLattice can be downloaded from the **GitHub repository**: 
-**[cosmolattice/cosmolattice](http://github.com/cosmolattice/cosmolattice)**
+<b> <a href="http://github.com/cosmolattice/cosmolattice" target="_blank" rel="noopener noreferrer">cosmolattice/cosmolattice</a></b>
 
 
 ## Mailing list
