@@ -33,7 +33,7 @@ algorithm, reaching even machine precision in the case of the highest order inte
 - **Relevant observables** are provided for each algorithm, such as field average amplitudes, relevant field
 spectra,  energy density components, or 3D lattice snapshots.
 - It comes with the core library **TempLat**, which implements fields and algebraic operations and the handling of the parallelization technical details. It works **in arbitrary dimensions** (smaller or larger than 3), which makes it an ideal tool to develop new modules to solve problems in higher dimensions.
-- New functionalities are constantly added! Check our <a href="_pages/technicalnotes.md">technical notes</a> and <a href="_pages/allversions.md">release updates</a>.
+- New functionalities are constantly added! Check our <a href="../technicalnotes.md">technical notes</a> and <a href="../allversions.md">release updates</a>.
 
 
 ## Documentation
