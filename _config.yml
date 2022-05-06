@@ -15,19 +15,20 @@ author: <a href="https://webific.ific.uv.es/web/content/figueroa-daniel-g" targe
 
 navbar-links:
   Features: "features"
-  Download: "https://github.com/cosmolattice/cosmolattice"
+  Download: "download"
   Documentation:
     - In a nutshell: "documentation"
-    - User manual: "https://arxiv.org/pdf/2102.01031.pdf"
-    - The art of simulating the early universe: "https://arxiv.org/pdf/2102.01031.pdf"
+    - User manual: "usermanual" 
+    - The art of simulating the early universe: "review"
     - Technical notes: "technicalnotes"
   Versions:
+    - All versions: "allversions"
     - Version 1.1: "version11"
     - Version 1.0: "version10"  
   Events:
-    - CosmoLattice school 2022: school
+    - School 2022: school
     
-  Publications: "paperswithcl"
+  Publications: "publications"
 
   #Images: "images"
   #About us: "aboutus"

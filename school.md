@@ -39,6 +39,8 @@ Topical lectures will be given by:
 - Ben A. Stefanek ............... Zurich U., Switzerland
 - Ander Urio   ................... UPV/EHU, Bilbao, Spain
 
-**Observations:** The school will he held in person in Valencia, Spain, during 5-8 Sept 2022. Applications can be sent till July 31st 2022 through this website. In case the demand exceeds our room capacity, we will give preference to young researchers (PhD students and postdocs). There is no fee, but participants are expected to cover their own accommodation (we will provide suggestions in due time). Participants are expected to bring their own laptop.
+**Observations:** The school will he held in person in Valencia, Spain, during 5-8 Sept 2022. In case the demand exceeds our room capacity, we will give preference to young researchers (PhD students and postdocs). There is no fee, but participants are expected to cover their own accommodation (we will provide suggestions in due time). Participants are expected to bring their own laptop.
+
+**Applications:** You can apply from the school website: <b><a href="https://indico.ific.uv.es/event/6631/" target="_blank">https://indico.ific.uv.es/event/6631/</a></b>
 
 We look forward to welcoming you in sunny Valencia!

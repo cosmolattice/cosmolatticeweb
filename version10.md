@@ -27,7 +27,7 @@ and a background metric of the type:</p>
 </p>
 
 <p>We have conceived CosmoLattice as an <strong>evolving package that we plan to upgrade successively</strong>, 
-by further developing modules for new tasks. To mention just a few, we plan to add e.g. the computation of gravitational waves (<strong>now in development</strong>), new initialization routines, and different evolution algorithms. CosmoLattice is in fact a platform to implement any system of dynamical equations suitable for discretization on a lattice, as it introduces its own language describing fields and operations between them, and hence it is a natural platform to implement new libraries to solve arbitrary field problems (related or not to cosmology).</p>
+by further developing modules for new tasks. To mention just a few, we plan to add e.g. the computation of gravitational waves (now developed in version 1.1), new initialization routines, and different evolution algorithms. CosmoLattice is in fact a platform to implement any system of dynamical equations suitable for discretization on a lattice, as it introduces its own language describing fields and operations between them, and hence it is a natural platform to implement new libraries to solve arbitrary field problems (related or not to cosmology).</p>
 
 <h2 id="some-features">Some features:</h2>
 
