@@ -9,7 +9,7 @@ an expanding universe</strong>. We have developed CosmoLattice to provide a
 new up-to-date, relevant numerical tool for the scientific community working in the <strong>physics 
 of the early universe</strong>.</p>
 
-<p>The current version of CosmoLattice (<strong>version 1.0</strong>) can simulate the dynamics of i) interacting
+<p>Version 1-0 of CosmoLattice can simulate the dynamics of i) interacting
 scalar field theories, ii) Abelian U(1) gauge theories, and iii) non-Abelian SU(2) gauge theories, either
 in flat spacetime or an expanding FLRW background, including the case of self-consistent expansion sourced by
 the fields themselves. CosmoLattice is ready to simulate the dynamics of field theories described by an action 
