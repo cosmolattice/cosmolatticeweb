@@ -7,6 +7,7 @@ title: CosmoLattice School 2022
 IFIC (Valencia, Spain) - 5th-8th September 2022</a></b></font></div>
 
 This is a school aimed to provide a pedagogical introduction to lattice field theory techniques and their adaptation to simulate the dynamics of interacting fields in an expanding background. The lectures will serve as well as an introduction to CosmoLattice, a public code recently developed for lattice simulations of early Universe scenarios. The use of CosmoLattice as a tool to simulate scalar and gauge field non-linear dynamics in an expanding universe will be presented in full detail. Modern applications to preheating scenarios, gravitational wave production, non-minimally coupled scalar field dynamics, axion-like field dynamics, and maybe others, will also be covered.
+Registration is open until July 31st 2022, see <b><a href="https://indico.ific.uv.es/event/6631/" target="_blank">https://indico.ific.uv.es/event/6631/</a></b>
 
 The school is aimed to anyone who would like to learn (or simply improve their knowledge on) how to simulate in a lattice the dynamics of early Universe field theory scenarios. The lectures will cover:
 
