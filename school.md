@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CosmoLattice school 2022
+title: CosmoLattice School 2022
 ---
 
 <div align="center"><font size=5><b><a href="https://indico.ific.uv.es/event/6631/" target="_blank">COSMOLATTICE SCHOOL: <br>
