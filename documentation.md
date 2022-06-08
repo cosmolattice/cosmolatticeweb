@@ -13,11 +13,11 @@ title: In a nutshell
 
 ## Documentation
 
-- ***The Art of Simulating the Early Universe*** **[arXiv:2006.15122](https://arxiv.org/pdf/2006.15122.pdf)** .
+- ***The Art of Simulating the Early Universe*** **[arXiv:2006.15122](https://arxiv.org/pdf/2006.15122.pdf){:target="_blank"}** .
 A dissertation on lattice techniques for the simulation of scalar-gauge field theories.
 It provides the theoretical basis for the equations implemented in CosmoLattice.
 
-- _**CosmoLattice user manual**_  **[arXiv:2102.01031](https://arxiv.org/pdf/2102.01031.pdf)** .  
+- _**CosmoLattice user manual**_  **[arXiv:2102.01031](https://arxiv.org/pdf/2102.01031.pdf){:target="_blank"}** .  
 A manual that explains in detail the use and structure of the code, including: 1) how to install
 CosmoLattice and the different required libraries, 2) the general structure of the code and
 the most important files, 3) how to set up and run a simulation for the first time, for both
