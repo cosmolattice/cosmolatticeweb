@@ -9,6 +9,10 @@ If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
 ### List of papers:
+- "Characterizing the post-inflationary reheating history, Part II: Multiple interacting daughter fields". \
+  Stefan Antusch, Kenneth Marschall, Francisco Torrenti. \
+  arXiv: <a href="https://arxiv.org/abs/2206.06319" target="_blank" rel="noopener noreferrer">2206.06319</a>
+
 - "On gravitational preheating". \
   Oleg Lebedev, Jong-Hyun Yoon. \
   arXiv: <a href="https://arxiv.org/abs/2203.15808" target="_blank" rel="noopener noreferrer">2203.15808</a>
