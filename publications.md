@@ -9,6 +9,12 @@ If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
 ### List of papers:
+- "Scalar Dark Matter Production from Preheating and Structure Formation Constraints". \
+  Marcos A.G. Garcia, Mathias Pierre, Sarunas Verner. \
+  arXiv: <a href="https://arxiv.org/abs/2206.08940" target="_blank" rel="noopener noreferrer">2206.08940</a>
+
+  e-Print: 2206.08940 [hep-ph]
+
 - "Characterizing the post-inflationary reheating history, Part II: Multiple interacting daughter fields". \
   Stefan Antusch, Kenneth Marschall, Francisco Torrenti. \
   arXiv: <a href="https://arxiv.org/abs/2206.06319" target="_blank" rel="noopener noreferrer">2206.06319</a>
