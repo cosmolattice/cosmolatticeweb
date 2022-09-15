@@ -3,6 +3,11 @@ layout: page
 title: CosmoLattice School 2022
 ---
 
+<p align="center">
+  <img src="../assets/img/PhotoSchool22.jpeg"   alt="drawing" width="700"
+ />
+</p>
+
 <div align="center"><font size=5><b><a href="https://indico.ific.uv.es/event/6631/" target="_blank">COSMOLATTICE SCHOOL: <br>
 IFIC (Valencia, Spain) - 5th-8th September 2022</a></b></font></div>
 
