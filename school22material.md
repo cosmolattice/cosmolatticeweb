@@ -22,7 +22,8 @@ Here we compile all the presentation slides, notes, and other materials prepared
    Notebooks: [[mathematica]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-lphi4.nb){:target="_blank"} (F. Torrenti),
     	      [[python]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-lphi4.ipynb){:target="_blank"} (A. Florio)
 
-- **Lecture 3: Evolution algorithms for ordinary differential equations**. By Adrien Florio.<br>
+- **Lecture 3: Evolution algorithms for ordinary differential equations**.<br> 
+  By Adrien Florio.<br>
   Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-Algorithms.pdf){:target="_blank"}.<br>
   Scripts: [[TimeEvolution.jl]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-TimeEvolution.jl){:target="_blank"}, [[waveeq.jl]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-waveeq.jl){:target="_blank"}
 
@@ -61,5 +62,5 @@ By Adrien Florio.<br>
 - **Topical 4: Plotting 3D data with CosmoLattice**. <br>
 	By Kenneth Marschall. <br>
 	Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-Plot3Ddata.pdf){:target="_blank"}<br>
-	Model and input files: [[TA]]<br>
-	Notebook: [[tanh2hdf5.h]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-tanh2hdf5.h){:target="_blank"}, [[tanh2hdf5.in]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-tanh2hdf5.in){:target="_blank"}
+	Model and input files: [[tanh2hdf5.h]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-tanh2hdf5.h){:target="_blank"}, [[tanh2hdf5.in]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-tanh2hdf5.in){:target="_blank"}
+	Notebook: [[mathematica]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-SnapshotPrinter.nb){:target="_blank"} 
