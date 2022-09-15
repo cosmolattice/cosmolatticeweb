@@ -8,7 +8,7 @@ Here we compile all the presentation slides, notes, and other materials prepared
 
 ## Main lectures
 
-- **Lecture 1: Welcome to the Lattice!**. By Daniel G. Figueroa.
+- **Lecture 1: Welcome to the Lattice!**. By Daniel G. Figueroa.<br>
    Slides: [pdf]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L1-TheLattice.pdf){:target="_blank"}   
 
 - **Lecture 2a: Introduction to Inflation and post-inflationary dynamics**. By Francisco Torrenti.
@@ -16,8 +16,7 @@ Here we compile all the presentation slides, notes, and other materials prepared
 
 - **Lecture 2b: Primer on Lattice simulations: phi^4 in an expanding background**. By Francisco Torrenti.
    
-   Slides: [pdf]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-PrimerOnLatticeSimulations.pdf){:target="_blank"}
-   
+   Slides: [pdf]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-PrimerOnLatticeSimulations.pdf){:target="_blank"}.
    Notebooks: [mathematica]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-lphi4.nb){:target="_blank"} (F. Torrenti)
     	      [python]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-lphi4.ipynb){:target="_blank"} (A. Florio)
 
