@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CL School 22 - Material
+title: CL School Material (2022)
 # subtitle:
 ---
 
@@ -17,14 +17,14 @@ Here we compile all the presentation slides, notes, and other materials prepared
    Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2-Inflation+non-linear.pdf){:target="_blank"}   
 
 - **Lecture 2b: Primer on Lattice simulations: phi^4 in an expanding background**. <br>
-   By Francisco Torrenti.
+   By Francisco Torrenti.<br>
    Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-PrimerOnLatticeSimulations.pdf){:target="_blank"}.<br>
-   Notebooks: [mathematica]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-lphi4.nb){:target="_blank"} (F. Torrenti)
-    	      [python]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-lphi4.ipynb){:target="_blank"} (A. Florio)
+   Notebooks: [[mathematica]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-lphi4.nb){:target="_blank"} (F. Torrenti),
+    	      [[python]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L2b-lphi4.ipynb){:target="_blank"} (A. Florio)
 
 - **Lecture 3: Evolution algorithms for ordinary differential equations**. By Adrien Florio.<br>
-  Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-Algorithms.pdf){:target="_blank"}<br>. 
-  Scripts: [TimeEvolution.jl]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-TimeEvolution.jl){:target="_blank"}, [waveeq.jl]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-waveeq.jl){:target="_blank"}
+  Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-Algorithms.pdf){:target="_blank"}.<br>
+  Scripts: [[TimeEvolution.jl]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-TimeEvolution.jl){:target="_blank"}, [[waveeq.jl]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L3-waveeq.jl){:target="_blank"}
 
 - **Lecture 4: Lattice formulation of interacting scalar fields in an expanding background**.<br> 
 	By Daniel G. Figueroa.<br>
