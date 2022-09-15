@@ -30,7 +30,6 @@ Here we compile all the presentation slides, notes, and other materials prepared
 - **Lecture 4: Lattice formulation of interacting scalar fields in an expanding background**.<br> 
 	By Daniel G. Figueroa.<br>
   Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L4-ScalarFieldsWithExpansion.pdf){:target="_blank"}<br>
-  Model and input files: <br>
 
 - **Lecture 5: Lattice simulations of U(1) gauge theories**. <br>
    By Francisco Torrenti.<br>
