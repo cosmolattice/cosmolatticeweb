@@ -29,6 +29,7 @@ Here we compile all the presentation slides, notes, and other materials prepared
 - **Lecture 4: Lattice formulation of interacting scalar fields in an expanding background**.<br> 
 	By Daniel G. Figueroa.<br>
   Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L4-ScalarFieldsWithExpansion.pdf){:target="_blank"}<br>
+  Model and input files: <br>
 
 - **Lecture 5: Lattice simulations of U(1) gauge theories**. <br>
    By Francisco Torrenti.<br>
@@ -40,7 +41,7 @@ By Adrien Florio.<br>
 
 - **Lesson 7: Parallelization techniques in CosmoLattice**. <br>
 	By Adrien Florio.<br>
-	Slides: [[pdf-part1]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L7-Parallelization(part1).pdf){:target="_blank"}, [[pdf-part2]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L7-Parallelization(part1).pdf){:target="_blank"}<br>
+	Slides: [[pdf-part1]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L7-Parallelization(part1).pdf){:target="_blank"}, [[pdf-part2]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/L7-Parallelization(part2).pdf){:target="_blank"}<br>
 
 
 ## Topical lectures
@@ -51,7 +52,7 @@ By Adrien Florio.<br>
 
 - **Topical 2: Creation and evolution of primordial gravitational waves**.<br> 
 	By Jorge Baeza-Ballesteros and Nicolas Loayza.<br>
-	Slides: [[pdf-parts1and3]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T2-GWs(parts1-3).pdf){:target="_blank"}, [[pdf-part2]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T2-GWs(parts2).pdf){:target="_blank"}<br>
+	Slides: [[pdf-parts1and3]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T2-GWs(parts1-3).pdf){:target="_blank"}, [[pdf-part2]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T2-GWs(part2).pdf){:target="_blank"}<br>
 	
 - **Topical 3: Non-linear dynamics of axion inflation**. <br>
 	By Joanes Lizarraga and Ander Urio. <br>
@@ -60,4 +61,5 @@ By Adrien Florio.<br>
 - **Topical 4: Plotting 3D data with CosmoLattice**. <br>
 	By Kenneth Marschall. <br>
 	Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-Plot3Ddata.pdf){:target="_blank"}<br>
-	Notebook: [[mathematica]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-SnapshotPrinter.nb){:target="_blank"} 
+	Model and input files: [[TA]]<br>
+	Notebook: [[tanh2hdf5.h]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-tanh2hdf5.h){:target="_blank"}, [[tanh2hdf5.in]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T4-tanh2hdf5.in){:target="_blank"}
