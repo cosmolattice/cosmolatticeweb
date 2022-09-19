@@ -52,7 +52,7 @@ By Adrien Florio.<br>
 
 - **Topical 2: Creation and evolution of primordial gravitational waves**.<br> 
 	By Jorge Baeza-Ballesteros and Nicolas Loayza.<br>
-	Slides: [[pdf-parts1and3]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T2-GWs(parts1-3).pdf){:target="_blank"}, [[pdf-part2]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T2-GWs(part2).pdf){:target="_blank"}<br>
+	Slides: [[pdf]]({{ site.url }}{{ site.baseurl }}/assets/CLschool-material/T2-GWs.pdf){:target="_blank"}<br>
 	
 - **Topical 3: Non-linear dynamics of axion inflation**. <br>
 	By Joanes Lizarraga and Ander Urio. <br>

@@ -9,6 +9,10 @@ If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
 ### List of papers:
+- "Gravitational wave production from preheating with trilinear interactions". \
+  Catarina Cosme, Daniel G. Figueroa, Nicolas Loayza. \
+  arXiv: <a href="https://arxiv.org/abs/2206.14721" target="_blank" rel="noopener noreferrer">2206.14721</a>
+
 - "Scalar Dark Matter Production from Preheating and Structure Formation Constraints". \
   Marcos A.G. Garcia, Mathias Pierre, Sarunas Verner. \
   arXiv: <a href="https://arxiv.org/abs/2206.08940" target="_blank" rel="noopener noreferrer">2206.08940</a>
