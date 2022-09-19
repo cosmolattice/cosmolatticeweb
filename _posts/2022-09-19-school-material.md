@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bug fixes for v 1.1.2
+title: School material uploaded
 #subtitle: Bug fixes for v1.1
 #gh-repo: daattali/beautiful-jekyll
 #gh-badge: [star, fork, follow]

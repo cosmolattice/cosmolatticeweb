@@ -21,6 +21,7 @@ navbar-links:
     - User manual: "usermanual" 
     - Monographic review: "review"
     - Technical notes: "technicalnotes"
+    - CL school material: "school22material"
   Versions:
     - All versions: "allversions"
     - Version 1.1: "version11"
