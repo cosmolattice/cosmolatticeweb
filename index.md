@@ -53,6 +53,6 @@ inform about events, etc.  In order to subscribe, send a blank e-mail to:
 
 - <a href="https://webific.ific.uv.es/web/content/figueroa-daniel-g" target="_blank" rel="noopener noreferrer">Daniel G. Figueroa</a> - <daniel.figueroa@ific.uv.es>
 - <a href="https://afloriosite.wordpress.com/" target="_blank" rel="noopener noreferrer">Adrien Florio </a> - <adrien.florio@stonybrook.edu>
-- <a href="https://particlesandcosmology.physik.unibas.ch/en/people/francisco-torrenti/"  target="_blank" rel="noopener noreferrer">Francisco Torrenti</a> - <f.torrenti@unibas.ch>
+- <a href="http://ftorrenti.github.io"  target="_blank" rel="noopener noreferrer">Francisco Torrenti</a> - <f.torrenti@unibas.ch>
 - Wessel Valkenburg\* <br>
 \*<font size="2"> Wessel is currently living 'la vida loca' out of academia
