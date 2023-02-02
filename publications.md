@@ -9,6 +9,15 @@ If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
 ### List of papers:
+
+- "Dark matter production via a non-minimal coupling to gravity". \
+   Oleg Lebedev, Timofey Solomko, Jong-Hyun Yoon. \
+  arXiv: <a href="https://arxiv.org/abs/2211.11773" target="_blank" rel="noopener noreferrer">2211.11773</a>
+
+- "One μ to rule them all: CMB spectral distortions can probe domain walls, cosmic strings and low scale phase transitions". \
+   Nicklas Ramberg, Wolfram Ratzinger, Pedro Schwaller. \
+  arXiv: <a href="https://arxiv.org/abs/2209.14313" target="_blank" rel="noopener noreferrer">2209.14313</a>
+
 - "Gravitational wave production from preheating with trilinear interactions". \
   Catarina Cosme, Daniel G. Figueroa, Nicolas Loayza. \
   arXiv: <a href="https://arxiv.org/abs/2206.14721" target="_blank" rel="noopener noreferrer">2206.14721</a>
@@ -19,19 +28,19 @@ appear here, please let us know and we will gladly include it!
 
 - "Characterizing the post-inflationary reheating history, Part II: Multiple interacting daughter fields". \
   Stefan Antusch, Kenneth Marschall, Francisco Torrenti. \
-  arXiv: <a href="https://arxiv.org/abs/2206.06319" target="_blank" rel="noopener noreferrer">2206.06319</a>
+  JCAP XX (2023). arXiv: <a href="https://arxiv.org/abs/2206.06319" target="_blank" rel="noopener noreferrer">2206.06319</a>
 
 - "On gravitational preheating". \
   Oleg Lebedev, Jong-Hyun Yoon. \
-  arXiv: <a href="https://arxiv.org/abs/2203.15808" target="_blank" rel="noopener noreferrer">2203.15808</a>
+  JCAP 07 (2022) 07, 001. arXiv: <a href="https://arxiv.org/abs/2203.15808" target="_blank" rel="noopener noreferrer">2203.15808</a>
 
 - "Preheating in Palatini Higgs inflation on the lattice". \
   Frédéric Dux, Adrien Florio, Juraj Klarić, Andrey Shkerin, Inar Timiryasov. \
-  arXiv: <a href="https://arxiv.org/abs/2203.13286" target="_blank" rel="noopener noreferrer">2203.13286</a>
+  JCAP 09 (2022) 015. arXiv: <a href="https://arxiv.org/abs/2203.13286" target="_blank" rel="noopener noreferrer">2203.13286</a>
 
-- ""Stairway to Heaven" -- Spectroscopy of Particle Couplings with Gravitational Waves". \
+- "Stairway to Heaven" -- Spectroscopy of Particle Couplings with Gravitational Waves". \
   Daniel G. Figueroa, Adrien Florio, Nicolas Loayza, Mauro Pieroni. \
-  arXiv: <a href="https://arxiv.org/abs/2202.05805" target="_blank" rel="noopener noreferrer">2202.05805</a>
+  Phys.Rev.D 106 (2022) 6, 063522. arXiv: <a href="https://arxiv.org/abs/2202.05805" target="_blank" rel="noopener noreferrer">2202.05805</a>
 
 - "Characterizing the post-inflationary reheating history, Part I: single daughter field with quadratic-quadratic interaction". \
   Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. \
