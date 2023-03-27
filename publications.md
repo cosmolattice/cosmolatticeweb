@@ -20,7 +20,7 @@ appear here, please let us know and we will gladly include it!
 
 - "One μ to rule them all: CMB spectral distortions can probe domain walls, cosmic strings and low scale phase transitions". \
    Nicklas Ramberg, Wolfram Ratzinger, Pedro Schwaller. \
-  JCAP 02 (2023) 039. arXiv: <a href="https://arxiv.org/abs/2209.14313" target="_blank" rel="noopener noreferrer">2209.14313</a>
+  **JCAP 02 (2023) 039**. arXiv: <a href="https://arxiv.org/abs/2209.14313" target="_blank" rel="noopener noreferrer">2209.14313</a>
 
 - "Gravitational wave production from preheating with trilinear interactions". \
   Catarina Cosme, Daniel G. Figueroa, Nicolas Loayza. \
