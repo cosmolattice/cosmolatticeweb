@@ -10,13 +10,17 @@ appear here, please let us know and we will gladly include it!
 
 ### List of papers:
 
+- "Oscillon formation from preheating in asymmetric inflationary potentials". \
+   Rafid Mahbub, Swagat S. Mishra. \
+   arXiv: <a href="https://arxiv.org/abs/2303.07503" target="_blank" rel="noopener noreferrer">2303.07503</a>
+
 - "Dark matter production via a non-minimal coupling to gravity". \
    Oleg Lebedev, Timofey Solomko, Jong-Hyun Yoon. \
-  arXiv: <a href="https://arxiv.org/abs/2211.11773" target="_blank" rel="noopener noreferrer">2211.11773</a>
+  JCAP 02 (2023) 035. arXiv: <a href="https://arxiv.org/abs/2211.11773" target="_blank" rel="noopener noreferrer">2211.11773</a>
 
 - "One μ to rule them all: CMB spectral distortions can probe domain walls, cosmic strings and low scale phase transitions". \
    Nicklas Ramberg, Wolfram Ratzinger, Pedro Schwaller. \
-  arXiv: <a href="https://arxiv.org/abs/2209.14313" target="_blank" rel="noopener noreferrer">2209.14313</a>
+  JCAP 02 (2023) 039. arXiv: <a href="https://arxiv.org/abs/2209.14313" target="_blank" rel="noopener noreferrer">2209.14313</a>
 
 - "Gravitational wave production from preheating with trilinear interactions". \
   Catarina Cosme, Daniel G. Figueroa, Nicolas Loayza. \
@@ -24,11 +28,11 @@ appear here, please let us know and we will gladly include it!
 
 - "Scalar Dark Matter Production from Preheating and Structure Formation Constraints". \
   Marcos A.G. Garcia, Mathias Pierre, Sarunas Verner. \
-  arXiv: <a href="https://arxiv.org/abs/2206.08940" target="_blank" rel="noopener noreferrer">2206.08940</a>
+  Phys.Rev.D 107 (2023) 4, 043530. arXiv: <a href="https://arxiv.org/abs/2206.08940" target="_blank" rel="noopener noreferrer">2206.08940</a>
 
 - "Characterizing the post-inflationary reheating history, Part II: Multiple interacting daughter fields". \
   Stefan Antusch, Kenneth Marschall, Francisco Torrenti. \
-  JCAP XX (2023). arXiv: <a href="https://arxiv.org/abs/2206.06319" target="_blank" rel="noopener noreferrer">2206.06319</a>
+  JCAP 02 (2023) 019. arXiv: <a href="https://arxiv.org/abs/2206.06319" target="_blank" rel="noopener noreferrer">2206.06319</a>
 
 - "On gravitational preheating". \
   Oleg Lebedev, Jong-Hyun Yoon. \
