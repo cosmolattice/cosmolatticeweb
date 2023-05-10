@@ -4,7 +4,7 @@ title: CosmoLattice School 2023 (Online)
 ---
 
 <div align="center"><font size=5><b><a href="https://indico.ific.uv.es/event/7055/" target="_blank">COSMOLATTICE SCHOOL 2023: <br>
-IFIC (Valencia, Spain) - 5th-8th September 2022</a></b></font></div>
+Online - 25th-29th September 2023</a></b></font></div>
 
 This is the second edition of our school on lattice techniques for cosmology,  which will be online in this occasion. Our school is aimed to provide a pedagogical introduction to lattice field theory techniques and their use to simulate the dynamics of interacting fields in an expanding background. The lectures will serve as well as an introduction to CosmoLattice, a public code developed for lattice simulations of early Universe scenarios. The use of CosmoLattice as a tool to simulate scalar and gauge field non-linear dynamics in an expanding universe will be presented in full detail. Modern applications to inflation, preheating, gravitational wave production, non-minimally coupled scalar field dynamics, axion-like field dynamics, etc, will also be covered.
 
