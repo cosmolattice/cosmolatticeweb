@@ -6,7 +6,7 @@ title: People
 
 <table border="0" bordercolor="black" align="center" style="border:hidden;">
 
-    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=200>
+    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
@@ -22,7 +22,7 @@ title: People
         
     </tr>
     
-        <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=50>
+        <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=100>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<b>Jorge</b> <br>
@@ -39,7 +39,7 @@ title: People
         
     </tr>
     
-    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=200>
+    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
@@ -55,7 +55,7 @@ title: People
         
     </tr>
     
-        <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=50>
+        <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=100>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<b>Joanes Lizarraga</b> <br>
@@ -71,7 +71,7 @@ title: People
         
     </tr>
     
-     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=200>
+     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
@@ -87,7 +87,7 @@ title: People
         
     </tr>
     
-         <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=50>
+         <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=100>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<b>Toby Opferkuch</b> <br>
@@ -103,7 +103,7 @@ title: People
         
     </tr>
     
-    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=200>
+    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
@@ -111,7 +111,7 @@ title: People
         
     </tr>
     
-    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=50>
+    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=100>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<b>Ander Urio</b> <br>
