@@ -9,18 +9,18 @@ title: People
     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=225>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%; height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Jorge</b> <br>
         	<b>Baeza-Ballesteros</b>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%; height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Daniel G. Figueroa</b>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%; height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Adrien Florio</b>
         </td>
         
