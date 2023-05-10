@@ -13,38 +13,59 @@ Last updated: May 10, 2023
 <table border="0" bordercolor="black" align="center">
 
     <tr>
-        <td>
+        <td style="text-align: center;>
         	<img src="H.gif" alt="" border=3 height=150 width=150></img>
-        	<b> Name 1</b>
+        	<b>Jorge Baeza-Ballesteros</b>
         </td>
         
-        <td>
+        <td style="text-align: center;>
         	<img src="H.gif" alt="" border=3 height=150 width=150></img>
-        	<b> Name 1</b>
+        	<b>Daniel G. Figueroa</b>
         </td>
         
-        <td>
+        <td style="text-align: center;>
         	<img src="H.gif" alt="" border=3 height=150 width=150></img>
-        	<b> Name 1</b>
+        	<b>Adrien Florio</b>
         </td>
     </tr>
     
     <tr>
-        <td>
+        <td style="text-align: center;>
         	<img src="H.gif" alt="" border=3 height=150 width=150></img>
-        	<b> Name 1</b>
+        	<b>Joanes Lizarraga</b>
         </td>
         
-        <td>
+        <td style="text-align: center;>
         	<img src="H.gif" alt="" border=3 height=150 width=150></img>
-        	<b> Name 1</b>
+        	<b>Nicolas Loayza</b>
         </td>
         
-        <td>
+        <td style="text-align: center;>
         	<img src="H.gif" alt="" border=3 height=150 width=150></img>
-        	<b> Name 1</b>
+        	<b>Kenneth Marschall</b>
+        </td>
+        
+        <td style="text-align: center;>
+        	<img src="H.gif" alt="" border=3 height=150 width=150></img>
+        	<b>Toby Opferkuch</b>
+        </td>
+        
+        <td style="text-align: center;>
+        	<img src="H.gif" alt="" border=3 height=150 width=150></img>
+        	<b>Ben A. Stefanek</b>
+        </td>
+        
+        <td style="text-align: center;>
+        	<img src="H.gif" alt="" border=3 height=150 width=150></img>
+        	<b>Francisco Torrenti</b>
+        </td>
+        
+        <td style="text-align: center;>
+        	<img src="H.gif" alt="" border=3 height=150 width=150></img>
+        	<b>Ander Urio</b>
         </td>
     </tr>
+    
 </table>
 
 - 
