@@ -8,7 +8,7 @@ Here we list some publications that have been used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-Last update of the list: May 10, 2023
+**Last update:** May 10, 2023
 
 ### List of papers:
 
@@ -84,10 +84,10 @@ Last update of the list: May 10, 2023
   Daniel G. Figueroa, Adrien Florio, Francisco Torrenti, Wessel Valkenburg. \
   Comput.Phys.Commun. 283 (2023) 108586. arXiv: <a href="https://arxiv.org/abs/2102.01031" target="_blank" rel="noopener noreferrer">2102.01031</a>
 
-2. **The art of simulating the early Universe -- Part I**. \
+- **The art of simulating the early Universe -- Part I**. \
   Daniel G. Figueroa, Adrien Florio, Francisco Torrenti, Wessel Valkenburg. \
   JCAP 04 (2021) 035. arXiv: <a href="https://arxiv.org/abs/2006.15122" target="_blank" rel="noopener noreferrer">2006.15122</a>
 
-1. **Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination**. \
+- **Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination**. \
   Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. \
   Phys.Lett.B 811 (2020) 135888. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a>
