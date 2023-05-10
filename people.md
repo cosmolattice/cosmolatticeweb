@@ -12,7 +12,7 @@ Last updated: May 10, 2023
 
     <tr style="background-color:rgba(0, 0, 0, 0);" height=250>
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Jorge</b> <br>
         	<b>Baeza-Ballesteros</b>
         </td>
