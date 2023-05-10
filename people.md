@@ -6,7 +6,7 @@ title: People
 
 <table border="0" bordercolor="black" align="center" style="border:hidden;">
 
-    <tr style="background-color:rgba(0, 0, 0, 0);" height=250 style="border:hidden;">
+    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=250>
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Jorge</b> <br>
@@ -24,7 +24,7 @@ title: People
         </td>
     </tr>
     
-    <tr style="background-color:rgba(0, 0, 0, 0);" height=250 style="border:hidden;">
+    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=250>
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Joanes Lizarraga</b>
@@ -40,7 +40,7 @@ title: People
         	<b>Kenneth Marschall</b>
         </td>
     </tr>
-      <tr style="background-color:rgba(0, 0, 0, 0);" height=250 style="border:hidden;">  
+      <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=250>  
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Toby Opferkuch</b>
@@ -56,7 +56,7 @@ title: People
         	<a href="http://ftorrenti.github.io" target="_blank" rel="noopener noreferrer"><b>Francisco Torrenti</b></a>
         </td>
  	</tr>        
-    <tr style="background-color:rgba(0, 0, 0, 0);" height=250 style="border:hidden;"> 
+    <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=250> 
         
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
