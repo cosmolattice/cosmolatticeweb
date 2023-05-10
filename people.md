@@ -19,7 +19,7 @@ Last updated: May 10, 2023
         </td>
         
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 border-radius: 50%; height=150 width=150>
+        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150>
         	<b>Daniel G. Figueroa</b>
         </td>
         
