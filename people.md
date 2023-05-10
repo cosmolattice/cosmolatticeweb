@@ -10,9 +10,9 @@ title: People
 
 Last updated: May 10, 2023
 
-<table border="0" bordercolor="black" align="center" cellspacing="0" cellpadding="0">
+<table border="0" bordercolor="black" align="center">
 
-    <tr style="background-color:rgba(0, 0, 0, 0);">
+    <tr style="background-color:rgba(0, 0, 0, 0);" cellspacing="0" cellpadding="0">
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Jorge</b> <br>
@@ -30,7 +30,7 @@ Last updated: May 10, 2023
         </td>
     </tr>
     
-    <tr style="background-color:rgba(0, 0, 0, 0);">
+    <tr style="background-color:rgba(0, 0, 0, 0);" cellspacing="0" cellpadding="0">
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Joanes Lizarraga</b>
@@ -46,23 +46,23 @@ Last updated: May 10, 2023
         	<b>Kenneth Marschall</b>
         </td>
     </tr>
-      <tr style="background-color:rgba(0, 0, 0, 0);">  
+      <tr style="background-color:rgba(0, 0, 0, 0);" cellspacing="0" cellpadding="0">  
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Toby Opferkuch</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Ben A. Stefanek</b>
         </td>
         
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
-        	<b><a href="http://ftorrenti.github.io" target="_blank" rel="noopener noreferrer">Francisco Torrenti</b>
+        	<a href="http://ftorrenti.github.io" target="_blank" rel="noopener noreferrer"><b>Francisco Torrenti</b></a>
         </td>
  	</tr>        
-    <tr style="background-color:rgba(0, 0, 0, 0);"> 
+    <tr style="background-color:rgba(0, 0, 0, 0);" cellspacing="0" cellpadding="0"> 
         
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
