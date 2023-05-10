@@ -22,7 +22,7 @@ appear here, please let us know and we will gladly include it!
 
 - **Preheating in Einstein-Cartan Higgs Inflation: Oscillon formation**. \
    Matteo Piani, Javier Rubio. \
-   arXiv: <a href="https://arxiv.org/abs/2304.13506" target="_blank" rel="noopener noreferrer">2304.13056</a>
+   arXiv: <a href="https://arxiv.org/abs/2304.13056" target="_blank" rel="noopener noreferrer">2304.13056</a>
 
 - **Solving the domain wall problem with first-order phase transition**. \
    Yang Li, Ligong Bian, Yongtao Jia. \
