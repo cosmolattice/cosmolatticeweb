@@ -4,13 +4,9 @@ title: People
 # subtitle:
 ---
 
-[Under construction]
-
-Last updated: May 10, 2023
-
 <table border="0" bordercolor="black" align="center" style="border:hidden;">
 
-    <tr style="background-color:rgba(0, 0, 0, 0);" height=250>
+    <tr style="background-color:rgba(0, 0, 0, 0);" height=250 style="border:hidden;">
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Jorge</b> <br>
@@ -28,7 +24,7 @@ Last updated: May 10, 2023
         </td>
     </tr>
     
-    <tr style="background-color:rgba(0, 0, 0, 0);" height=250>
+    <tr style="background-color:rgba(0, 0, 0, 0);" height=250 style="border:hidden;">
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Joanes Lizarraga</b>
@@ -44,7 +40,7 @@ Last updated: May 10, 2023
         	<b>Kenneth Marschall</b>
         </td>
     </tr>
-      <tr style="background-color:rgba(0, 0, 0, 0);" height=250>  
+      <tr style="background-color:rgba(0, 0, 0, 0);" height=250 style="border:hidden;">  
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Toby Opferkuch</b>
@@ -60,7 +56,7 @@ Last updated: May 10, 2023
         	<a href="http://ftorrenti.github.io" target="_blank" rel="noopener noreferrer"><b>Francisco Torrenti</b></a>
         </td>
  	</tr>        
-    <tr style="background-color:rgba(0, 0, 0, 0);" height=250> 
+    <tr style="background-color:rgba(0, 0, 0, 0);" height=250 style="border:hidden;"> 
         
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
