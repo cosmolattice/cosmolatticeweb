@@ -8,7 +8,29 @@ Here we list some publications that have been used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
+Last update of the list: May 10, 2023
+
 ### List of papers:
+
+- **Gravitational freeze-in dark matter from Higgs Preheating**. \
+   Ruopeng Zhang, Zixuan Xu, Sibo Zheng. \
+   arXiv: <a href="https://arxiv.org/abs/2305.02568" target="_blank" rel="noopener noreferrer">2305.02568</a>
+
+- **Dissipative genesis of the inflationary Universe**. \
+   Hiroki Matsui, Alexandros Papageorgiou, Fuminobu Takahashi, Takahiro Terada. \
+   arXiv: <a href="https://arxiv.org/abs/2305.02366" target="_blank" rel="noopener noreferrer">2305.02366</a>
+
+- **Preheating in Einstein-Cartan Higgs Inflation: Oscillon formation**. \
+   Matteo Piani, Javier Rubio. \
+   arXiv: <a href="https://arxiv.org/abs/2304.13506" target="_blank" rel="noopener noreferrer">2304.13056</a>
+
+- **Solving the domain wall problem with first-order phase transition**. \
+   Yang Li, Ligong Bian, Yongtao Jia. \
+   arXiv: <a href="https://arxiv.org/abs/2304.05220" target="_blank" rel="noopener noreferrer">2304.05220</a>
+
+- **The strong backreaction regime in axion inflation**. \
+   Daniel G. Figueroa, Joanes Lizarraga, Ander Urio, Jon Urrestilla. \
+   arXiv: <a href="https://arxiv.org/abs/2303.17436" target="_blank" rel="noopener noreferrer">2303.17436</a>
 
 - **Oscillon formation from preheating in asymmetric inflationary potentials**. \
    Rafid Mahbub, Swagat S. Mishra. \
@@ -58,10 +80,14 @@ appear here, please let us know and we will gladly include it!
   Marcos A. G. Garcia, Kunio Kaneta, Yann Mambrini, Keith A. Olive, Sarunas Verner. \
   JCAP 03 (2022) 03, 016. arXiv: <a href="https://arxiv.org/abs/2109.13280" target="_blank" rel="noopener noreferrer">2109.13280</a>
 
-- **The art of simulating the early Universe -- Part I**. \
+- **CosmoLattice: A modern code for lattice simulations of scalar and gauge field dynamics in an expanding universe**. \
+  Daniel G. Figueroa, Adrien Florio, Francisco Torrenti, Wessel Valkenburg. \
+  Comput.Phys.Commun. 283 (2023) 108586. arXiv: <a href="https://arxiv.org/abs/2102.01031" target="_blank" rel="noopener noreferrer">2102.01031</a>
+
+2. **The art of simulating the early Universe -- Part I**. \
   Daniel G. Figueroa, Adrien Florio, Francisco Torrenti, Wessel Valkenburg. \
   JCAP 04 (2021) 035. arXiv: <a href="https://arxiv.org/abs/2006.15122" target="_blank" rel="noopener noreferrer">2006.15122</a>
 
-- **Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination**. \
+1. **Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination**. \
   Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. \
   Phys.Lett.B 811 (2020) 135888. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a>
