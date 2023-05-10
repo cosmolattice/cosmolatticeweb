@@ -10,12 +10,13 @@ title: People
 
 Last updated: May 10, 2023
 
-<table border="0" bordercolor="black" align="center" cellspacing="0" cellpadding="0" style="background-color:rgba(0, 0, 0, 0);">
+<table border="0" bordercolor="black" align="center" cellspacing="0" cellpadding="0">
 
-    <tr>
+    <tr style="background-color:rgba(0, 0, 0, 0);">
         <td style="text-align: center">
         	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
-        	<b>Jorge Baeza-Ballesteros</b>
+        	<b>Jorge</b> <br>
+        	<b>Baeza-Ballesteros</b>
         </td>
         
         <td style="text-align: center">
@@ -24,30 +25,30 @@ Last updated: May 10, 2023
         </td>
         
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Adrien Florio</b>
         </td>
     </tr>
     
-    <tr>
+    <tr style="background-color:rgba(0, 0, 0, 0);">
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Joanes Lizarraga</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Nicolas Loayza</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Kenneth Marschall</b>
         </td>
     </tr>
-      <tr>  
+      <tr style="background-color:rgba(0, 0, 0, 0);">  
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Toby Opferkuch</b>
         </td>
         
@@ -57,14 +58,14 @@ Last updated: May 10, 2023
         </td>
         
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
-        	<b>Francisco Torrenti</b>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<b><a href="http://ftorrenti.github.io" target="_blank" rel="noopener noreferrer">Francisco Torrenti</b>
         </td>
  	</tr>        
-    <tr> 
+    <tr style="background-color:rgba(0, 0, 0, 0);"> 
         
         <td style="text-align: center">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Ander Urio</b>
         </td>
     </tr>
