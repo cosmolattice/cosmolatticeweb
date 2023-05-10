@@ -14,57 +14,57 @@ Last updated: May 10, 2023
 
     <tr>
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Jorge Baeza-Ballesteros</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         	<b>Daniel G. Figueroa</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Adrien Florio</b>
         </td>
     </tr>
     
     <tr>
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Joanes Lizarraga</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Nicolas Loayza</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Kenneth Marschall</b>
         </td>
     </tr>
       <tr>  
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Toby Opferkuch</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Ben A. Stefanek</b>
         </td>
         
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Francisco Torrenti</b>
         </td>
  	</tr>        
     <tr> 
         
         <td style="text-align: center">
-        	<img src="./assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
+        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 height=150 width=150><br>
         	<b>Ander Urio</b>
         </td>
     </tr>
