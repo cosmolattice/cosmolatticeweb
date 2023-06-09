@@ -101,10 +101,10 @@ PRUEBA:
 
 <ol>
   <li value="5">
-  <bf>Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination</bf>.<br>
+  <b>Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination</b>.<br>
   Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. <br>
-  Phys.Lett.B 811 (2020) 135888. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a><br>
-  
+  <i>Phys.Lett.B 811 (2020) 135888</i>. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a><br>
+  <br>
   <li value="4">
     <bf>Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination</bf>.<br>
   Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. <br>
