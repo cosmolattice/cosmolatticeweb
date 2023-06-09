@@ -8,9 +8,13 @@ Here we list some publications that have been used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** May 10, 2023
+**Last update:** June 9, 2023
 
 ### List of papers:
+
+- **On unitarity in Higgs-like inflation**. \
+   Oleg Lebedev, Yann Mambrini, Jong-Hyun Yoon. \
+   arXiv: <a href="https://arxiv.org/abs/2305.05682" target="_blank" rel="noopener noreferrer">2305.02568</a>
 
 - **Gravitational freeze-in dark matter from Higgs Preheating**. \
    Ruopeng Zhang, Zixuan Xu, Sibo Zheng. \
@@ -46,7 +50,7 @@ appear here, please let us know and we will gladly include it!
 
 - **Gravitational wave production from preheating with trilinear interactions**. \
   Catarina Cosme, Daniel G. Figueroa, Nicolas Loayza. \
-  arXiv: <a href="https://arxiv.org/abs/2206.14721" target="_blank" rel="noopener noreferrer">2206.14721</a>
+  JCAP 05 (2023) 023. arXiv: <a href="https://arxiv.org/abs/2206.14721" target="_blank" rel="noopener noreferrer">2206.14721</a>
 
 - **Scalar Dark Matter Production from Preheating and Structure Formation Constraints**. \
   Marcos A.G. Garcia, Mathias Pierre, Sarunas Verner. \
@@ -91,3 +95,17 @@ appear here, please let us know and we will gladly include it!
 - **Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination**. \
   Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. \
   Phys.Lett.B 811 (2020) 135888. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a>
+
+
+PRUEBA: 
+
+<ol>
+  <li value="5">**Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination**. \
+  Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. \
+  Phys.Lett.B 811 (2020) 135888. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a>
+  
+  <li value="4">24
+  <li value="3">The Simpsons
+  <li value="2">Stargate Atlantis
+  <li value="1">Stargate SG-1
+</ol>
