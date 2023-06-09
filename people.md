@@ -4,7 +4,7 @@ title: People
 # subtitle:
 ---
 
-<h2 style="text-align: center;">Developers</h2>
+<h2 style="text-align: center;">Developers</h2> <br>
 
 <table border="0" bordercolor="black" align="center" style="border:hidden;">
 
