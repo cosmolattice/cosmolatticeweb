@@ -14,15 +14,20 @@ appear here, please let us know and we will gladly include it!
 
 
 <ol>
-<li value="21">
+<li value="22">
 <b>On unitarity in Higgs-like inflation</b>.<br>
    Oleg Lebedev, Yann Mambrini, Jong-Hyun Yoon. <br>
    arXiv: <a href="https://arxiv.org/abs/2305.05682" target="_blank" rel="noopener noreferrer">2305.02568</a><br><br>
 
-<li value="20">
+<li value="21">
 <b>Gravitational freeze-in dark matter from Higgs Preheating</b>.<br>
    Ruopeng Zhang, Zixuan Xu, Sibo Zheng. <br>
    arXiv: <a href="https://arxiv.org/abs/2305.02568" target="_blank" rel="noopener noreferrer">2305.02568</a><br><br>
+
+<li value="20">
+<b>Dissipative Emergence of Inflation from Quasi-Cyclic Universe</b>.<br>
+   Hiroki Matsui, Alexandros Papageorgiou, Fuminobu Takahashi, Takahiro Terada. <br>
+   arXiv: <a href="https://arxiv.org/abs/2305.02367" target="_blank" rel="noopener noreferrer">2305.02367</a><br><br>
 
 <li value="19">
 <b>Dissipative genesis of the inflationary Universe</b>.<br>
