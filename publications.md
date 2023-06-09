@@ -10,7 +10,7 @@ appear here, please let us know and we will gladly include it!
 
 **Last update:** June 9, 2023
 
-### List of papers:<br>
+### List of papers:<br><br>
 
 
 <ol>
@@ -38,7 +38,6 @@ appear here, please let us know and we will gladly include it!
 <b>Solving the domain wall problem with first-order phase transition</b>.<br>
    Yang Li, Ligong Bian, Yongtao Jia. <br>
    arXiv: <a href="https://arxiv.org/abs/2304.05220" target="_blank" rel="noopener noreferrer">2304.05220</a><br><br>
-<br>
 
 <li value="16">
 <b>The strong backreaction regime in axion inflation</b>.<br>
