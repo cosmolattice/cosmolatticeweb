@@ -4,7 +4,7 @@ title: Publications
 # subtitle:
 ---
 
-Here we list some publications that have been used CosmoLattice.
+Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
