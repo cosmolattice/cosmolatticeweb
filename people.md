@@ -27,19 +27,18 @@ title: People
         <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=100>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<b>Jorge</b> <br>
-        	<b>Baeza-Ballesteros</b> <br>
-        	Contribution
+        	<b>J. Baeza-Ballesteros</b> <br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<b>Daniel G. Figueroa</b> <br>
-        	Contribution
+        	<a href="https://webific.ific.uv.es/web/content/figueroa-daniel-g" target="_blank" rel="noopener noreferrer"><b>Daniel G. Figueroa</b></a> <br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<b>Adrien Florio</b> <br>
-        	Contribution
+        	<a href="https://afloriosite.wordpress.com/" target="_blank" rel="noopener noreferrer"><b>Adrien Florio</b></a> <br>
+        	Contributor
         </td>
         
     </tr>
@@ -47,15 +46,18 @@ title: People
     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="joanes.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/joanes2.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="nico.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/nico.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="ken.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/ken.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	Contributor
         </td>
         
     </tr>
@@ -79,15 +81,18 @@ title: People
      <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="toby.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/toby.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="ben.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/ben.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="paco.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/paco.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	Contributor
         </td>
         
     </tr>
@@ -112,6 +117,7 @@ title: People
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/ander.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	Contributor
         </td>
         
     </tr>
