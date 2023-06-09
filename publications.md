@@ -17,7 +17,7 @@ appear here, please let us know and we will gladly include it!
 <li value="22">
 <b>On unitarity in Higgs-like inflation</b>.<br>
    Oleg Lebedev, Yann Mambrini, Jong-Hyun Yoon. <br>
-   arXiv: <a href="https://arxiv.org/abs/2305.05682" target="_blank" rel="noopener noreferrer">2305.02568</a><br><br>
+   arXiv: <a href="https://arxiv.org/abs/2305.05682" target="_blank" rel="noopener noreferrer">2305.05682</a><br><br>
 
 <li value="21">
 <b>Gravitational freeze-in dark matter from Higgs Preheating</b>.<br>
