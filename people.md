@@ -4,20 +4,22 @@ title: People
 # subtitle:
 ---
 
+<h2>Developers</h2>
+
 <table border="0" bordercolor="black" align="center" style="border:hidden;">
 
     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/jorge.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/dani.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/adrien.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
     </tr>
@@ -26,15 +28,18 @@ title: People
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<b>Jorge</b> <br>
-        	<b>Baeza-Ballesteros</b>
+        	<b>Baeza-Ballesteros</b> <br>
+        	Contribution
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<b>Daniel G. Figueroa</b>
+        	<b>Daniel G. Figueroa</b> <br>
+        	Contribution
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<b>Adrien Florio</b>
+        	<b>Adrien Florio</b> <br>
+        	Contribution
         </td>
         
     </tr>
@@ -42,15 +47,15 @@ title: People
     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="joanes.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="nico.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="ken.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
     </tr>
@@ -74,15 +79,15 @@ title: People
      <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="toby.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="ben.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="paco.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
     </tr>
@@ -106,7 +111,7 @@ title: People
     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/incognitoguy.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/ander.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
     </tr>
@@ -119,6 +124,7 @@ title: People
         
     </tr>
  	     
+<h2> Users</h2>
     
 </table>
 
