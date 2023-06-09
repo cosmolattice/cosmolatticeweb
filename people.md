@@ -4,7 +4,7 @@ title: People
 # subtitle:
 ---
 
-<h2>Developers</h2>
+<h2 style="text-align: center;">Developers</h2>
 
 <table border="0" bordercolor="black" align="center" style="border:hidden;">
 
@@ -46,18 +46,15 @@ title: People
     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/joanes2.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
-        	Contributor
+        	<img src="../assets/img/people/joanes.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/nico.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
-        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/ken.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
-        	Contributor
         </td>
         
     </tr>
@@ -66,14 +63,17 @@ title: People
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<b>Joanes Lizarraga</b> <br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<b>Nicolas Loayza</b>
+        	<b>Nicolas Loayza</b> <br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<b>Kenneth Marschall</b>
+        	<b>Kenneth Marschall</b> <br>
+        	Contributor
         </td>
         
     </tr>
@@ -82,17 +82,14 @@ title: People
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/toby.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
-        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/ben.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
-        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/paco.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
-        	Contributor
         </td>
         
     </tr>
@@ -101,14 +98,17 @@ title: People
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<b>Toby Opferkuch</b> <br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<b>Ben A. Stefanek</b>
+        	<b>Ben A. Stefanek</b> <br>
+        	Contributor
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<a href="http://ftorrenti.github.io" target="_blank" rel="noopener noreferrer"><b>Francisco Torrenti</b></a>
+        	<a href="http://ftorrenti.github.io" target="_blank" rel="noopener noreferrer"><b>Francisco Torrenti</b></a> <br>
+        	Contributor
         </td>
         
     </tr>
@@ -117,7 +117,6 @@ title: People
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<img src="../assets/img/people/ander.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
-        	Contributor
         </td>
         
     </tr>
@@ -126,11 +125,12 @@ title: People
     
         <td style="text-align: center; border:hidden; vertical-align:top">
         	<b>Ander Urio</b> <br>
+        	Contributor
         </td>
         
     </tr>
  	     
-<h2> Users</h2>
-    
 </table>
+
+<h2 style="text-align: center;">Users</h2>
 
