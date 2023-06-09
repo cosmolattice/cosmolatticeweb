@@ -54,7 +54,6 @@ appear here, please let us know and we will gladly include it!
    Oleg Lebedev, Timofey Solomko, Jong-Hyun Yoon. <br>
   <i>JCAP 02 (2023) 035</i>. arXiv: <a href="https://arxiv.org/abs/2211.11773" target="_blank" rel="noopener noreferrer">2211.11773</a><br><br>
 
-
 <li value="13">
 <b>One μ to rule them all: CMB spectral distortions can probe domain walls, cosmic strings and low scale phase transitions</b>.<br>
    Nicklas Ramberg, Wolfram Ratzinger, Pedro Schwaller. <br>
