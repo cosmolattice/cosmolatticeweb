@@ -19,25 +19,21 @@ appear here, please let us know and we will gladly include it!
 <b>On unitarity in Higgs-like inflation</b>.<br>
    Oleg Lebedev, Yann Mambrini, Jong-Hyun Yoon. <br>
    arXiv: <a href="https://arxiv.org/abs/2305.05682" target="_blank" rel="noopener noreferrer">2305.02568</a><br>
-<br>
 
 <li value="20">
 <b>Gravitational freeze-in dark matter from Higgs Preheating</b>.<br>
    Ruopeng Zhang, Zixuan Xu, Sibo Zheng. <br>
    arXiv: <a href="https://arxiv.org/abs/2305.02568" target="_blank" rel="noopener noreferrer">2305.02568</a><br>
-<br>
 
 <li value="19">
 <b>Dissipative genesis of the inflationary Universe</b>.<br>
    Hiroki Matsui, Alexandros Papageorgiou, Fuminobu Takahashi, Takahiro Terada. <br>
    arXiv: <a href="https://arxiv.org/abs/2305.02366" target="_blank" rel="noopener noreferrer">2305.02366</a><br>
-<br>
 
 <li value="18">
 <b>Preheating in Einstein-Cartan Higgs Inflation: Oscillon formation</b>.<br>
    Matteo Piani, Javier Rubio. <br>
    arXiv: <a href="https://arxiv.org/abs/2304.13056" target="_blank" rel="noopener noreferrer">2304.13056</a><br>
-<br>
 
 <li value="17">
 <b>Solving the domain wall problem with first-order phase transition</b>.<br>
