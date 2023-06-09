@@ -100,11 +100,16 @@ appear here, please let us know and we will gladly include it!
 PRUEBA: 
 
 <ol>
-  <li value="5">**Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination**. \
-  Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. \
-  Phys.Lett.B 811 (2020) 135888. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a>
+  <li value="5">
+  <bf>Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination</bf>.<br>
+  Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. <br>
+  Phys.Lett.B 811 (2020) 135888. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a><br>
   
-  <li value="4">24
+  <li value="4">
+    <bf>Energy distribution and equation of state of the early Universe: matching the end of inflation and the onset of radiation domination</bf>.<br>
+  Stefan Antusch, Daniel G. Figueroa, Kenneth Marschall, Francisco Torrenti. <br>
+  Phys.Lett.B 811 (2020) 135888. arXiv: <a href="https://arxiv.org/abs/2005.07563" target="_blank" rel="noopener noreferrer">2005.07563</a><br>
+  
   <li value="3">The Simpsons
   <li value="2">Stargate Atlantis
   <li value="1">Stargate SG-1
