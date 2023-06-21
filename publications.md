@@ -8,12 +8,17 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** June 9, 2023
+**Last update:** June 21st, 2023
 
 ### List of papers:<br><br> 
 
 
 <ol>
+<li value="23">
+<b>Reheating after Inflaton Fragmentation</b>.<br>
+   Marcos A. G. Garcia, Mathias Pierre. <br>
+   arXiv: <a href="https://arxiv.org/abs/2306.08038" target="_blank" rel="noopener noreferrer">2306.08038</a><br><br>
+
 <li value="22">
 <b>On unitarity in Higgs-like inflation</b>.<br>
    Oleg Lebedev, Yann Mambrini, Jong-Hyun Yoon. <br>
