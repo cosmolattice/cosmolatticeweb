@@ -6,7 +6,7 @@ title: All versions
 
 Here we list information on all versions of CosmoLattice:
 
-- <b><a href="../version11">Version 1.2</a></b> <br>
+- <b><a href="../version12">Version 1.2</a></b> <br>
   Released on June 21, 2023.
 
 - <b><a href="../version11">Version 1.1</a></b> <br>

@@ -30,10 +30,10 @@ and a background metric of the type:
 </p>
 
 We have conceived CosmoLattice as an **evolving package that we plan to upgrade successively**,
-by further developing modules for new tasks. For instance, we have recently added in **CosmoLattice v1.1 (released in May 2022) 
-a new module for the computation of gravitational waves from scalar field sectors**. CosmoLattice is in fact a platform to implement any system of dynamical equations suitable for discretization on a lattice, as it introduces its own language describing fields and operations between them, and hence it is a natural platform to implement new libraries to solve arbitrary field problems (related or not to cosmology).
+by further developing modules for new tasks. For instance, we have recently added in CosmoLattice v1.1 (released in May 2022) 
+a new module for the computation of gravitational waves from scalar field sectors. **A new version (v1.2) of CosmoLattice has been released in Jun 2023 with the addition of module to compute gravitational waves sourced by U(1) Abelian Gauge fields**. CosmoLattice is in fact a platform to implement any system of dynamical equations suitable for discretization on a lattice, as it introduces its own language describing fields and operations between them, and hence it is a natural platform to implement new libraries to solve arbitrary field problems (related or not to cosmology).
 
-Check the website for <a href="_pages/technicalnotes.md">technical notes</a> and <a href="_pages/allversions.md">release updates</a>!
+Check the website for <a href="../technicalnotes.md">technical notes</a> and <a href="../allversions.md">release updates</a>!
 
 ### If you use CosmoLattice
 
