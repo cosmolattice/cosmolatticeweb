@@ -8,10 +8,15 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** June 21st, 2023
+**Last update:** August 15th, 2023
 
 ### List of papers:<br><br> 
 
+<ol>
+<li value="24">
+<b>Ricci Reheating Reloaded</b>.<br>
+   Giorgio Laverda, Javier Rubio. <br>
+   arXiv: <a href="https://arxiv.org/abs/2307.03774" target="_blank" rel="noopener noreferrer">2307.03774</a><br><br>
 
 <ol>
 <li value="23">
@@ -22,12 +27,12 @@ appear here, please let us know and we will gladly include it!
 <li value="22">
 <b>On unitarity in Higgs-like inflation</b>.<br>
    Oleg Lebedev, Yann Mambrini, Jong-Hyun Yoon. <br>
-   arXiv: <a href="https://arxiv.org/abs/2305.05682" target="_blank" rel="noopener noreferrer">2305.05682</a><br><br>
+   <i>JCAP 08 (2023) 009</i>. arXiv: <a href="https://arxiv.org/abs/2305.05682" target="_blank" rel="noopener noreferrer">2305.05682</a><br><br>
 
 <li value="21">
 <b>Gravitational freeze-in dark matter from Higgs Preheating</b>.<br>
    Ruopeng Zhang, Zixuan Xu, Sibo Zheng. <br>
-   arXiv: <a href="https://arxiv.org/abs/2305.02568" target="_blank" rel="noopener noreferrer">2305.02568</a><br><br>
+   <i>JCAP 07 (2023) 048</i>. arXiv: <a href="https://arxiv.org/abs/2305.02568" target="_blank" rel="noopener noreferrer">2305.02568</a><br><br>
 
 <li value="20">
 <b>Dissipative Emergence of Inflation from Quasi-Cyclic Universe</b>.<br>
