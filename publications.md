@@ -18,7 +18,6 @@ appear here, please let us know and we will gladly include it!
    Giorgio Laverda, Javier Rubio. <br>
    arXiv: <a href="https://arxiv.org/abs/2307.03774" target="_blank" rel="noopener noreferrer">2307.03774</a><br><br>
 
-<ol>
 <li value="23">
 <b>Reheating after Inflaton Fragmentation</b>.<br>
    Marcos A. G. Garcia, Mathias Pierre. <br>
