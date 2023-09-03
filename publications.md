@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** August 15th, 2023
+**Last update:** September 3rd, 2023
 
 ### List of papers:<br><br> 
 
 <ol>
+<li value="26">
+<b>Effects of Fragmentation on Post-Inflationary Reheating</b>.<br>
+   Marcos A.G. Garcia, Mathieu Gross, Yann Mambrini, Keith A. Olive, Mathias Pierre, Jong-Hyun Yoon. <br>
+   arXiv: <a href="https://arxiv.org/abs/2308.16231" target="_blank" rel="noopener noreferrer">2308.16231</a><br><br>
+   
+<li value="25">
+<b>Gravitational Wave Emission from a Cosmic String Loop, I: Global Case</b>.<br>
+   Jorge Baeza-Ballesteros, Edmund J. Copeland, Daniel G. Figueroa, Joanes Lizarraga. <br>
+   arXiv: <a href="https://arxiv.org/abs/2308.08456" target="_blank" rel="noopener noreferrer">2308.08456</a><br><br>
+
 <li value="24">
 <b>Ricci Reheating Reloaded</b>.<br>
    Giorgio Laverda, Javier Rubio. <br>
