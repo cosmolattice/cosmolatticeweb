@@ -8,11 +8,16 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** September 3rd, 2023
+**Last update:** October 30th, 2023
 
 ### List of papers:<br><br> 
 
 <ol>
+<li value="27">
+<b>Gravitational Wave Symphony from Oscillating Spectator Scalar Fields</b>.<br>
+   Yanoi Cui, Pankaj Saha, Evangelos I. Sfakianakis. <br>
+   arXiv: <a href="https://arxiv.org/abs/2310.13060" target="_blank" rel="noopener noreferrer">2310.13060</a><br><br>
+
 <li value="26">
 <b>Effects of Fragmentation on Post-Inflationary Reheating</b>.<br>
    Marcos A.G. Garcia, Mathieu Gross, Yann Mambrini, Keith A. Olive, Mathias Pierre, Jong-Hyun Yoon. <br>
@@ -66,12 +71,12 @@ appear here, please let us know and we will gladly include it!
 <li value="16">
 <b>The strong backreaction regime in axion inflation</b>.<br>
    Daniel G. Figueroa, Joanes Lizarraga, Ander Urio, Jon Urrestilla. <br>
-   arXiv: <a href="https://arxiv.org/abs/2303.17436" target="_blank" rel="noopener noreferrer">2303.17436</a><br><br>
+   <i>Phys.Rev.Lett. 131 (2023) 15, 151003</i>. arXiv: <a href="https://arxiv.org/abs/2303.17436" target="_blank" rel="noopener noreferrer">2303.17436</a><br><br>
 
 <li value="15">
 <b>Oscillon formation from preheating in asymmetric inflationary potentials</b>.<br>
    Rafid Mahbub, Swagat S. Mishra. <br>
-   arXiv: <a href="https://arxiv.org/abs/2303.07503" target="_blank" rel="noopener noreferrer">2303.07503</a><br><br>
+   <i>Phys.Rev.D 108 (2023) 6, 063524</i>. arXiv: <a href="https://arxiv.org/abs/2303.07503" target="_blank" rel="noopener noreferrer">2303.07503</a><br><br>
 
 <li value="14">
 <b>Dark matter production via a non-minimal coupling to gravity</b>.<br>
@@ -119,7 +124,7 @@ appear here, please let us know and we will gladly include it!
   <i>Phys.Rev.D 105 (2022) 4, 043532</i>. arXiv: <a href="https://arxiv.org/abs/2112.11280" target="_blank" rel="noopener noreferrer">2112.11280</a><br><br>
 
 <li value="5">
-<b>Dynamics of Non-minimally Coupled Scalar Fields in the Jordan Frame</b>.<br>
+<b>Lattice simulations of non-minimally coupled scalar fields in the Jordan frame</b>.<br>
   Daniel G. Figueroa, Adrien Florio, Toby Opferkuch, Ben A. Stefanek. <br>
   arXiv: <a href="https://arxiv.org/abs/2112.08388" target="_blank" rel="noopener noreferrer">2112.08388</a><br><br>
 
