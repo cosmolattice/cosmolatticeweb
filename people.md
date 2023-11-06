@@ -54,7 +54,7 @@ title: People
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/ken.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/ken.jpeg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
     </tr>
@@ -116,7 +116,7 @@ title: People
     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/ander.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/ander.jpg" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
         </td>
         
     </tr>
