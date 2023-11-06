@@ -8,5 +8,5 @@ Version 1.3 of CosmoLattice is now publicly available. The main change corrects 
 
 **Changes:**
 
-- Excess memory use corrected. The memory (in GB) required now is roughly 8*2*N^3*(Ndof+0.75)/(2^30), N = number of points per dimension, Ndof = Number of degrees of freedom.
+- Excess memory use corrected. The memory (in GB) required now is roughly 8x2xN^3x(Ndof+0.75)/(2^30), N = number of points per dimension, Ndof = Number of degrees of freedom.
 - Ocupation number is now optional for scalar singlets and is off by default. To switch it on, set OccNumb=true in the input parameter file.
