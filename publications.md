@@ -13,6 +13,21 @@ appear here, please let us know and we will gladly include it!
 ### List of papers:<br><br> 
 
 <ol>
+<li value="30">
+<b>Phenomenology of Spillway Preheating: Equation of State and Gravitational Waves</b>.<br>
+   Gareth Mansfield, JiJi Fan, Qianshu Lu. <br>
+   arXiv: <a href="https://arxiv.org/abs/2312.03072" target="_blank" rel="noopener noreferrer">2312.03072</a><br><br>
+
+<li value="29">
+<b>Gravitational Dark Matter from Minimal Preheating</b>.<br>
+   Ruopeng Zhang and Sibo Zheng. <br>
+   arXiv: <a href="https://arxiv.org/abs/2311.14273" target="_blank" rel="noopener noreferrer">2311.14273</a><br><br>
+
+<li value="28">
+<b>Gravitational waves radiated from axion string-wall networks</b>.<br>
+   Yang Li, Ligong Bian, Rong-Gen Cai, Jing Shu. <br>
+   arXiv: <a href="https://arxiv.org/abs/2311.02011" target="_blank" rel="noopener noreferrer">2311.02011</a><br><br>
+
 <li value="27">
 <b>Gravitational Wave Symphony from Oscillating Spectator Scalar Fields</b>.<br>
    Yanoi Cui, Pankaj Saha, Evangelos I. Sfakianakis. <br>
@@ -36,7 +51,7 @@ appear here, please let us know and we will gladly include it!
 <li value="23">
 <b>Reheating after Inflaton Fragmentation</b>.<br>
    Marcos A. G. Garcia, Mathias Pierre. <br>
-   arXiv: <a href="https://arxiv.org/abs/2306.08038" target="_blank" rel="noopener noreferrer">2306.08038</a><br><br>
+   <i>JCAP 11 (2023) 004</i>. arXiv: <a href="https://arxiv.org/abs/2306.08038" target="_blank" rel="noopener noreferrer">2306.08038</a><br><br>
 
 <li value="22">
 <b>On unitarity in Higgs-like inflation</b>.<br>
@@ -61,7 +76,7 @@ appear here, please let us know and we will gladly include it!
 <li value="18">
 <b>Preheating in Einstein-Cartan Higgs Inflation: Oscillon formation</b>.<br>
    Matteo Piani, Javier Rubio. <br>
-   arXiv: <a href="https://arxiv.org/abs/2304.13056" target="_blank" rel="noopener noreferrer">2304.13056</a><br><br>
+   <i>JCAP 12 (2023) 002</i>. arXiv: <a href="https://arxiv.org/abs/2304.13056" target="_blank" rel="noopener noreferrer">2304.13056</a><br><br>
 
 <li value="17">
 <b>Solving the domain wall problem with first-order phase transition</b>.<br>
@@ -126,7 +141,7 @@ appear here, please let us know and we will gladly include it!
 <li value="5">
 <b>Lattice simulations of non-minimally coupled scalar fields in the Jordan frame</b>.<br>
   Daniel G. Figueroa, Adrien Florio, Toby Opferkuch, Ben A. Stefanek. <br>
-  arXiv: <a href="https://arxiv.org/abs/2112.08388" target="_blank" rel="noopener noreferrer">2112.08388</a><br><br>
+  <i>SciPost Phys. 15 (2023) 3, 077</i>. arXiv: <a href="https://arxiv.org/abs/2112.08388" target="_blank" rel="noopener noreferrer">2112.08388</a><br><br>
 
 <li value="4">
 <b>Freeze-in from Preheating</b>.<br>
