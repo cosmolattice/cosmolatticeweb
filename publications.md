@@ -8,11 +8,23 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** December 11th, 2023
+**Last update:** January 28th, 2023
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="32">
+<b>Collapsing Domain Wall Networks: Impact on Pulsar Timing Arrays and Primordial Black Holes</b>.<br>
+   Ricardo Z. Ferreira, Alessio Notari, Oriol Pujolàs, Fabrizio Rompineve. <br>
+   arXiv: <a href="https://arxiv.org/abs/2401.14331" target="_blank" rel="noopener noreferrer">2401.14331</a><br><br>
+   
+<li value="31">
+<b>Present and future of CosmoLattice</b>.<br>
+   Daniel G. Figueroa, Adrien Florio, Francisco Torrenti. <br>
+   arXiv: <a href="https://arxiv.org/abs/2312.15056" target="_blank" rel="noopener noreferrer">2312.15056</a><br><br>
+   
+   
 <li value="30">
 <b>Phenomenology of Spillway Preheating: Equation of State and Gravitational Waves</b>.<br>
    Gareth Mansfield, JiJi Fan, Qianshu Lu. <br>
