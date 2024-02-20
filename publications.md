@@ -8,11 +8,16 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** January 28th, 2024
+**Last update:** February 20th, 2024
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="33">
+<b>The Rise and Fall of the Standard-Model Higgs: Electroweak Vacuum Stability during Kination</b>.<br>
+   Giorgio Laverda, Javier Rubio. <br>
+   arXiv: <a href="https://arxiv.org/abs/2402.06000" target="_blank" rel="noopener noreferrer">2402.06000</a><br><br>
 
 <li value="32">
 <b>Collapsing Domain Wall Networks: Impact on Pulsar Timing Arrays and Primordial Black Holes</b>.<br>
@@ -33,7 +38,7 @@ appear here, please let us know and we will gladly include it!
 <li value="29">
 <b>Gravitational Dark Matter from Minimal Preheating</b>.<br>
    Ruopeng Zhang and Sibo Zheng. <br>
-   arXiv: <a href="https://arxiv.org/abs/2311.14273" target="_blank" rel="noopener noreferrer">2311.14273</a><br><br>
+   <i>JHEP 02 (2024) 061</i>. arXiv: <a href="https://arxiv.org/abs/2311.14273" target="_blank" rel="noopener noreferrer">2311.14273</a><br><br>
 
 <li value="28">
 <b>Gravitational waves radiated from axion string-wall networks</b>.<br>
