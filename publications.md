@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** February 20th, 2024
+**Last update:** March 25th, 2024
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="35">
+<b>Gravitational Wave Probe of Gravitational Dark Matter from Preheating</b>.<br>
+   Ruopeng Zhang, Sibo Zheng. <br>
+   arXiv: <a href="https://arxiv.org/abs/2403.09089" target="_blank" rel="noopener noreferrer">2403.09089</a><br><br>
+   
+   <li value="34">
+<b>Impact of Dark Sector Preheating on CMB Observables</b>.<br>
+   Marcos A.G. Garcia, Aline Pereyra-Flores. <br>
+   arXiv: <a href="https://arxiv.org/abs/2403.04848" target="_blank" rel="noopener noreferrer">2403.04848</a><br><br>
 
 <li value="33">
 <b>The Rise and Fall of the Standard-Model Higgs: Electroweak Vacuum Stability during Kination</b>.<br>
@@ -63,7 +73,7 @@ appear here, please let us know and we will gladly include it!
 <li value="24">
 <b>Ricci Reheating Reloaded</b>.<br>
    Giorgio Laverda, Javier Rubio. <br>
-   arXiv: <a href="https://arxiv.org/abs/2307.03774" target="_blank" rel="noopener noreferrer">2307.03774</a><br><br>
+   <i>JCAP 03 (2024) 033</i> arXiv: <a href="https://arxiv.org/abs/2307.03774" target="_blank" rel="noopener noreferrer">2307.03774</a><br><br>
 
 <li value="23">
 <b>Reheating after Inflaton Fragmentation</b>.<br>
