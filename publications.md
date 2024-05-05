@@ -14,6 +14,16 @@ appear here, please let us know and we will gladly include it!
 
 <ol>
 
+<li value="37">
+<b>Ricci Reheating on the Lattice</b>.<br>
+   Daniel G. Figueroa, Toby Opferkuch, Ben A. Stefanek. <br>
+   arXiv: <a href="https://arxiv.org/abs/2404.17654" target="_blank" rel="noopener noreferrer">2404.17654</a><br><br>
+   
+   <li value="36">
+<b>Gravitational wave signatures of post-fragmentation reheating</b>.<br>
+   Marcos A.G. Garcia, Mathias Pierre. <br>
+   arXiv: <a href="https://arxiv.org/abs/2404.16932" target="_blank" rel="noopener noreferrer">2404.16932</a><br><br>
+
 <li value="35">
 <b>Gravitational Wave Probe of Gravitational Dark Matter from Preheating</b>.<br>
    Ruopeng Zhang, Sibo Zheng. <br>
@@ -101,7 +111,7 @@ appear here, please let us know and we will gladly include it!
    arXiv: <a href="https://arxiv.org/abs/2305.02366" target="_blank" rel="noopener noreferrer">2305.02366</a><br><br>
 
 <li value="18">
-<b>Preheating in Einstein-Cartan Higgs Inflation: Oscillon formation</b>.<br>
+<b>Preheating in Einstein-Cartan Higgs Inflation: oscillon formation</b>.<br>
    Matteo Piani, Javier Rubio. <br>
    <i>JCAP 12 (2023) 002</i>. arXiv: <a href="https://arxiv.org/abs/2304.13056" target="_blank" rel="noopener noreferrer">2304.13056</a><br><br>
 
