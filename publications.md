@@ -8,18 +8,23 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** May 5th, 2024
+**Last update:** May 21st, 2024
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="38">
+<b>Preheating with deep learning</b>.<br>
+   Jong-Hyun Yoon, Simon Cléry, Mathieu Gross, Yann Mambrini. <br>
+   arXiv: <a href="https://arxiv.org/abs/2405.08901" target="_blank" rel="noopener noreferrer">2405.08901</a><br><br>
 
 <li value="37">
 <b>Ricci Reheating on the Lattice</b>.<br>
    Daniel G. Figueroa, Toby Opferkuch, Ben A. Stefanek. <br>
    arXiv: <a href="https://arxiv.org/abs/2404.17654" target="_blank" rel="noopener noreferrer">2404.17654</a><br><br>
    
-   <li value="36">
+<li value="36">
 <b>Gravitational wave signatures of post-fragmentation reheating</b>.<br>
    Marcos A.G. Garcia, Mathias Pierre. <br>
    arXiv: <a href="https://arxiv.org/abs/2404.16932" target="_blank" rel="noopener noreferrer">2404.16932</a><br><br>
@@ -29,7 +34,7 @@ appear here, please let us know and we will gladly include it!
    Ruopeng Zhang, Sibo Zheng. <br>
    arXiv: <a href="https://arxiv.org/abs/2403.09089" target="_blank" rel="noopener noreferrer">2403.09089</a><br><br>
    
-   <li value="34">
+<li value="34">
 <b>Impact of Dark Sector Preheating on CMB Observables</b>.<br>
    Marcos A.G. Garcia, Aline Pereyra-Flores. <br>
    arXiv: <a href="https://arxiv.org/abs/2403.04848" target="_blank" rel="noopener noreferrer">2403.04848</a><br><br>
@@ -48,7 +53,6 @@ appear here, please let us know and we will gladly include it!
 <b>Present and future of CosmoLattice</b>.<br>
    Daniel G. Figueroa, Adrien Florio, Francisco Torrenti. <br>
    arXiv: <a href="https://arxiv.org/abs/2312.15056" target="_blank" rel="noopener noreferrer">2312.15056</a><br><br>
-   
    
 <li value="30">
 <b>Phenomenology of Spillway Preheating: Equation of State and Gravitational Waves</b>.<br>
@@ -103,12 +107,12 @@ appear here, please let us know and we will gladly include it!
 <li value="20">
 <b>Dissipative Emergence of Inflation from Quasi-Cyclic Universe</b>.<br>
    Hiroki Matsui, Alexandros Papageorgiou, Fuminobu Takahashi, Takahiro Terada. <br>
-   arXiv: <a href="https://arxiv.org/abs/2305.02367" target="_blank" rel="noopener noreferrer">2305.02367</a><br><br>
+   <i>Phys.Rev.D 109 (2024) 10, 103523</i>. arXiv: <a href="https://arxiv.org/abs/2305.02367" target="_blank" rel="noopener noreferrer">2305.02367</a><br><br>
 
 <li value="19">
 <b>Dissipative genesis of the inflationary Universe</b>.<br>
    Hiroki Matsui, Alexandros Papageorgiou, Fuminobu Takahashi, Takahiro Terada. <br>
-   arXiv: <a href="https://arxiv.org/abs/2305.02366" target="_blank" rel="noopener noreferrer">2305.02366</a><br><br>
+   <i>Phys.Rev.D 109 (2024) 10, L101303</i>. arXiv: <a href="https://arxiv.org/abs/2305.02366" target="_blank" rel="noopener noreferrer">2305.02366</a><br><br>
 
 <li value="18">
 <b>Preheating in Einstein-Cartan Higgs Inflation: oscillon formation</b>.<br>
