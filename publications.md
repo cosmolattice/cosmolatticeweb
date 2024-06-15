@@ -8,11 +8,26 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** May 21st, 2024
+**Last update:** June 15th, 2024
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="41">
+<b>Primordial black hole formation from self-resonant preheating?</b>.<br>
+   Guillermo Ballesteros, Joaquim Iguaz Juan, Paquale D. Serpico, Marco Taoso. <br>
+   arXiv: <a href="https://arxiv.org/abs/2406.09122" target="_blank" rel="noopener noreferrer">2406.09122</a><br><br>
+   
+   <li value="40">
+<b>Geometric reheating of the Universe</b>.<br>
+   Daniel G. Figueroa, Nicolas Loayza. <br>
+   arXiv: <a href="https://arxiv.org/abs/2406.02689" target="_blank" rel="noopener noreferrer">2406.02689</a><br><br>
+   
+   <li value="39">
+<b>Formation and decay of oscillons after inflation in the presence of an external coupling, Part I: Lattice simulations</b>.<br>
+   Mohammed Shafi, Edmund J. Copeland, Rafid Mahbub, Swagat S. Mishra, Soumen Basak. <br>
+   arXiv: <a href="https://arxiv.org/abs/2406.00108" target="_blank" rel="noopener noreferrer">2406.00108</a><br><br>
 
 <li value="38">
 <b>Preheating with deep learning</b>.<br>
@@ -42,12 +57,12 @@ appear here, please let us know and we will gladly include it!
 <li value="33">
 <b>The Rise and Fall of the Standard-Model Higgs: Electroweak Vacuum Stability during Kination</b>.<br>
    Giorgio Laverda, Javier Rubio. <br>
-   arXiv: <a href="https://arxiv.org/abs/2402.06000" target="_blank" rel="noopener noreferrer">2402.06000</a><br><br>
+   <i>JHEP 05 (2024) 339</i>. arXiv: <a href="https://arxiv.org/abs/2402.06000" target="_blank" rel="noopener noreferrer">2402.06000</a><br><br>
 
 <li value="32">
 <b>Collapsing Domain Wall Networks: Impact on Pulsar Timing Arrays and Primordial Black Holes</b>.<br>
    Ricardo Z. Ferreira, Alessio Notari, Oriol Pujolàs, Fabrizio Rompineve. <br>
-   arXiv: <a href="https://arxiv.org/abs/2401.14331" target="_blank" rel="noopener noreferrer">2401.14331</a><br><br>
+   <i>JCAP 06 (2024) 020</i>. arXiv: <a href="https://arxiv.org/abs/2401.14331" target="_blank" rel="noopener noreferrer">2401.14331</a><br><br>
    
 <li value="31">
 <b>Present and future of CosmoLattice</b>.<br>
