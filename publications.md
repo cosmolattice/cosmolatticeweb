@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** June 15th, 2024
+**Last update:** July 3rd, 2024
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="43">
+<b>Tachyonic production of dark relics: classical lattice vs. quantum 2PI in Hartree truncation</b>.<br>
+   Kimmo Kainulainen, Sami Nurmi, Olli Väisänen. <br>
+   arXiv: <a href="https://arxiv.org/abs/2406.17468" target="_blank" rel="noopener noreferrer">2406.17468</a><br><br>
+   
+   <li value="42">
+<b>Revisiting evolution of domain walls and their gravitational radiation with CosmoLattice</b>.<br>
+   I. Dankovsky, E. Babichev, D. Gorbunov, S. Ramazanov, A. Vikman. <br>
+   arXiv: <a href="https://arxiv.org/abs/2406.17053" target="_blank" rel="noopener noreferrer">2406.17053</a><br><br>
 
 <li value="41">
 <b>Primordial black hole formation from self-resonant preheating?</b>.<br>
