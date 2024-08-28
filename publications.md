@@ -8,13 +8,13 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** July 3rd, 2024
+**Last update:** August 28th, 2024
 
 ### List of papers:<br><br> 
 
 <ol>
 
-<li value="43">
+<li value="45">
 <b>Nonminimal Superheavy Dark Matter</b>.<br>
    Sarunas Verner. <br>
    arXiv: <a href="https://arxiv.org/abs/2408.11889" target="_blank" rel="noopener noreferrer">2408.11889</a><br><br>
