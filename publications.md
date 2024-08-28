@@ -15,6 +15,16 @@ appear here, please let us know and we will gladly include it!
 <ol>
 
 <li value="43">
+<b>Nonminimal Superheavy Dark Matter</b>.<br>
+   Sarunas Verner. <br>
+   arXiv: <a href="https://arxiv.org/abs/2408.11889" target="_blank" rel="noopener noreferrer">2408.11889</a><br><br>
+   
+   <li value="44">
+<b>Gravitational Wave Emission from Cosmic String Loops, II: Local Case</b>.<br>
+   Jorge Baeza-Ballesteros, Edmund J. Copeland, Daniel G. Figueroa, Joanes Lizarraga. <br>
+   arXiv: <a href="https://arxiv.org/abs/2408.02364" target="_blank" rel="noopener noreferrer">2408.02364</a><br><br>
+
+<li value="43">
 <b>Tachyonic production of dark relics: classical lattice vs. quantum 2PI in Hartree truncation</b>.<br>
    Kimmo Kainulainen, Sami Nurmi, Olli Väisänen. <br>
    arXiv: <a href="https://arxiv.org/abs/2406.17468" target="_blank" rel="noopener noreferrer">2406.17468</a><br><br>
@@ -42,7 +52,7 @@ appear here, please let us know and we will gladly include it!
 <li value="38">
 <b>Preheating with deep learning</b>.<br>
    Jong-Hyun Yoon, Simon Cléry, Mathieu Gross, Yann Mambrini. <br>
-   arXiv: <a href="https://arxiv.org/abs/2405.08901" target="_blank" rel="noopener noreferrer">2405.08901</a><br><br>
+   <i>JCAP 08 (2024) 031</i>. arXiv: <a href="https://arxiv.org/abs/2405.08901" target="_blank" rel="noopener noreferrer">2405.08901</a><br><br>
 
 <li value="37">
 <b>Ricci Reheating on the Lattice</b>.<br>
@@ -77,12 +87,12 @@ appear here, please let us know and we will gladly include it!
 <li value="31">
 <b>Present and future of CosmoLattice</b>.<br>
    Daniel G. Figueroa, Adrien Florio, Francisco Torrenti. <br>
-   arXiv: <a href="https://arxiv.org/abs/2312.15056" target="_blank" rel="noopener noreferrer">2312.15056</a><br><br>
+   <i>Rept.Prog.Phys. 87 (2024) 9, 094901</i>. arXiv: <a href="https://arxiv.org/abs/2312.15056" target="_blank" rel="noopener noreferrer">2312.15056</a><br><br>
    
 <li value="30">
 <b>Phenomenology of Spillway Preheating: Equation of State and Gravitational Waves</b>.<br>
    Gareth Mansfield, JiJi Fan, Qianshu Lu. <br>
-   arXiv: <a href="https://arxiv.org/abs/2312.03072" target="_blank" rel="noopener noreferrer">2312.03072</a><br><br>
+   <i>Phys.Rev.D 110 (2024) 2, 023542</i>. arXiv: <a href="https://arxiv.org/abs/2312.03072" target="_blank" rel="noopener noreferrer">2312.03072</a><br><br>
 
 <li value="29">
 <b>Gravitational Dark Matter from Minimal Preheating</b>.<br>
@@ -97,17 +107,17 @@ appear here, please let us know and we will gladly include it!
 <li value="27">
 <b>Gravitational Wave Symphony from Oscillating Spectator Scalar Fields</b>.<br>
    Yanoi Cui, Pankaj Saha, Evangelos I. Sfakianakis. <br>
-   arXiv: <a href="https://arxiv.org/abs/2310.13060" target="_blank" rel="noopener noreferrer">2310.13060</a><br><br>
+   <i>Phys.Rev.Lett. 133 (2024) 2, 021004</i>. arXiv: <a href="https://arxiv.org/abs/2310.13060" target="_blank" rel="noopener noreferrer">2310.13060</a><br><br>
 
 <li value="26">
 <b>Effects of Fragmentation on Post-Inflationary Reheating</b>.<br>
    Marcos A.G. Garcia, Mathieu Gross, Yann Mambrini, Keith A. Olive, Mathias Pierre, Jong-Hyun Yoon. <br>
-  <i>JCAP 12 (2023) 028</i> arXiv: <a href="https://arxiv.org/abs/2308.16231" target="_blank" rel="noopener noreferrer">2308.16231</a><br><br>
+  <i>JCAP 12 (2023) 028</i>. arXiv: <a href="https://arxiv.org/abs/2308.16231" target="_blank" rel="noopener noreferrer">2308.16231</a><br><br>
    
 <li value="25">
 <b>Gravitational Wave Emission from a Cosmic String Loop, I: Global Case</b>.<br>
    Jorge Baeza-Ballesteros, Edmund J. Copeland, Daniel G. Figueroa, Joanes Lizarraga. <br>
-   arXiv: <a href="https://arxiv.org/abs/2308.08456" target="_blank" rel="noopener noreferrer">2308.08456</a><br><br>
+   <i>Phys.Rev.D 110 (2024) 4, 043522</i>. arXiv: <a href="https://arxiv.org/abs/2308.08456" target="_blank" rel="noopener noreferrer">2308.08456</a><br><br>
 
 <li value="24">
 <b>Ricci Reheating Reloaded</b>.<br>
