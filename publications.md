@@ -8,43 +8,53 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** August 28th, 2024
+**Last update:** October 23rd, 2024
 
 ### List of papers:<br><br> 
 
 <ol>
 
-<li value="45">
+<li value="47">
+<b>Hubble-Induced Phase Transitions: Gravitational-Wave Imprint of Ricci Reheating from Lattice Simulations</b>.<br>
+   Dario Bettoni, Giorgio Laverda, Asier Lopez Eiguren, Javier Rubio. <br>
+   arXiv: <a href="https://arxiv.org/abs/2409.15450" target="_blank" rel="noopener noreferrer">2409.15450</a><br><br>
+
+<li value="46">
 <b>Nonminimal Superheavy Dark Matter</b>.<br>
    Sarunas Verner. <br>
    arXiv: <a href="https://arxiv.org/abs/2408.11889" target="_blank" rel="noopener noreferrer">2408.11889</a><br><br>
    
-   <li value="44">
+<li value="45">
 <b>Gravitational Wave Emission from Cosmic String Loops, II: Local Case</b>.<br>
    Jorge Baeza-Ballesteros, Edmund J. Copeland, Daniel G. Figueroa, Joanes Lizarraga. <br>
    arXiv: <a href="https://arxiv.org/abs/2408.02364" target="_blank" rel="noopener noreferrer">2408.02364</a><br><br>
 
-<li value="43">
+<li value="44">
 <b>Tachyonic production of dark relics: classical lattice vs. quantum 2PI in Hartree truncation</b>.<br>
    Kimmo Kainulainen, Sami Nurmi, Olli Väisänen. <br>
-   arXiv: <a href="https://arxiv.org/abs/2406.17468" target="_blank" rel="noopener noreferrer">2406.17468</a><br><br>
+   <i>JHEP 10 (2024) 009</i>. arXiv: <a href="https://arxiv.org/abs/2406.17468" target="_blank" rel="noopener noreferrer">2406.17468</a><br><br>
    
-   <li value="42">
+<li value="43">
 <b>Revisiting evolution of domain walls and their gravitational radiation with CosmoLattice</b>.<br>
    I. Dankovsky, E. Babichev, D. Gorbunov, S. Ramazanov, A. Vikman. <br>
-   arXiv: <a href="https://arxiv.org/abs/2406.17053" target="_blank" rel="noopener noreferrer">2406.17053</a><br><br>
+   <i>JCAP 09 (2024) 047</i>. arXiv: <a href="https://arxiv.org/abs/2406.17053" target="_blank" rel="noopener noreferrer">2406.17053</a><br><br>
 
-<li value="41">
+<li value="42">
 <b>Primordial black hole formation from self-resonant preheating?</b>.<br>
    Guillermo Ballesteros, Joaquim Iguaz Juan, Paquale D. Serpico, Marco Taoso. <br>
    arXiv: <a href="https://arxiv.org/abs/2406.09122" target="_blank" rel="noopener noreferrer">2406.09122</a><br><br>
+
+<li value="41">
+<b>Self-resonance during preheating: The case of α-attractor models</b>.<br>
+   Daniel del-Corral. <br>
+   <i>Annals Phys. 470 (2024) 169824</i>. arXiv: <a href="https://arxiv.org/abs/2406.04017" target="_blank" rel="noopener noreferrer">2406.04017</a><br><br>
    
-   <li value="40">
+<li value="40">
 <b>Geometric reheating of the Universe</b>.<br>
    Daniel G. Figueroa, Nicolas Loayza. <br>
    arXiv: <a href="https://arxiv.org/abs/2406.02689" target="_blank" rel="noopener noreferrer">2406.02689</a><br><br>
    
-   <li value="39">
+<li value="39">
 <b>Formation and decay of oscillons after inflation in the presence of an external coupling, Part I: Lattice simulations</b>.<br>
    Mohammed Shafi, Edmund J. Copeland, Rafid Mahbub, Swagat S. Mishra, Soumen Basak. <br>
    arXiv: <a href="https://arxiv.org/abs/2406.00108" target="_blank" rel="noopener noreferrer">2406.00108</a><br><br>
@@ -62,7 +72,7 @@ appear here, please let us know and we will gladly include it!
 <li value="36">
 <b>Gravitational wave signatures of post-fragmentation reheating</b>.<br>
    Marcos A.G. Garcia, Mathias Pierre. <br>
-   arXiv: <a href="https://arxiv.org/abs/2404.16932" target="_blank" rel="noopener noreferrer">2404.16932</a><br><br>
+   <i>JCAP 09 (2024) 054</i>. arXiv: <a href="https://arxiv.org/abs/2404.16932" target="_blank" rel="noopener noreferrer">2404.16932</a><br><br>
 
 <li value="35">
 <b>Gravitational Wave Probe of Gravitational Dark Matter from Preheating</b>.<br>
@@ -72,7 +82,7 @@ appear here, please let us know and we will gladly include it!
 <li value="34">
 <b>Impact of Dark Sector Preheating on CMB Observables</b>.<br>
    Marcos A.G. Garcia, Aline Pereyra-Flores. <br>
-   arXiv: <a href="https://arxiv.org/abs/2403.04848" target="_blank" rel="noopener noreferrer">2403.04848</a><br><br>
+   <i>JCAP 08 (2024) 043 </i>. arXiv: <a href="https://arxiv.org/abs/2403.04848" target="_blank" rel="noopener noreferrer">2403.04848</a><br><br>
 
 <li value="33">
 <b>The Rise and Fall of the Standard-Model Higgs: Electroweak Vacuum Stability during Kination</b>.<br>
@@ -100,7 +110,7 @@ appear here, please let us know and we will gladly include it!
    <i>JHEP 02 (2024) 061</i>. arXiv: <a href="https://arxiv.org/abs/2311.14273" target="_blank" rel="noopener noreferrer">2311.14273</a><br><br>
 
 <li value="28">
-<b>Gravitational waves radiated from axion string-wall networks</b>.<br>
+<b>Cosmic Simulations of Axion String-Wall Networks: Probing Dark Matter and Gravitational Waves for Discovery</b>.<br>
    Yang Li, Ligong Bian, Rong-Gen Cai, Jing Shu. <br>
    arXiv: <a href="https://arxiv.org/abs/2311.02011" target="_blank" rel="noopener noreferrer">2311.02011</a><br><br>
 
