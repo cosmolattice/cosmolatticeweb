@@ -14,6 +14,21 @@ appear here, please let us know and we will gladly include it!
 
 <ol>
 
+<li value="50">
+<b>Gravitational wave and dark matter from Axion-Higgs string</b>.<br>
+   Yongtao Jia, Ligong Bian. <br>
+   arXiv: <a href="https://arxiv.org/abs/2412.04218" target="_blank" rel="noopener noreferrer">2412.04218</a><br><br>
+   
+<li value="49">
+<b>The non-linear dynamics of axion inflation: a detailed lattice study</b>.<br>
+	Daniel G. Figueroa, Joanes Lizarraga, Nicolás Loayza, Ander Urio, Jon Urrestilla. <br>
+   arXiv: <a href="https://arxiv.org/abs/2411.16368" target="_blank" rel="noopener noreferrer">2411.16368</a><br><br>
+   
+<li value="48">
+<b>Numerical analysis of melting domain walls and their gravitational waves</b>.<br>
+   I. Dankovsky, S. Ramazanov, E. Babichev, D. Gorbunov, A. Vikman <br>
+   arXiv: <a href="https://arxiv.org/abs/2410.21971" target="_blank" rel="noopener noreferrer">2410.21971</a><br><br>
+
 <li value="47">
 <b>Hubble-Induced Phase Transitions: Gravitational-Wave Imprint of Ricci Reheating from Lattice Simulations</b>.<br>
    Dario Bettoni, Giorgio Laverda, Asier Lopez Eiguren, Javier Rubio. <br>
@@ -57,7 +72,7 @@ appear here, please let us know and we will gladly include it!
 <li value="39">
 <b>Formation and decay of oscillons after inflation in the presence of an external coupling, Part I: Lattice simulations</b>.<br>
    Mohammed Shafi, Edmund J. Copeland, Rafid Mahbub, Swagat S. Mishra, Soumen Basak. <br>
-   arXiv: <a href="https://arxiv.org/abs/2406.00108" target="_blank" rel="noopener noreferrer">2406.00108</a><br><br>
+   <i>JCAP 10 (2024) 082</i>. arXiv: <a href="https://arxiv.org/abs/2406.00108" target="_blank" rel="noopener noreferrer">2406.00108</a><br><br>
 
 <li value="38">
 <b>Preheating with deep learning</b>.<br>
@@ -77,7 +92,7 @@ appear here, please let us know and we will gladly include it!
 <li value="35">
 <b>Gravitational Wave Probe of Gravitational Dark Matter from Preheating</b>.<br>
    Ruopeng Zhang, Sibo Zheng. <br>
-   arXiv: <a href="https://arxiv.org/abs/2403.09089" target="_blank" rel="noopener noreferrer">2403.09089</a><br><br>
+   <i>JCAP 11 (2024) 007</i>. arXiv: <a href="https://arxiv.org/abs/2403.09089" target="_blank" rel="noopener noreferrer">2403.09089</a><br><br>
    
 <li value="34">
 <b>Impact of Dark Sector Preheating on CMB Observables</b>.<br>
