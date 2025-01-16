@@ -8,11 +8,31 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** October 23rd, 2024
+**Last update:** January 16th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="54">
+<b>Non-Scaling Topological Defects and Gravitational Waves in Higgs Portal</b>.<br>
+   Wen Yin. <br>
+   arXiv: <a href="https://arxiv.org/abs/2412.19798" target="_blank" rel="noopener noreferrer">2412.19798</a><br><br>
+
+<li value="53">
+<b>Potential Surge Preheating: enhanced resonance from potential features</b>.<br>
+   Pankaj Saha, Yuko Urakawa. <br>
+   arXiv: <a href="https://arxiv.org/abs/2412.17359" target="_blank" rel="noopener noreferrer">2412.17359</a><br><br>
+
+<li value="52">
+<b>Feebly-Interacting Peccei-Quinn Model</b>.<br>
+   Wen Yin. <br>
+   arXiv: <a href="https://arxiv.org/abs/2412.17802" target="_blank" rel="noopener noreferrer">2412.17802</a><br><br>
+
+<li value="51">
+<b>The Origin Symphony: Probing Baryogenesis with Gravitational Waves</b>.<br>
+   Yanou Cui, Anish Ghoshal, Pankaj Saha, Evangelos I. Sfakianakis. <br>
+   arXiv: <a href="https://arxiv.org/abs/2412.12287" target="_blank" rel="noopener noreferrer">2412.12287</a><br><br>
 
 <li value="50">
 <b>Gravitational wave and dark matter from Axion-Higgs string</b>.<br>
