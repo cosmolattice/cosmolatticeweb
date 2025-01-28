@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** January 16th, 2025
+**Last update:** January 28th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="56">
+<b>Ephemeral Oscillons in Scalar-Tensor Theories: The Higgs-like case</b>.<br>
+   Matteo Piani, Javier Rubio, Francisco Torrenti. <br>
+   arXiv: <a href="https://arxiv.org/abs/2501.14869" target="_blank" rel="noopener noreferrer">2501.14869</a><br><br>
+   
+<li value="55">
+<b>Inflaton Self Resonance, Oscillons, and Gravitational Waves in Small Field Polynomial Inflation</b>.<br>
+   Manuel Drees and Chenhuan Wang. <br>
+   arXiv: <a href="https://arxiv.org/abs/2501.13811" target="_blank" rel="noopener noreferrer">2501.13811</a><br><br>
 
 <li value="54">
 <b>Non-Scaling Topological Defects and Gravitational Waves in Higgs Portal</b>.<br>
