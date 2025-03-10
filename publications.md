@@ -8,11 +8,31 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** January 28th, 2025
+**Last update:** March 10th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="60">
+<b>Scalar Field Fluctuations and the Production of Dark Matter</b>.<br>
+  Marcos A.G. Garcia, Wenqi Ke, Yann Mambrini, Keith A. Olive, Sarunas Verner. <br>
+   arXiv: <a href="https://arxiv.org/abs/2502.20471" target="_blank" rel="noopener noreferrer">2502.20471</a><br><br>
+   
+<li value="59">
+<b>Dynamics of Z_N domain walls with bias directions</b>.<br>
+   Yuan-Jie Li, Jing Liu, Zong-Kuan Guo. <br>
+   arXiv: <a href="https://arxiv.org/abs/2502.13644" target="_blank" rel="noopener noreferrer">2502.13644</a><br><br>
+   
+<li value="58">
+<b>Higgs-Induced Gravitational Waves: the Interplay of Non-Minimal Couplings, Kination and Top Quark Mass</b>.<br>
+   Giorgio Laverda, Javier Rubio. <br>
+   arXiv: <a href="https://arxiv.org/abs/2502.04445" target="_blank" rel="noopener noreferrer">2502.04445</a><br><br>
+   
+<li value="57">
+<b>A universal bound on the duration of a kination era</b>.<br>
+   Cem Eröncel, Yann Gouttenoire, Ryosuke Sato, Géraldine Servant, Peera Simakachorn. <br>
+   arXiv: <a href="https://arxiv.org/abs/2501.17226" target="_blank" rel="noopener noreferrer">2501.17226</a><br><br>
 
 <li value="56">
 <b>Ephemeral Oscillons in Scalar-Tensor Theories: The Higgs-like case</b>.<br>
@@ -57,7 +77,7 @@ appear here, please let us know and we will gladly include it!
 <li value="48">
 <b>Numerical analysis of melting domain walls and their gravitational waves</b>.<br>
    I. Dankovsky, S. Ramazanov, E. Babichev, D. Gorbunov, A. Vikman <br>
-   arXiv: <a href="https://arxiv.org/abs/2410.21971" target="_blank" rel="noopener noreferrer">2410.21971</a><br><br>
+   <i>JCAP 02 (2025) 064</i>. arXiv: <a href="https://arxiv.org/abs/2410.21971" target="_blank" rel="noopener noreferrer">2410.21971</a><br><br>
 
 <li value="47">
 <b>Hubble-Induced Phase Transitions: Gravitational-Wave Imprint of Ricci Reheating from Lattice Simulations</b>.<br>
@@ -210,9 +230,9 @@ appear here, please let us know and we will gladly include it!
    <i>JCAP 12 (2023) 002</i>. arXiv: <a href="https://arxiv.org/abs/2304.13056" target="_blank" rel="noopener noreferrer">2304.13056</a><br><br>
 
 <li value="17">
-<b>Solving the domain wall problem with first-order phase transition</b>.<br>
-   Yang Li, Ligong Bian, Yongtao Jia. <br>
-   arXiv: <a href="https://arxiv.org/abs/2304.05220" target="_blank" rel="noopener noreferrer">2304.05220</a><br><br>
+<b>Numerical simulation of domain wall and first-order phase transition in an expanding universe</b>.<br>
+   Yang Li, Yongtao Jia, Ligong Bian. <br>
+   <i>JCAP 02 (2025) 038</i>. arXiv: <a href="https://arxiv.org/abs/2304.05220" target="_blank" rel="noopener noreferrer">2304.05220</a><br><br>
 
 <li value="16">
 <b>The strong backreaction regime in axion inflation</b>.<br>
