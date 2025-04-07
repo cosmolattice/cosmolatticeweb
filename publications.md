@@ -8,11 +8,16 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** March 10th, 2025
+**Last update:** April 7th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="61">
+<b>The Spectrum of Gravitational Waves from Annihilating Domain Walls</b>.<br>
+  Alessio Notari, Fabrizio Rompineve, Francisco Torrenti. <br>
+   arXiv: <a href="https://arxiv.org/abs/2504.03636" target="_blank" rel="noopener noreferrer">2504.03636</a><br><br>
 
 <li value="60">
 <b>Scalar Field Fluctuations and the Production of Dark Matter</b>.<br>
@@ -72,7 +77,7 @@ appear here, please let us know and we will gladly include it!
 <li value="49">
 <b>The non-linear dynamics of axion inflation: a detailed lattice study</b>.<br>
 	Daniel G. Figueroa, Joanes Lizarraga, Nicolás Loayza, Ander Urio, Jon Urrestilla. <br>
-   arXiv: <a href="https://arxiv.org/abs/2411.16368" target="_blank" rel="noopener noreferrer">2411.16368</a><br><br>
+   <i>Phys.Rev.D 111 (2025) 6, 063545 </i>. arXiv: <a href="https://arxiv.org/abs/2411.16368" target="_blank" rel="noopener noreferrer">2411.16368</a><br><br>
    
 <li value="48">
 <b>Numerical analysis of melting domain walls and their gravitational waves</b>.<br>
@@ -82,7 +87,7 @@ appear here, please let us know and we will gladly include it!
 <li value="47">
 <b>Hubble-Induced Phase Transitions: Gravitational-Wave Imprint of Ricci Reheating from Lattice Simulations</b>.<br>
    Dario Bettoni, Giorgio Laverda, Asier Lopez Eiguren, Javier Rubio. <br>
-   arXiv: <a href="https://arxiv.org/abs/2409.15450" target="_blank" rel="noopener noreferrer">2409.15450</a><br><br>
+   <i>JCAP 03 (2025) 027</i>. arXiv: <a href="https://arxiv.org/abs/2409.15450" target="_blank" rel="noopener noreferrer">2409.15450</a><br><br>
 
 <li value="46">
 <b>Nonminimal Superheavy Dark Matter</b>.<br>
@@ -117,7 +122,7 @@ appear here, please let us know and we will gladly include it!
 <li value="40">
 <b>Geometric reheating of the Universe</b>.<br>
    Daniel G. Figueroa, Nicolas Loayza. <br>
-   arXiv: <a href="https://arxiv.org/abs/2406.02689" target="_blank" rel="noopener noreferrer">2406.02689</a><br><br>
+   <i>JCAP 03 (2025) 073</i>. arXiv: <a href="https://arxiv.org/abs/2406.02689" target="_blank" rel="noopener noreferrer">2406.02689</a><br><br>
    
 <li value="39">
 <b>Formation and decay of oscillons after inflation in the presence of an external coupling, Part I: Lattice simulations</b>.<br>
