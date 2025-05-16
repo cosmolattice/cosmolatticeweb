@@ -8,11 +8,16 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** April 7th, 2025
+**Last update:** May 16th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="62">
+<b>Biased domain walls: faster annihilation, weaker gravitational waves</b>.<br>
+  E. Babichev, I. Dankovsky, D. Gorbunov, S. Ramazanov, A. Vikman. <br>
+   arXiv: <a href="https://arxiv.org/abs/2504.07902" target="_blank" rel="noopener noreferrer">2504.07902</a><br><br>
 
 <li value="61">
 <b>The Spectrum of Gravitational Waves from Annihilating Domain Walls</b>.<br>
@@ -47,7 +52,7 @@ appear here, please let us know and we will gladly include it!
 <li value="55">
 <b>Inflaton Self Resonance, Oscillons, and Gravitational Waves in Small Field Polynomial Inflation</b>.<br>
    Manuel Drees and Chenhuan Wang. <br>
-   arXiv: <a href="https://arxiv.org/abs/2501.13811" target="_blank" rel="noopener noreferrer">2501.13811</a><br><br>
+   <i>JCAP 04 (2025) 078</i>. arXiv: <a href="https://arxiv.org/abs/2501.13811" target="_blank" rel="noopener noreferrer">2501.13811</a><br><br>
 
 <li value="54">
 <b>Non-Scaling Topological Defects and Gravitational Waves in Higgs Portal</b>.<br>
@@ -57,7 +62,7 @@ appear here, please let us know and we will gladly include it!
 <li value="53">
 <b>Potential Surge Preheating: enhanced resonance from potential features</b>.<br>
    Pankaj Saha, Yuko Urakawa. <br>
-   arXiv: <a href="https://arxiv.org/abs/2412.17359" target="_blank" rel="noopener noreferrer">2412.17359</a><br><br>
+   <i>JCAP 04 (2025) 061</i>. arXiv: <a href="https://arxiv.org/abs/2412.17359" target="_blank" rel="noopener noreferrer">2412.17359</a><br><br>
 
 <li value="52">
 <b>Feebly-Interacting Peccei-Quinn Model</b>.<br>
@@ -112,7 +117,7 @@ appear here, please let us know and we will gladly include it!
 <li value="42">
 <b>Primordial black hole formation from self-resonant preheating?</b>.<br>
    Guillermo Ballesteros, Joaquim Iguaz Juan, Paquale D. Serpico, Marco Taoso. <br>
-   arXiv: <a href="https://arxiv.org/abs/2406.09122" target="_blank" rel="noopener noreferrer">2406.09122</a><br><br>
+   <i>Phys.Rev.D 111 (2025) 8, 083521</i>. arXiv: <a href="https://arxiv.org/abs/2406.09122" target="_blank" rel="noopener noreferrer">2406.09122</a><br><br>
 
 <li value="41">
 <b>Self-resonance during preheating: The case of α-attractor models</b>.<br>
