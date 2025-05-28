@@ -17,7 +17,7 @@ appear here, please let us know and we will gladly include it!
 <li value="64">
 <b>Comparative study of the strong backreaction regime in axion inflation: the effect of the potential</b>.<br>
   Joanes Lizarraga, Carmelo López-Mediavilla, Ander Urio<br>
-   arXiv: <a href="https://arxiv.org/abs/2505.19950" target="_blank" rel="noopener noreferrer">2504.07902</a><br><br>
+   arXiv: <a href="https://arxiv.org/abs/2505.19950" target="_blank" rel="noopener noreferrer">2505.19950</a><br><br>
    
    <li value="63">
 <b>Numerical simulations on First-order phase transition through thermal fluctuation</b>.<br>
