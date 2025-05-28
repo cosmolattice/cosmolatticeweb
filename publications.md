@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** May 16th, 2025
+**Last update:** May 28th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="64">
+<b>Comparative study of the strong backreaction regime in axion inflation: the effect of the potential</b>.<br>
+  Joanes Lizarraga, Carmelo López-Mediavilla, Ander Urio<br>
+   arXiv: <a href="https://arxiv.org/abs/2505.19950" target="_blank" rel="noopener noreferrer">2504.07902</a><br><br>
+   
+   <li value="63">
+<b>Numerical simulations on First-order phase transition through thermal fluctuation</b>.<br>
+  Ligong Bian, Yuefeng Di, Yongtao Jia, Yang Li, Kehao Zeng<br>
+   arXiv: <a href="https://arxiv.org/abs/2505.15360" target="_blank" rel="noopener noreferrer">2505.15360</a><br><br>
 
 <li value="62">
 <b>Biased domain walls: faster annihilation, weaker gravitational waves</b>.<br>
@@ -75,9 +85,9 @@ appear here, please let us know and we will gladly include it!
    arXiv: <a href="https://arxiv.org/abs/2412.12287" target="_blank" rel="noopener noreferrer">2412.12287</a><br><br>
 
 <li value="50">
-<b>Gravitational wave and dark matter from Axion-Higgs string</b>.<br>
+<b>Cosmological simulation of axion-Higgs strings: Gravitational waves and dark matter</b>.<br>
    Yongtao Jia, Ligong Bian. <br>
-   arXiv: <a href="https://arxiv.org/abs/2412.04218" target="_blank" rel="noopener noreferrer">2412.04218</a><br><br>
+   <i>Phys.Rev.D 111 (2025) 6, 063552</i>. arXiv: <a href="https://arxiv.org/abs/2412.04218" target="_blank" rel="noopener noreferrer">2412.04218</a><br><br>
    
 <li value="49">
 <b>The non-linear dynamics of axion inflation: a detailed lattice study</b>.<br>
@@ -97,7 +107,7 @@ appear here, please let us know and we will gladly include it!
 <li value="46">
 <b>Nonminimal Superheavy Dark Matter</b>.<br>
    Sarunas Verner. <br>
-   arXiv: <a href="https://arxiv.org/abs/2408.11889" target="_blank" rel="noopener noreferrer">2408.11889</a><br><br>
+   <i>JCAP 05 (2025) 060</i>. arXiv: <a href="https://arxiv.org/abs/2408.11889" target="_blank" rel="noopener noreferrer">2408.11889</a><br><br>
    
 <li value="45">
 <b>Gravitational Wave Emission from Cosmic String Loops, II: Local Case</b>.<br>
