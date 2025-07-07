@@ -28,6 +28,7 @@ navbar-links:
     - Version 1.1: "version11"
     - Version 1.0: "version10"  
   Events:
+    - School 2025: school25
     - School 2023: school23
     - School 2022: school
   People: "people"
