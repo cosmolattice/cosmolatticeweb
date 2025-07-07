@@ -67,7 +67,7 @@ appear here, please let us know and we will gladly include it!
 <li value="56">
 <b>Ephemeral Oscillons in Scalar-Tensor Theories: The Higgs-like case</b>.<br>
    Matteo Piani, Javier Rubio, Francisco Torrenti. <br>
-   arXiv: <a href="https://arxiv.org/abs/2501.14869" target="_blank" rel="noopener noreferrer">2501.14869</a><br><br>
+   <i>JCAP 06 (2025) 024</i>. arXiv: <a href="https://arxiv.org/abs/2501.14869" target="_blank" rel="noopener noreferrer">2501.14869</a><br><br>
    
 <li value="55">
 <b>Inflaton Self Resonance, Oscillons, and Gravitational Waves in Small Field Polynomial Inflation</b>.<br>
