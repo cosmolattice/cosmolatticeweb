@@ -8,20 +8,30 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** May 28th, 2025
+**Last update:** July 7th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
 
+<li value="66">
+<b>Kinetic Fragmentation of the QCD Axion on the Lattice</b>.<br>
+  Matteo Fasiello, Joanes Lizarraga, Alexandros Papageorgiou, Ander Urio.<br>
+   arXiv: <a href="https://arxiv.org/abs/2507.01822" target="_blank" rel="noopener noreferrer">2507.01822</a><br><br>
+
+<li value="65">
+<b>Testing Nambu-Goto approximation of cosmic string by lattice field simulations</b>.<br>
+  Zizhuo Zhao, Ligong Bian, Jing Shu.<br>
+   arXiv: <a href="https://arxiv.org/abs/2507.00685" target="_blank" rel="noopener noreferrer">2507.00685</a><br><br>
+
 <li value="64">
 <b>Comparative study of the strong backreaction regime in axion inflation: the effect of the potential</b>.<br>
-  Joanes Lizarraga, Carmelo López-Mediavilla, Ander Urio<br>
+  Joanes Lizarraga, Carmelo López-Mediavilla, Ander Urio.<br>
    arXiv: <a href="https://arxiv.org/abs/2505.19950" target="_blank" rel="noopener noreferrer">2505.19950</a><br><br>
    
    <li value="63">
 <b>Numerical simulations on First-order phase transition through thermal fluctuation</b>.<br>
-  Ligong Bian, Yuefeng Di, Yongtao Jia, Yang Li, Kehao Zeng<br>
+  Ligong Bian, Yuefeng Di, Yongtao Jia, Yang Li, Kehao Zeng.<br>
    arXiv: <a href="https://arxiv.org/abs/2505.15360" target="_blank" rel="noopener noreferrer">2505.15360</a><br><br>
 
 <li value="62">
