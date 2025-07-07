@@ -11,7 +11,7 @@ title: People
     <tr style="background-color:rgba(0, 0, 0, 0); border:hidden" height=160>
     
         <td style="text-align: center; border:hidden; vertical-align:top">
-        	<img src="../assets/img/people/jorge.png" alt="" border=0 style="border-radius: 50%" height=150 width=150><br>
+        	<img src="../assets/img/people/jorge.png" alt="" border=0 style="border-radius: 50%" height=150><br>
         </td>
         
         <td style="text-align: center; border:hidden; vertical-align:top">
