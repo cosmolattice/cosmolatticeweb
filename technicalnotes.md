@@ -14,4 +14,4 @@ and/or explain new functionalities incorporated to the code in successive releas
   Jorge Baeza-Ballesteros, Daniel G. Figueroa, Adrien Florio, Nicolas Loayza. Written on 06.05.2022. Corrected on 20.06.2023.
   
 - **Technical Note III: [Gravitational Waves from U(1) Gauge Theories]({{ site.url }}{{ site.baseurl }}/assets/technical_notes/CosmoLattice_TechnicalNote_GWsAbelianGauge.pdf){:target="_blank"}**<br>
-  Jorge Baeza-Ballesteros, Daniel G. Figueroa, Adrien Florio, Nicolas Loayza. Written on 16.06.2023.
+  Jorge Baeza-Ballesteros, Daniel G. Figueroa, Nicolas Loayza. Written on 16.06.2023.

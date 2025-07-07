@@ -37,10 +37,8 @@ IBS, Daejeon, South Korea - 22nd-26th September 2025</a></b></font></div>
 	</li>
 </ul>
 
-<p>&nbsp;</p>
 
 <hr />
-<p>&nbsp;</p>
 
 <p><strong>Lecturers</strong>:</p>
 
@@ -55,23 +53,18 @@ B. A. Stefanek .................. IFIC, Valencia, Spain<br />
 F. Torrenti ........................ University of Barcelona, Barcelona, Spain<br />
 A. Urio .............................. UPV/EHU, Bilbao, Spain</p>
 
-<p>&nbsp;</p>
 
 <hr />
-<p>&nbsp;</p>
 
 <p><strong>Observations</strong>: There is no fee to participate in the school. In order to do practice sessions, participants will need to have access to a personal laptop.</p>
 
-<p>&nbsp;</p>
 
 <p><strong>Organizers: </strong>Mohammad Ali Gorji,&nbsp;Daniel G. Figueroa, Dong-Won Jung, Masahide Yamaguchi</p>
 
 <p><br />
 We look forward to seeing you in Daejeon!</p>
 
-<p>&nbsp;</p>
 
 <p><img alt="" src="../assets/img/IBS.png" style="height:120px; width:480px" /></p>
 
-<p>&nbsp;</p>
 
