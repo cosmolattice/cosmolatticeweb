@@ -8,11 +8,26 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** July 7th, 2025
+**Last update:** July 21st, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="69">
+<b>Equation of state during (p)reheating with trilinear interactions</b>.<br>
+  Stefan Antusch, Kenneth Marschall, Francisco Torrenti.<br>
+   arXiv: <a href="https://arxiv.org/abs/2507.13465" target="_blank" rel="noopener noreferrer">2507.13465</a><br><br>
+   
+<li value="68">
+<b>Self-Tracking Solutions for Asymptotic Scalar Fields</b>.<br>
+  Martin Mosny, Joseph P. Conlon, Edmund J. Copeland.<br>
+   arXiv: <a href="https://arxiv.org/abs/2507.04161" target="_blank" rel="noopener noreferrer">2507.04161</a><br><br>
+   
+<li value="67">
+<b>Relativistic Axion with Nonrelativistic Momenta: A Robust Bound on Minimal ALP Dark Matter</b>.<br>
+  Yuma Narita, Wen Yin.<br>
+	arXiv: <a href="https://arxiv.org/abs/2507.03157" target="_blank" rel="noopener noreferrer">2507.03157</a><br><br>
 
 <li value="66">
 <b>Kinetic Fragmentation of the QCD Axion on the Lattice</b>.<br>
@@ -42,7 +57,7 @@ appear here, please let us know and we will gladly include it!
 <li value="61">
 <b>The Spectrum of Gravitational Waves from Annihilating Domain Walls</b>.<br>
   Alessio Notari, Fabrizio Rompineve, Francisco Torrenti. <br>
-   arXiv: <a href="https://arxiv.org/abs/2504.03636" target="_blank" rel="noopener noreferrer">2504.03636</a><br><br>
+   <i>JCAP 07 (2025) 049</i>. arXiv: <a href="https://arxiv.org/abs/2504.03636" target="_blank" rel="noopener noreferrer">2504.03636</a><br><br>
 
 <li value="60">
 <b>Scalar Field Fluctuations and the Production of Dark Matter</b>.<br>
