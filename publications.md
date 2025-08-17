@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** July 21st, 2025
+**Last update:** August 17th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="71">
+<b>Preheating and gravitational waves in large-field hilltop inflation</b>.<br>
+  Diganta Das, Shreyas Revankar<br>
+   arXiv: <a href="https://arxiv.org/abs/2508.07442" target="_blank" rel="noopener noreferrer">2508.07442</a><br><br>
+
+<li value="70">
+<b>(Non-)Perturbative Dynamics of a Light QCD Axion: Dark Matter and the Strong CP Problem</b>.<br>
+  Raymond T. Co, Taegyu Lee, Owen P. Leonard<br>
+   arXiv: <a href="https://arxiv.org/abs/2508.00979" target="_blank" rel="noopener noreferrer">2508.00979</a><br><br>
 
 <li value="69">
 <b>Equation of state during (p)reheating with trilinear interactions</b>.<br>
@@ -62,7 +72,7 @@ appear here, please let us know and we will gladly include it!
 <li value="60">
 <b>Scalar Field Fluctuations and the Production of Dark Matter</b>.<br>
   Marcos A.G. Garcia, Wenqi Ke, Yann Mambrini, Keith A. Olive, Sarunas Verner. <br>
-   arXiv: <a href="https://arxiv.org/abs/2502.20471" target="_blank" rel="noopener noreferrer">2502.20471</a><br><br>
+   <i>JCAP 08 (2025) 039</i>. arXiv: <a href="https://arxiv.org/abs/2502.20471" target="_blank" rel="noopener noreferrer">2502.20471</a><br><br>
    
 <li value="59">
 <b>Dynamics of Z_N domain walls with bias directions</b>.<br>
