@@ -87,12 +87,12 @@ appear here, please let us know and we will gladly include it!
 <li value="58">
 <b>Higgs-Induced Gravitational Waves: the Interplay of Non-Minimal Couplings, Kination and Top Quark Mass</b>.<br>
    Giorgio Laverda, Javier Rubio. <br>
-   arXiv: <a href="https://arxiv.org/abs/2502.04445" target="_blank" rel="noopener noreferrer">2502.04445</a><br><br>
+   <i>JHEP 08 (2025) 203</i>. arXiv: <a href="https://arxiv.org/abs/2502.04445" target="_blank" rel="noopener noreferrer">2502.04445</a><br><br>
    
 <li value="57">
 <b>A universal bound on the duration of a kination era</b>.<br>
    Cem Eröncel, Yann Gouttenoire, Ryosuke Sato, Géraldine Servant, Peera Simakachorn. <br>
-   arXiv: <a href="https://arxiv.org/abs/2501.17226" target="_blank" rel="noopener noreferrer">2501.17226</a><br><br>
+   <i>Phys.Rev.Lett. 135 (2025) 10, 101002</i>. arXiv: <a href="https://arxiv.org/abs/2501.17226" target="_blank" rel="noopener noreferrer">2501.17226</a><br><br>
 
 <li value="56">
 <b>Ephemeral Oscillons in Scalar-Tensor Theories: The Higgs-like case</b>.<br>
