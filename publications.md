@@ -8,11 +8,16 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** August 17th, 2025
+**Last update:** September 5th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="72">
+<b>Enhancement of first-order phase transitions through a mass-acquiring scalar field</b>.<br>
+  Yuan-Jie Li, Jing Liu, Zong-Kuan Guo<br>
+   arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
 
 <li value="71">
 <b>Preheating and gravitational waves in large-field hilltop inflation</b>.<br>
@@ -145,9 +150,9 @@ appear here, please let us know and we will gladly include it!
    <i>JCAP 05 (2025) 060</i>. arXiv: <a href="https://arxiv.org/abs/2408.11889" target="_blank" rel="noopener noreferrer">2408.11889</a><br><br>
    
 <li value="45">
-<b>Gravitational Wave Emission from Cosmic String Loops, II: Local Case</b>.<br>
+<b>Particle and gravitational wave emission by local string loops: Lattice calculation</b>.<br>
    Jorge Baeza-Ballesteros, Edmund J. Copeland, Daniel G. Figueroa, Joanes Lizarraga. <br>
-   arXiv: <a href="https://arxiv.org/abs/2408.02364" target="_blank" rel="noopener noreferrer">2408.02364</a><br><br>
+   <i>Phys.Rev.D 112 (2025) 4, 043540</i>. arXiv: <a href="https://arxiv.org/abs/2408.02364" target="_blank" rel="noopener noreferrer">2408.02364</a><br><br>
 
 <li value="44">
 <b>Tachyonic production of dark relics: classical lattice vs. quantum 2PI in Hartree truncation</b>.<br>
