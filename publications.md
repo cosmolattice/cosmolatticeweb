@@ -8,20 +8,60 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** May 28th, 2025
+**Last update:** September 5th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
 
+<li value="72">
+<b>Enhancement of first-order phase transitions through a mass-acquiring scalar field</b>.<br>
+  Yuan-Jie Li, Jing Liu, Zong-Kuan Guo<br>
+   arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
+
+<li value="71">
+<b>Preheating and gravitational waves in large-field hilltop inflation</b>.<br>
+  Diganta Das, Shreyas Revankar<br>
+   arXiv: <a href="https://arxiv.org/abs/2508.07442" target="_blank" rel="noopener noreferrer">2508.07442</a><br><br>
+
+<li value="70">
+<b>(Non-)Perturbative Dynamics of a Light QCD Axion: Dark Matter and the Strong CP Problem</b>.<br>
+  Raymond T. Co, Taegyu Lee, Owen P. Leonard<br>
+   arXiv: <a href="https://arxiv.org/abs/2508.00979" target="_blank" rel="noopener noreferrer">2508.00979</a><br><br>
+
+<li value="69">
+<b>Equation of state during (p)reheating with trilinear interactions</b>.<br>
+  Stefan Antusch, Kenneth Marschall, Francisco Torrenti.<br>
+   arXiv: <a href="https://arxiv.org/abs/2507.13465" target="_blank" rel="noopener noreferrer">2507.13465</a><br><br>
+   
+<li value="68">
+<b>Self-Tracking Solutions for Asymptotic Scalar Fields</b>.<br>
+  Martin Mosny, Joseph P. Conlon, Edmund J. Copeland.<br>
+   arXiv: <a href="https://arxiv.org/abs/2507.04161" target="_blank" rel="noopener noreferrer">2507.04161</a><br><br>
+   
+<li value="67">
+<b>Relativistic Axion with Nonrelativistic Momenta: A Robust Bound on Minimal ALP Dark Matter</b>.<br>
+  Yuma Narita, Wen Yin.<br>
+	arXiv: <a href="https://arxiv.org/abs/2507.03157" target="_blank" rel="noopener noreferrer">2507.03157</a><br><br>
+
+<li value="66">
+<b>Kinetic Fragmentation of the QCD Axion on the Lattice</b>.<br>
+  Matteo Fasiello, Joanes Lizarraga, Alexandros Papageorgiou, Ander Urio.<br>
+   arXiv: <a href="https://arxiv.org/abs/2507.01822" target="_blank" rel="noopener noreferrer">2507.01822</a><br><br>
+
+<li value="65">
+<b>Testing Nambu-Goto approximation of cosmic string by lattice field simulations</b>.<br>
+  Zizhuo Zhao, Ligong Bian, Jing Shu.<br>
+   arXiv: <a href="https://arxiv.org/abs/2507.00685" target="_blank" rel="noopener noreferrer">2507.00685</a><br><br>
+
 <li value="64">
 <b>Comparative study of the strong backreaction regime in axion inflation: the effect of the potential</b>.<br>
-  Joanes Lizarraga, Carmelo López-Mediavilla, Ander Urio<br>
+  Joanes Lizarraga, Carmelo López-Mediavilla, Ander Urio.<br>
    arXiv: <a href="https://arxiv.org/abs/2505.19950" target="_blank" rel="noopener noreferrer">2505.19950</a><br><br>
    
    <li value="63">
 <b>Numerical simulations on First-order phase transition through thermal fluctuation</b>.<br>
-  Ligong Bian, Yuefeng Di, Yongtao Jia, Yang Li, Kehao Zeng<br>
+  Ligong Bian, Yuefeng Di, Yongtao Jia, Yang Li, Kehao Zeng.<br>
    arXiv: <a href="https://arxiv.org/abs/2505.15360" target="_blank" rel="noopener noreferrer">2505.15360</a><br><br>
 
 <li value="62">
@@ -32,12 +72,12 @@ appear here, please let us know and we will gladly include it!
 <li value="61">
 <b>The Spectrum of Gravitational Waves from Annihilating Domain Walls</b>.<br>
   Alessio Notari, Fabrizio Rompineve, Francisco Torrenti. <br>
-   arXiv: <a href="https://arxiv.org/abs/2504.03636" target="_blank" rel="noopener noreferrer">2504.03636</a><br><br>
+   <i>JCAP 07 (2025) 049</i>. arXiv: <a href="https://arxiv.org/abs/2504.03636" target="_blank" rel="noopener noreferrer">2504.03636</a><br><br>
 
 <li value="60">
 <b>Scalar Field Fluctuations and the Production of Dark Matter</b>.<br>
   Marcos A.G. Garcia, Wenqi Ke, Yann Mambrini, Keith A. Olive, Sarunas Verner. <br>
-   arXiv: <a href="https://arxiv.org/abs/2502.20471" target="_blank" rel="noopener noreferrer">2502.20471</a><br><br>
+   <i>JCAP 08 (2025) 039</i>. arXiv: <a href="https://arxiv.org/abs/2502.20471" target="_blank" rel="noopener noreferrer">2502.20471</a><br><br>
    
 <li value="59">
 <b>Dynamics of Z_N domain walls with bias directions</b>.<br>
@@ -47,17 +87,17 @@ appear here, please let us know and we will gladly include it!
 <li value="58">
 <b>Higgs-Induced Gravitational Waves: the Interplay of Non-Minimal Couplings, Kination and Top Quark Mass</b>.<br>
    Giorgio Laverda, Javier Rubio. <br>
-   arXiv: <a href="https://arxiv.org/abs/2502.04445" target="_blank" rel="noopener noreferrer">2502.04445</a><br><br>
+   <i>JHEP 08 (2025) 203</i>. arXiv: <a href="https://arxiv.org/abs/2502.04445" target="_blank" rel="noopener noreferrer">2502.04445</a><br><br>
    
 <li value="57">
 <b>A universal bound on the duration of a kination era</b>.<br>
    Cem Eröncel, Yann Gouttenoire, Ryosuke Sato, Géraldine Servant, Peera Simakachorn. <br>
-   arXiv: <a href="https://arxiv.org/abs/2501.17226" target="_blank" rel="noopener noreferrer">2501.17226</a><br><br>
+   <i>Phys.Rev.Lett. 135 (2025) 10, 101002</i>. arXiv: <a href="https://arxiv.org/abs/2501.17226" target="_blank" rel="noopener noreferrer">2501.17226</a><br><br>
 
 <li value="56">
 <b>Ephemeral Oscillons in Scalar-Tensor Theories: The Higgs-like case</b>.<br>
    Matteo Piani, Javier Rubio, Francisco Torrenti. <br>
-   arXiv: <a href="https://arxiv.org/abs/2501.14869" target="_blank" rel="noopener noreferrer">2501.14869</a><br><br>
+   <i>JCAP 06 (2025) 024</i>. arXiv: <a href="https://arxiv.org/abs/2501.14869" target="_blank" rel="noopener noreferrer">2501.14869</a><br><br>
    
 <li value="55">
 <b>Inflaton Self Resonance, Oscillons, and Gravitational Waves in Small Field Polynomial Inflation</b>.<br>
@@ -110,9 +150,9 @@ appear here, please let us know and we will gladly include it!
    <i>JCAP 05 (2025) 060</i>. arXiv: <a href="https://arxiv.org/abs/2408.11889" target="_blank" rel="noopener noreferrer">2408.11889</a><br><br>
    
 <li value="45">
-<b>Gravitational Wave Emission from Cosmic String Loops, II: Local Case</b>.<br>
+<b>Particle and gravitational wave emission by local string loops: Lattice calculation</b>.<br>
    Jorge Baeza-Ballesteros, Edmund J. Copeland, Daniel G. Figueroa, Joanes Lizarraga. <br>
-   arXiv: <a href="https://arxiv.org/abs/2408.02364" target="_blank" rel="noopener noreferrer">2408.02364</a><br><br>
+   <i>Phys.Rev.D 112 (2025) 4, 043540</i>. arXiv: <a href="https://arxiv.org/abs/2408.02364" target="_blank" rel="noopener noreferrer">2408.02364</a><br><br>
 
 <li value="44">
 <b>Tachyonic production of dark relics: classical lattice vs. quantum 2PI in Hartree truncation</b>.<br>
