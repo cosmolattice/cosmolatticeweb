@@ -47,9 +47,8 @@ D. G. Figueroa ................. IFIC, Valencia, Spain<br />
 N. Loayza ......................... IFIC, Valencia, Spain<br />
 K. Marschall .................... IFIC, Valencia, Spain<br />
 A. S. Midiri ....................... University of Geneva, Switzerland<br />
-T. Opferkuch ................... SISSA, Trieste, Italy<br />
 A. Roper Pol .................... University of Geneva, Switzerland<br />
-B. A. Stefanek .................. IFIC, Valencia, Spain<br />
+F. R. Sattler ....................... Bielefeld University, Germany<br />
 F. Torrenti ........................ University of Barcelona, Barcelona, Spain<br />
 A. Urio .............................. UPV/EHU, Bilbao, Spain</p>
 
