@@ -8,8 +8,6 @@ IBS, Daejeon, South Korea - 22nd-26th September 2025</a></b></font></div>
 
 <p>We are pleased to announce the third edition of our school on lattice techniques for cosmology. The event will take place from September 22 to 26, 2025, at the Institute for Basic Science (IBS) in Daejeon, South Korea.</p>
 
-<p><strong>Registration will open on June 20th 2025.</strong></p>
-
 <p>This school offers a pedagogical introduction to lattice field theory techniques and their application to the simulation of interacting fields in an expanding Universe. Participants will also be introduced to <a href="http://cosmolattice.net">CosmoLattice</a>, an open-access code designed for such simulations. The school will provide a comprehensive guide to using CosmoLattice for modeling the non-linear dynamics of scalar and gauge fields in cosmological contexts.</p>
 
 <p>The school is aimed to anyone who would like to learn (or simply improve their knowledge on) how to simulate in a lattice the dynamics of early Universe field theory scenarios. Topics covered include:</p>
@@ -59,6 +57,8 @@ A. Urio .............................. UPV/EHU, Bilbao, Spain</p>
 
 
 <p><strong>Organizers: </strong>Mohammad Ali Gorji,&nbsp;Daniel G. Figueroa, Dong-Won Jung, Masahide Yamaguchi</p>
+
+<p><strong>Scientific secretaries: </strong>Jorge Baeza-Ballesteros, Antonino S. Midiri</p>
 
 <p><br />
 We look forward to seeing you in Daejeon!</p>
