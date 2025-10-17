@@ -8,11 +8,26 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** September 5th, 2025
+**Last update:** October 17th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+<li value="75">
+<b>Hydrodynamic models of Reheating</b>.<br>
+  Juan Pablo Elía, Lucas Cantarutti, Nahuel Mirón-Granese, Esteban Calzetta<br>
+   arXiv: <a href="https://arxiv.org/abs/2510.08685" target="_blank" rel="noopener noreferrer">2510.08685</a><br><br>
+   
+<li value="74">
+<b>Cosmic domain walls on a lattice: illusive effects of initial conditions</b>.<br>
+   I. Dankovsky, S. Ramazanov, E. Babichev, D. Gorbunov, A. Vikman<br>
+   arXiv: <a href="https://arxiv.org/abs/2509.25367" target="_blank" rel="noopener noreferrer">2509.25367</a><br><br>
+   
+<li value="73">
+<b>Revisiting axion dark matter with nonlinear transitions</b>.<br>
+   Max Miyazaki, Yuma Narita, Deheng Song, Nemin Yaginuma, Wen Yin<br>
+   arXiv: <a href="https://arxiv.org/abs/2509.13292" target="_blank" rel="noopener noreferrer">2509.13292</a><br><br>
 
 <li value="72">
 <b>Enhancement of first-order phase transitions through a mass-acquiring scalar field</b>.<br>
@@ -47,7 +62,7 @@ appear here, please let us know and we will gladly include it!
 <li value="66">
 <b>Kinetic Fragmentation of the QCD Axion on the Lattice</b>.<br>
   Matteo Fasiello, Joanes Lizarraga, Alexandros Papageorgiou, Ander Urio.<br>
-   arXiv: <a href="https://arxiv.org/abs/2507.01822" target="_blank" rel="noopener noreferrer">2507.01822</a><br><br>
+   <i>JCAP 09 (2025) 019</i>. arXiv: <a href="https://arxiv.org/abs/2507.01822" target="_blank" rel="noopener noreferrer">2507.01822</a><br><br>
 
 <li value="65">
 <b>Testing Nambu-Goto approximation of cosmic string by lattice field simulations</b>.<br>
@@ -237,7 +252,7 @@ appear here, please let us know and we will gladly include it!
 <li value="28">
 <b>Cosmic Simulations of Axion String-Wall Networks: Probing Dark Matter and Gravitational Waves for Discovery</b>.<br>
    Yang Li, Ligong Bian, Rong-Gen Cai, Jing Shu. <br>
-   arXiv: <a href="https://arxiv.org/abs/2311.02011" target="_blank" rel="noopener noreferrer">2311.02011</a><br><br>
+   <i>JCAP 08 (2025) 091</i>. arXiv: <a href="https://arxiv.org/abs/2311.02011" target="_blank" rel="noopener noreferrer">2311.02011</a><br><br>
 
 <li value="27">
 <b>Gravitational Wave Symphony from Oscillating Spectator Scalar Fields</b>.<br>
