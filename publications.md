@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** October 17th, 2025
+**Last update:** November 7th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+   
+   <li value="77">
+<b>Dark Matter Freeze-in from a Z' Reheaton</b>.<br>
+  Avirup Ghosh, Alexei H. Sopov, Raymond R. Volkas<br>
+   arXiv: <a href="https://arxiv.org/abs/2511.02184" target="_blank" rel="noopener noreferrer">2511.02184</a><br><br>
+   
+   <li value="76">
+<b>Production of Gravitational Waves from Preheating and Tachyonic Instabilities</b>.<br>
+  Khursid Alam, Koushik Dutta, Ahamadullah Khan<br>
+   arXiv: <a href="https://arxiv.org/abs/2510.27586" target="_blank" rel="noopener noreferrer">2510.27586</a><br><br>
 
 <li value="75">
 <b>Hydrodynamic models of Reheating</b>.<br>
@@ -47,7 +57,7 @@ appear here, please let us know and we will gladly include it!
 <li value="69">
 <b>Equation of state during (p)reheating with trilinear interactions</b>.<br>
   Stefan Antusch, Kenneth Marschall, Francisco Torrenti.<br>
-   arXiv: <a href="https://arxiv.org/abs/2507.13465" target="_blank" rel="noopener noreferrer">2507.13465</a><br><br>
+   <i>JCAP 11 (2025) 002</i>. arXiv: <a href="https://arxiv.org/abs/2507.13465" target="_blank" rel="noopener noreferrer">2507.13465</a><br><br>
    
 <li value="68">
 <b>Self-Tracking Solutions for Asymptotic Scalar Fields</b>.<br>
@@ -82,7 +92,7 @@ appear here, please let us know and we will gladly include it!
 <li value="62">
 <b>Biased domain walls: faster annihilation, weaker gravitational waves</b>.<br>
   E. Babichev, I. Dankovsky, D. Gorbunov, S. Ramazanov, A. Vikman. <br>
-   arXiv: <a href="https://arxiv.org/abs/2504.07902" target="_blank" rel="noopener noreferrer">2504.07902</a><br><br>
+   <i>JCAP 10 (2025) 103</i>. arXiv: <a href="https://arxiv.org/abs/2504.07902" target="_blank" rel="noopener noreferrer">2504.07902</a><br><br>
 
 <li value="61">
 <b>The Spectrum of Gravitational Waves from Annihilating Domain Walls</b>.<br>
