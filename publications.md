@@ -14,95 +14,100 @@ appear here, please let us know and we will gladly include it!
 
 <ol>
 
-   <li value="77">
+   <li value="79">
 <b>Domain walls in the scaling regime: Equal Time Correlator and Gravitational Waves</b>.<br>
    Simone Blasi, Alberto Mariotti, Aäron Rase, Miguel Vanvlasselaer<br>
    arXiv: <a href="https://arxiv.org/abs/2511.16649" target="_blank" rel="noopener noreferrer">2511.16649</a><br><br>
    
-   <li value="77">
+   <li value="78">
 <b>Dark Matter Freeze-in from a Z' Reheaton</b>.<br>
   Avirup Ghosh, Alexei H. Sopov, Raymond R. Volkas<br>
    arXiv: <a href="https://arxiv.org/abs/2511.02184" target="_blank" rel="noopener noreferrer">2511.02184</a><br><br>
    
-   <li value="76">
+   <li value="77">
 <b>Production of Gravitational Waves from Preheating and Tachyonic Instabilities</b>.<br>
   Khursid Alam, Koushik Dutta, Ahamadullah Khan<br>
    arXiv: <a href="https://arxiv.org/abs/2510.27586" target="_blank" rel="noopener noreferrer">2510.27586</a><br><br>
 
-<li value="75">
+<li value="76">
 <b>Hydrodynamic models of Reheating</b>.<br>
   Juan Pablo Elía, Lucas Cantarutti, Nahuel Mirón-Granese, Esteban Calzetta<br>
    arXiv: <a href="https://arxiv.org/abs/2510.08685" target="_blank" rel="noopener noreferrer">2510.08685</a><br><br>
    
-<li value="74">
+<li value="75">
 <b>Cosmic domain walls on a lattice: illusive effects of initial conditions</b>.<br>
    I. Dankovsky, S. Ramazanov, E. Babichev, D. Gorbunov, A. Vikman<br>
    arXiv: <a href="https://arxiv.org/abs/2509.25367" target="_blank" rel="noopener noreferrer">2509.25367</a><br><br>
    
-<li value="73">
+<li value="74">
 <b>Revisiting axion dark matter with nonlinear transitions</b>.<br>
    Max Miyazaki, Yuma Narita, Deheng Song, Nemin Yaginuma, Wen Yin<br>
    arXiv: <a href="https://arxiv.org/abs/2509.13292" target="_blank" rel="noopener noreferrer">2509.13292</a><br><br>
 
-<li value="72">
+<li value="73">
 <b>Enhancement of first-order phase transitions through a mass-acquiring scalar field</b>.<br>
   Yuan-Jie Li, Jing Liu, Zong-Kuan Guo<br>
    <i>Phys.Rev.D 112 (2025) 10, 103510</i>. arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
 
-<li value="71">
+<li value="72">
 <b>Preheating and gravitational waves in large-field hilltop inflation</b>.<br>
   Diganta Das, Shreyas Revankar<br>
    arXiv: <a href="https://arxiv.org/abs/2508.07442" target="_blank" rel="noopener noreferrer">2508.07442</a><br><br>
 
-<li value="70">
+<li value="71">
 <b>(Non-)Perturbative Dynamics of a Light QCD Axion: Dark Matter and the Strong CP Problem</b>.<br>
   Raymond T. Co, Taegyu Lee, Owen P. Leonard<br>
    arXiv: <a href="https://arxiv.org/abs/2508.00979" target="_blank" rel="noopener noreferrer">2508.00979</a><br><br>
 
-<li value="69">
+<li value="70">
 <b>Equation of state during (p)reheating with trilinear interactions</b>.<br>
   Stefan Antusch, Kenneth Marschall, Francisco Torrenti.<br>
    <i>JCAP 11 (2025) 002</i>. arXiv: <a href="https://arxiv.org/abs/2507.13465" target="_blank" rel="noopener noreferrer">2507.13465</a><br><br>
    
-<li value="68">
+<li value="69">
 <b>Self-Tracking Solutions for Asymptotic Scalar Fields</b>.<br>
   Martin Mosny, Joseph P. Conlon, Edmund J. Copeland.<br>
    arXiv: <a href="https://arxiv.org/abs/2507.04161" target="_blank" rel="noopener noreferrer">2507.04161</a><br><br>
    
-<li value="67">
+<li value="68">
 <b>Relativistic Axion with Nonrelativistic Momenta: A Robust Bound on Minimal ALP Dark Matter</b>.<br>
   Yuma Narita, Wen Yin.<br>
 	arXiv: <a href="https://arxiv.org/abs/2507.03157" target="_blank" rel="noopener noreferrer">2507.03157</a><br><br>
 
-<li value="66">
+<li value="67">
 <b>Kinetic Fragmentation of the QCD Axion on the Lattice</b>.<br>
   Matteo Fasiello, Joanes Lizarraga, Alexandros Papageorgiou, Ander Urio.<br>
    <i>JCAP 09 (2025) 019</i>. arXiv: <a href="https://arxiv.org/abs/2507.01822" target="_blank" rel="noopener noreferrer">2507.01822</a><br><br>
 
-<li value="65">
+<li value="66">
 <b>Testing Nambu-Goto approximation of cosmic string by lattice field simulations</b>.<br>
   Zizhuo Zhao, Ligong Bian, Jing Shu.<br>
    arXiv: <a href="https://arxiv.org/abs/2507.00685" target="_blank" rel="noopener noreferrer">2507.00685</a><br><br>
 
-<li value="64">
+<li value="65">
 <b>Comparative study of the strong backreaction regime in axion inflation: the effect of the potential</b>.<br>
   Joanes Lizarraga, Carmelo López-Mediavilla, Ander Urio.<br>
    <i>JCAP 11 (2025) 020</i>. arXiv: <a href="https://arxiv.org/abs/2505.19950" target="_blank" rel="noopener noreferrer">2505.19950</a><br><br>
    
-   <li value="63">
+<li value="64">
 <b>Numerical simulations on First-order phase transition through thermal fluctuation</b>.<br>
   Ligong Bian, Yuefeng Di, Yongtao Jia, Yang Li, Kehao Zeng.<br>
    arXiv: <a href="https://arxiv.org/abs/2505.15360" target="_blank" rel="noopener noreferrer">2505.15360</a><br><br>
 
-<li value="62">
+<li value="63">
 <b>Biased domain walls: faster annihilation, weaker gravitational waves</b>.<br>
   E. Babichev, I. Dankovsky, D. Gorbunov, S. Ramazanov, A. Vikman. <br>
    <i>JCAP 10 (2025) 103</i>. arXiv: <a href="https://arxiv.org/abs/2504.07902" target="_blank" rel="noopener noreferrer">2504.07902</a><br><br>
 
-<li value="61">
+<li value="62">
 <b>The Spectrum of Gravitational Waves from Annihilating Domain Walls</b>.<br>
   Alessio Notari, Fabrizio Rompineve, Francisco Torrenti. <br>
    <i>JCAP 07 (2025) 049</i>. arXiv: <a href="https://arxiv.org/abs/2504.03636" target="_blank" rel="noopener noreferrer">2504.03636</a><br><br>
+
+<li value="61">
+<b>Two or three things particle physicists (mis)understand about (pre)heating</b>.<br>
+  Basabendu Barman, Nicolás Bernal, Javier Rubio. <br>
+   <i>Nucl.Phys.B 1018 (2025) 116996</i>. arXiv: <a href="https://arxiv.org/abs/2503.19980" target="_blank" rel="noopener noreferrer">2503.19980</a><br><br>
 
 <li value="60">
 <b>Scalar Field Fluctuations and the Production of Dark Matter</b>.<br>
