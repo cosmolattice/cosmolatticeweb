@@ -8,11 +8,16 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** November 7th, 2025
+**Last update:** November 21st, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+   <li value="77">
+<b>Domain walls in the scaling regime: Equal Time Correlator and Gravitational Waves</b>.<br>
+   Simone Blasi, Alberto Mariotti, Aäron Rase, Miguel Vanvlasselaer<br>
+   arXiv: <a href="https://arxiv.org/abs/2511.16649" target="_blank" rel="noopener noreferrer">2511.16649</a><br><br>
    
    <li value="77">
 <b>Dark Matter Freeze-in from a Z' Reheaton</b>.<br>
@@ -42,7 +47,7 @@ appear here, please let us know and we will gladly include it!
 <li value="72">
 <b>Enhancement of first-order phase transitions through a mass-acquiring scalar field</b>.<br>
   Yuan-Jie Li, Jing Liu, Zong-Kuan Guo<br>
-   arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
+   <i>Phys.Rev.D 112 (2025) 10, 103510</i>. arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
 
 <li value="71">
 <b>Preheating and gravitational waves in large-field hilltop inflation</b>.<br>
@@ -82,7 +87,7 @@ appear here, please let us know and we will gladly include it!
 <li value="64">
 <b>Comparative study of the strong backreaction regime in axion inflation: the effect of the potential</b>.<br>
   Joanes Lizarraga, Carmelo López-Mediavilla, Ander Urio.<br>
-   arXiv: <a href="https://arxiv.org/abs/2505.19950" target="_blank" rel="noopener noreferrer">2505.19950</a><br><br>
+   <i>JCAP 11 (2025) 020</i>. arXiv: <a href="https://arxiv.org/abs/2505.19950" target="_blank" rel="noopener noreferrer">2505.19950</a><br><br>
    
    <li value="63">
 <b>Numerical simulations on First-order phase transition through thermal fluctuation</b>.<br>
@@ -142,7 +147,7 @@ appear here, please let us know and we will gladly include it!
 <li value="52">
 <b>Feebly-Interacting Peccei-Quinn Model</b>.<br>
    Wen Yin. <br>
-   arXiv: <a href="https://arxiv.org/abs/2412.17802" target="_blank" rel="noopener noreferrer">2412.17802</a><br><br>
+   <i>JHEP 10 (2025) 177</i>. arXiv: <a href="https://arxiv.org/abs/2412.17802" target="_blank" rel="noopener noreferrer">2412.17802</a><br><br>
 
 <li value="51">
 <b>The Origin Symphony: Probing Baryogenesis with Gravitational Waves</b>.<br>
