@@ -117,7 +117,7 @@ appear here, please let us know and we will gladly include it!
 <li value="59">
 <b>Dynamics of Z_N domain walls with bias directions</b>.<br>
    Yuan-Jie Li, Jing Liu, Zong-Kuan Guo. <br>
-   arXiv: <a href="https://arxiv.org/abs/2502.13644" target="_blank" rel="noopener noreferrer">2502.13644</a><br><br>
+   <i>Phys.Rev.D 112 (2025) 10, 103510</i>. arXiv: <a href="https://arxiv.org/abs/2502.13644" target="_blank" rel="noopener noreferrer">2502.13644</a><br><br>
    
 <li value="58">
 <b>Higgs-Induced Gravitational Waves: the Interplay of Non-Minimal Couplings, Kination and Top Quark Mass</b>.<br>
