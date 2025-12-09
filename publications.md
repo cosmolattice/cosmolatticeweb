@@ -8,11 +8,16 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** November 21st, 2025
+**Last update:** December 9th, 2025
 
 ### List of papers:<br><br> 
 
 <ol>
+
+   <li value="80">
+<b>Domain Wall formation from Z2 spontaneous symmetry breaking/restoration in Scalar-Einstein-Gauss-Bonnet theory</b>.<br>
+   Maxim Krasnov, Daulet Berkimbayev, Andrea Addazi, Yermek Aldabergenov, Maxim Khlopov<br>
+   arXiv: <a href="https://arxiv.org/abs/2512.05715" target="_blank" rel="noopener noreferrer">2512.05715</a><br><br>
 
    <li value="79">
 <b>Domain walls in the scaling regime: Equal Time Correlator and Gravitational Waves</b>.<br>
@@ -47,7 +52,7 @@ appear here, please let us know and we will gladly include it!
 <li value="73">
 <b>Enhancement of first-order phase transitions through a mass-acquiring scalar field</b>.<br>
   Yuan-Jie Li, Jing Liu, Zong-Kuan Guo<br>
-   <i>Phys.Rev.D 112 (2025) 10, 103510</i>. arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
+   arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
 
 <li value="72">
 <b>Preheating and gravitational waves in large-field hilltop inflation</b>.<br>
@@ -55,9 +60,9 @@ appear here, please let us know and we will gladly include it!
    arXiv: <a href="https://arxiv.org/abs/2508.07442" target="_blank" rel="noopener noreferrer">2508.07442</a><br><br>
 
 <li value="71">
-<b>(Non-)Perturbative Dynamics of a Light QCD Axion: Dark Matter and the Strong CP Problem</b>.<br>
+<b>Nonperturbative and perturbative dynamics of a light QCD axion: Dark matter and the strong CP problem</b>.<br>
   Raymond T. Co, Taegyu Lee, Owen P. Leonard<br>
-   arXiv: <a href="https://arxiv.org/abs/2508.00979" target="_blank" rel="noopener noreferrer">2508.00979</a><br><br>
+   <i>Phys.Rev.D 112 (2025) 11, 115007</i>. arXiv: <a href="https://arxiv.org/abs/2508.00979" target="_blank" rel="noopener noreferrer">2508.00979</a><br><br>
 
 <li value="70">
 <b>Equation of state during (p)reheating with trilinear interactions</b>.<br>
