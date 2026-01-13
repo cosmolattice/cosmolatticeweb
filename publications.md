@@ -19,12 +19,12 @@ appear here, please let us know and we will gladly include it!
    Giorgio Laverda, Tomás Mendes, Javier Rubio<br>
    arXiv: <a href="https://arxiv.org/abs/2601.07670" target="_blank" rel="noopener noreferrer">2601.07670</a><br><br>
    
-      <li value="82">
+   <li value="82">
 <b>Acoustic gravitational waves from primordial curvature perturbations</b>.<br>
    Zhuan Ning, Zi-Yan Yuwen, Xiang-Xi Zeng, Rong-Gen Cai, Shao-Jiang Wang<br>
    arXiv: <a href="https://arxiv.org/abs/2512.21151" target="_blank" rel="noopener noreferrer">2512.21151</a><br><br>
    
-      <li value="81">
+   <li value="81">
 <b>The art of simulating the early Universe. Part II</b>.<br>
    Jorge Baeza-Ballesteros, Daniel G. Figueroa, Adrien Florio, Joanes Lizarraga, Nicolás Loayza, Kenneth Marschall, Toby Opferkuch, Ben A. Stefanek, Francisco Torrentí, Ander Urio<br>
    arXiv: <a href="https://arxiv.org/abs/2512.15627" target="_blank" rel="noopener noreferrer">2512.15627</a><br><br>
