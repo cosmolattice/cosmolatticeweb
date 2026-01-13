@@ -13,7 +13,6 @@ appear here, please let us know and we will gladly include it!
 ### List of papers:<br><br> 
 
 <ol>
-
    <li value="83">
 <b>Tachyonic gravitational dark matter production after inflation</b>.<br>
    Giorgio Laverda, Tomás Mendes, Javier Rubio<br>
