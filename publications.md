@@ -14,6 +14,21 @@ appear here, please let us know and we will gladly include it!
 
 <ol>
 
+   <li value="83">
+<b>Tachyonic gravitational dark matter production after inflation</b>.<br>
+   Giorgio Laverda, Tomás Mendes, Javier Rubio<br>
+   arXiv: <a href="https://arxiv.org/abs/2601.07670" target="_blank" rel="noopener noreferrer">2601.07670</a><br><br>
+   
+      <li value="82">
+<b>Acoustic gravitational waves from primordial curvature perturbations</b>.<br>
+   Zhuan Ning, Zi-Yan Yuwen, Xiang-Xi Zeng, Rong-Gen Cai, Shao-Jiang Wang<br>
+   arXiv: <a href="https://arxiv.org/abs/2512.21151" target="_blank" rel="noopener noreferrer">2512.21151</a><br><br>
+   
+      <li value="81">
+<b>The art of simulating the early Universe. Part II</b>.<br>
+   Jorge Baeza-Ballesteros, Daniel G. Figueroa, Adrien Florio, Joanes Lizarraga, Nicolás Loayza, Kenneth Marschall, Toby Opferkuch, Ben A. Stefanek, Francisco Torrentí, Ander Urio<br>
+   arXiv: <a href="https://arxiv.org/abs/2512.15627" target="_blank" rel="noopener noreferrer">2512.15627</a><br><br>
+
    <li value="80">
 <b>Domain Wall formation from Z2 spontaneous symmetry breaking/restoration in Scalar-Einstein-Gauss-Bonnet theory</b>.<br>
    Maxim Krasnov, Daulet Berkimbayev, Andrea Addazi, Yermek Aldabergenov, Maxim Khlopov<br>
@@ -42,7 +57,7 @@ appear here, please let us know and we will gladly include it!
 <li value="75">
 <b>Cosmic domain walls on a lattice: illusive effects of initial conditions</b>.<br>
    I. Dankovsky, S. Ramazanov, E. Babichev, D. Gorbunov, A. Vikman<br>
-   arXiv: <a href="https://arxiv.org/abs/2509.25367" target="_blank" rel="noopener noreferrer">2509.25367</a><br><br>
+   <i>Phys.Rev.D 112 (2025) 12, 123521</i>. arXiv: <a href="https://arxiv.org/abs/2509.25367" target="_blank" rel="noopener noreferrer">2509.25367</a><br><br>
    
 <li value="74">
 <b>Revisiting axion dark matter with nonlinear transitions</b>.<br>
@@ -72,7 +87,7 @@ appear here, please let us know and we will gladly include it!
 <li value="69">
 <b>Self-Tracking Solutions for Asymptotic Scalar Fields</b>.<br>
   Martin Mosny, Joseph P. Conlon, Edmund J. Copeland.<br>
-   arXiv: <a href="https://arxiv.org/abs/2507.04161" target="_blank" rel="noopener noreferrer">2507.04161</a><br><br>
+   <i>JHEP 12 (2025) 135</i>. arXiv: <a href="https://arxiv.org/abs/2507.04161" target="_blank" rel="noopener noreferrer">2507.04161</a><br><br>
    
 <li value="68">
 <b>Relativistic Axion with Nonrelativistic Momenta: A Robust Bound on Minimal ALP Dark Matter</b>.<br>
