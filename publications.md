@@ -8,7 +8,7 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** December 9th, 2025
+**Last update:** January 13th, 2026
 
 ### List of papers:<br><br> 
 
