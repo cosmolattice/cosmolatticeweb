@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** January 13th, 2026
+**Last update:** January 28th, 2026
 
 ### List of papers:<br><br> 
 
 <ol>
+   <li value="85">
+<b>Q-balls from thermal balls during a first-order phase transition: a numerical study</b>.<br>
+   Yuan-Jie Li, Jing Liu, Zong-Kuan Guo<br>
+   arXiv: <a href="https://arxiv.org/abs/2601.19150" target="_blank" rel="noopener noreferrer">2601.19150</a><br><br>
+   
+   <li value="84">
+<b>Classical equipartition dynamics between axions and non-Abelian gauge fields</b>.<br>
+   Kim V. Berghaus, Adrien Florio, M. Laine, Franz R. Sattler<br>
+   arXiv: <a href="https://arxiv.org/abs/2601.09784" target="_blank" rel="noopener noreferrer">2601.09784</a><br><br>
+
    <li value="83">
 <b>Tachyonic gravitational dark matter production after inflation</b>.<br>
    Giorgio Laverda, Tomás Mendes, Javier Rubio<br>
@@ -51,7 +61,7 @@ appear here, please let us know and we will gladly include it!
 <li value="76">
 <b>Hydrodynamic models of Reheating</b>.<br>
   Juan Pablo Elía, Lucas Cantarutti, Nahuel Mirón-Granese, Esteban Calzetta<br>
-   arXiv: <a href="https://arxiv.org/abs/2510.08685" target="_blank" rel="noopener noreferrer">2510.08685</a><br><br>
+   <i>Phys.Rev.D 113 (2026) 2, 023530</i>. arXiv: <a href="https://arxiv.org/abs/2510.08685" target="_blank" rel="noopener noreferrer">2510.08685</a><br><br>
    
 <li value="75">
 <b>Cosmic domain walls on a lattice: illusive effects of initial conditions</b>.<br>
@@ -174,9 +184,9 @@ appear here, please let us know and we will gladly include it!
    <i>JHEP 10 (2025) 177</i>. arXiv: <a href="https://arxiv.org/abs/2412.17802" target="_blank" rel="noopener noreferrer">2412.17802</a><br><br>
 
 <li value="51">
-<b>The Origin Symphony: Probing Baryogenesis with Gravitational Waves</b>.<br>
+<b>Probing baryogenesis with gravitational waves</b>.<br>
    Yanou Cui, Anish Ghoshal, Pankaj Saha, Evangelos I. Sfakianakis. <br>
-   arXiv: <a href="https://arxiv.org/abs/2412.12287" target="_blank" rel="noopener noreferrer">2412.12287</a><br><br>
+   <i>Phys.Rev.D 113 (2026) 2, L021304</i>. arXiv: <a href="https://arxiv.org/abs/2412.12287" target="_blank" rel="noopener noreferrer">2412.12287</a><br><br>
 
 <li value="50">
 <b>Cosmological simulation of axion-Higgs strings: Gravitational waves and dark matter</b>.<br>
