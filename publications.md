@@ -8,11 +8,31 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** January 28th, 2026
+**Last update:** February 23th, 2026
 
 ### List of papers:<br><br> 
 
 <ol>
+   <li value="89">
+<b>Hubble-Scale Tachyonic Shocks from Low-Scale Inflation -- A New Gravitational-Wave Window on Inflation</b>.<br>
+   Haruto Masubuchi, Yuma Narita, Wen Yin<br>
+   arXiv: <a href="https://arxiv.org/abs/2602.15825" target="_blank" rel="noopener noreferrer">2602.15825</a><br><br>
+
+   <li value="88">
+<b>Quintessence with tachyonic resonance and late-time cosmic-microwave-background and gravitational-wave signals</b>.<br>
+   Shun Yoshioka, Kiyotomo Ichiki, Yuichiro Tada, Takahiro Terada<br>
+   arXiv: <a href="https://arxiv.org/abs/2602.14389" target="_blank" rel="noopener noreferrer">2602.14389</a><br><br>
+
+   <li value="87">
+<b>Self-resonance preheating in deformed attractor models: oscillon formation and evolution</b>.<br>
+   Bao-Min Gu, Yu-Peng Zhang, Fu-Wen Shu, Yu-Xiao Liu<br>
+   arXiv: <a href="https://arxiv.org/abs/2602.07972" target="_blank" rel="noopener noreferrer">2602.07972</a><br><br>
+
+   <li value="86">
+<b>ACT DR6+Planck impact on inflation with non-zero vacuum expectation value and the post-inflationary behavior</b>.<br>
+   F.B.M. dos Santos, J.G. Rodrigues, G. Rodrigues, C. Siqueira, J.S. Alcaniz<br>
+   arXiv: <a href="https://arxiv.org/abs/2602.06027" target="_blank" rel="noopener noreferrer">2602.06027</a><br><br>
+
    <li value="85">
 <b>Q-balls from thermal balls during a first-order phase transition: a numerical study</b>.<br>
    Yuan-Jie Li, Jing Liu, Zong-Kuan Guo<br>
@@ -71,12 +91,12 @@ appear here, please let us know and we will gladly include it!
 <li value="74">
 <b>Revisiting axion dark matter with nonlinear transitions</b>.<br>
    Max Miyazaki, Yuma Narita, Deheng Song, Nemin Yaginuma, Wen Yin<br>
-   arXiv: <a href="https://arxiv.org/abs/2509.13292" target="_blank" rel="noopener noreferrer">2509.13292</a><br><br>
+   <i>JHEP 01 (2026) 132</i>. arXiv: <a href="https://arxiv.org/abs/2509.13292" target="_blank" rel="noopener noreferrer">2509.13292</a><br><br>
 
 <li value="73">
-<b>Enhancement of first-order phase transitions through a mass-acquiring scalar field</b>.<br>
+<b>Dynamical backreaction of a mass-acquiring scalar field on first-order phase transitions</b>.<br>
   Yuan-Jie Li, Jing Liu, Zong-Kuan Guo<br>
-   arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
+   <i>Phys.Rev.D 113 (2026) 2, 023550</i>. arXiv: <a href="https://arxiv.org/abs/2508.14665" target="_blank" rel="noopener noreferrer">2508.14665</a><br><br>
 
 <li value="72">
 <b>Preheating and gravitational waves in large-field hilltop inflation</b>.<br>
