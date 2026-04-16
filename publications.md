@@ -8,11 +8,16 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** February 23th, 2026
+**Last update:** April 16, 2026
 
 ### List of papers:<br><br> 
 
 <ol>
+   <li value="90">
+   <b>Gravitational Waves from Matter Perturbations of Spectator Scalar Fields</b>.<br>
+   Marcos A.G. Garcia, Angel Garcia-Vega, Sarunas Verner<br>
+   arXiv: <a href="https://arxiv.org/abs/2604.05078" target="_blank" rel="noopener noreferrer">2604.05078</a><br><br>
+
    <li value="89">
 <b>Hubble-Scale Tachyonic Shocks from Low-Scale Inflation -- A New Gravitational-Wave Window on Inflation</b>.<br>
    Haruto Masubuchi, Yuma Narita, Wen Yin<br>
@@ -91,7 +96,7 @@ appear here, please let us know and we will gladly include it!
 <li value="74">
 <b>Revisiting axion dark matter with nonlinear transitions</b>.<br>
    Max Miyazaki, Yuma Narita, Deheng Song, Nemin Yaginuma, Wen Yin<br>
-   <i>JHEP 01 (2026) 132</i>. arXiv: <a href="https://arxiv.org/abs/2509.13292" target="_blank" rel="noopener noreferrer">2509.13292</a><br><br>
+   arXiv: <a href="https://arxiv.org/abs/2509.13292" target="_blank" rel="noopener noreferrer">2509.13292</a><br><br>
 
 <li value="73">
 <b>Dynamical backreaction of a mass-acquiring scalar field on first-order phase transitions</b>.<br>
@@ -121,7 +126,7 @@ appear here, please let us know and we will gladly include it!
 <li value="68">
 <b>Relativistic Axion with Nonrelativistic Momenta: A Robust Bound on Minimal ALP Dark Matter</b>.<br>
   Yuma Narita, Wen Yin.<br>
-	arXiv: <a href="https://arxiv.org/abs/2507.03157" target="_blank" rel="noopener noreferrer">2507.03157</a><br><br>
+   <i>JHEP 01 (2026) 132 </i>. arXiv: <a href="https://arxiv.org/abs/2507.03157" target="_blank" rel="noopener noreferrer">2507.03157</a><br><br>
 
 <li value="67">
 <b>Kinetic Fragmentation of the QCD Axion on the Lattice</b>.<br>
