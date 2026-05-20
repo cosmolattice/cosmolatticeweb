@@ -8,11 +8,26 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** April 16, 2026
+**Last update:** May 20, 2026
 
 ### List of papers:<br><br> 
 
 <ol>
+   <li value="93">
+   <b>Gravitational Waves from Higgs Preheating after Inflaton Z2-Symmetry Breaking</b>.<br>
+   Hua Zhou, Qing Yu, Wei Cheng, Ruo-Peng Zhang<br>
+   arXiv: <a href="https://arxiv.org/abs/2605.04670" target="_blank" rel="noopener noreferrer">2605.04670</a><br><br>
+
+   <li value="92">
+   <b>Oscillon Formation in Palatini Modified Gravity Theories</b>.<br>
+   Shreyas Upadhye, Sukanta Panda<br>
+   arXiv: <a href="https://arxiv.org/abs/2605.00945" target="_blank" rel="noopener noreferrer">2605.00945</a><br><br>
+
+   <li value="91">
+   <b>Testing α-attractor P-model of inflation by Cosmic Microwave Background radiation</b>.<br>
+   Michał Marciniak, Marek Olechowski, Stefan Pokorski(<br>
+   arXiv: <a href="https://arxiv.org/abs/2604.17430" target="_blank" rel="noopener noreferrer">2604.17430</a><br><br>
+
    <li value="90">
    <b>Gravitational Waves from Matter Perturbations of Spectator Scalar Fields</b>.<br>
    Marcos A.G. Garcia, Angel Garcia-Vega, Sarunas Verner<br>
@@ -51,7 +66,7 @@ appear here, please let us know and we will gladly include it!
    <li value="83">
 <b>Tachyonic gravitational dark matter production after inflation</b>.<br>
    Giorgio Laverda, Tomás Mendes, Javier Rubio<br>
-   arXiv: <a href="https://arxiv.org/abs/2601.07670" target="_blank" rel="noopener noreferrer">2601.07670</a><br><br>
+   <i>JCAP 05 (2026) 053 </i>. arXiv: <a href="https://arxiv.org/abs/2601.07670" target="_blank" rel="noopener noreferrer">2601.07670</a><br><br>
    
    <li value="82">
 <b>Acoustic gravitational waves from primordial curvature perturbations</b>.<br>
@@ -76,7 +91,7 @@ appear here, please let us know and we will gladly include it!
    <li value="78">
 <b>Dark Matter Freeze-in from a Z' Reheaton</b>.<br>
   Avirup Ghosh, Alexei H. Sopov, Raymond R. Volkas<br>
-   arXiv: <a href="https://arxiv.org/abs/2511.02184" target="_blank" rel="noopener noreferrer">2511.02184</a><br><br>
+   <i>JCAP 04 (2026) 047 </i>. arXiv: <a href="https://arxiv.org/abs/2511.02184" target="_blank" rel="noopener noreferrer">2511.02184</a><br><br>
    
    <li value="77">
 <b>Production of Gravitational Waves from Preheating and Tachyonic Instabilities</b>.<br>
@@ -96,7 +111,7 @@ appear here, please let us know and we will gladly include it!
 <li value="74">
 <b>Revisiting axion dark matter with nonlinear transitions</b>.<br>
    Max Miyazaki, Yuma Narita, Deheng Song, Nemin Yaginuma, Wen Yin<br>
-   arXiv: <a href="https://arxiv.org/abs/2509.13292" target="_blank" rel="noopener noreferrer">2509.13292</a><br><br>
+   <i>JHEP 05 (2026) 119</i>. arXiv: <a href="https://arxiv.org/abs/2509.13292" target="_blank" rel="noopener noreferrer">2509.13292</a><br><br>
 
 <li value="73">
 <b>Dynamical backreaction of a mass-acquiring scalar field on first-order phase transitions</b>.<br>
