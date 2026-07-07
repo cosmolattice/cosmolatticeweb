@@ -8,11 +8,21 @@ Here we list some publications that have used CosmoLattice.
 If you have used it in your research and your paper does not
 appear here, please let us know and we will gladly include it!
 
-**Last update:** May 20, 2026
+**Last update:** July 7th, 2026
 
 ### List of papers:<br><br> 
 
 <ol>
+   <li value="95">
+   <b>PBHs and GWs from Scaling Monopoles</b>.<br>
+   Daiki Aburatani, Wakutaka Nakano, Wen Yin<br>
+   arXiv: <a href="https://arxiv.org/abs/2606.31937" target="_blank" rel="noopener noreferrer">2606.31937</a><br><br>
+
+   <li value="94">
+   <b>The limits of lattice inflation: a cautionary tale</b>.<br>
+   Will Barker, Benjamin Gladwyn, Sebastian Zell<br>
+   arXiv: <a href="https://arxiv.org/abs/2606.14853" target="_blank" rel="noopener noreferrer">2606.14853</a><br><br>
+
    <li value="93">
    <b>Gravitational Waves from Higgs Preheating after Inflaton Z2-Symmetry Breaking</b>.<br>
    Hua Zhou, Qing Yu, Wei Cheng, Ruo-Peng Zhang<br>
@@ -36,7 +46,7 @@ appear here, please let us know and we will gladly include it!
    <li value="89">
 <b>Hubble-Scale Tachyonic Shocks from Low-Scale Inflation -- A New Gravitational-Wave Window on Inflation</b>.<br>
    Haruto Masubuchi, Yuma Narita, Wen Yin<br>
-   arXiv: <a href="https://arxiv.org/abs/2602.15825" target="_blank" rel="noopener noreferrer">2602.15825</a><br><br>
+   <i>JCAP 06 (2026) 090</i>. arXiv: <a href="https://arxiv.org/abs/2602.15825" target="_blank" rel="noopener noreferrer">2602.15825</a><br><br>
 
    <li value="88">
 <b>Quintessence with tachyonic resonance and late-time cosmic-microwave-background and gravitational-wave signals</b>.<br>
@@ -49,9 +59,9 @@ appear here, please let us know and we will gladly include it!
    arXiv: <a href="https://arxiv.org/abs/2602.07972" target="_blank" rel="noopener noreferrer">2602.07972</a><br><br>
 
    <li value="86">
-<b>ACT DR6+Planck impact on inflation with non-zero vacuum expectation value and the post-inflationary behavior</b>.<br>
+<b>ACT DR6+Planck data impact on inflation with nonzero vacuum expectation value and the postinflationary behavior</b>.<br>
    F.B.M. dos Santos, J.G. Rodrigues, G. Rodrigues, C. Siqueira, J.S. Alcaniz<br>
-   arXiv: <a href="https://arxiv.org/abs/2602.06027" target="_blank" rel="noopener noreferrer">2602.06027</a><br><br>
+   <i>Phys.Rev.D 113 (2026) 12, 123545</i> arXiv: <a href="https://arxiv.org/abs/2602.06027" target="_blank" rel="noopener noreferrer">2602.06027</a><br><br>
 
    <li value="85">
 <b>Q-balls from thermal balls during a first-order phase transition: a numerical study</b>.<br>
@@ -61,7 +71,7 @@ appear here, please let us know and we will gladly include it!
    <li value="84">
 <b>Classical equipartition dynamics between axions and non-Abelian gauge fields</b>.<br>
    Kim V. Berghaus, Adrien Florio, M. Laine, Franz R. Sattler<br>
-   arXiv: <a href="https://arxiv.org/abs/2601.09784" target="_blank" rel="noopener noreferrer">2601.09784</a><br><br>
+   <i>JCAP 06 (2026) 020</i>. arXiv: <a href="https://arxiv.org/abs/2601.09784" target="_blank" rel="noopener noreferrer">2601.09784</a><br><br>
 
    <li value="83">
 <b>Tachyonic gravitational dark matter production after inflation</b>.<br>
@@ -76,17 +86,17 @@ appear here, please let us know and we will gladly include it!
    <li value="81">
 <b>The art of simulating the early Universe. Part II</b>.<br>
    Jorge Baeza-Ballesteros, Daniel G. Figueroa, Adrien Florio, Joanes Lizarraga, Nicolás Loayza, Kenneth Marschall, Toby Opferkuch, Ben A. Stefanek, Francisco Torrentí, Ander Urio<br>
-   arXiv: <a href="https://arxiv.org/abs/2512.15627" target="_blank" rel="noopener noreferrer">2512.15627</a><br><br>
+   <i>JCAP 06 (2026) 087</i>. arXiv: <a href="https://arxiv.org/abs/2512.15627" target="_blank" rel="noopener noreferrer">2512.15627</a><br><br>
 
    <li value="80">
 <b>Domain Wall formation from Z2 spontaneous symmetry breaking/restoration in Scalar-Einstein-Gauss-Bonnet theory</b>.<br>
    Maxim Krasnov, Daulet Berkimbayev, Andrea Addazi, Yermek Aldabergenov, Maxim Khlopov<br>
-   arXiv: <a href="https://arxiv.org/abs/2512.05715" target="_blank" rel="noopener noreferrer">2512.05715</a><br><br>
+   <i>Phys.Dark Univ. 53 (2026) 102378</i>. arXiv: <a href="https://arxiv.org/abs/2512.05715" target="_blank" rel="noopener noreferrer">2512.05715</a><br><br>
 
    <li value="79">
 <b>Domain walls in the scaling regime: Equal Time Correlator and Gravitational Waves</b>.<br>
    Simone Blasi, Alberto Mariotti, Aäron Rase, Miguel Vanvlasselaer<br>
-   arXiv: <a href="https://arxiv.org/abs/2511.16649" target="_blank" rel="noopener noreferrer">2511.16649</a><br><br>
+   <i>JCAP 06 (2026) 053 </i>. arXiv: <a href="https://arxiv.org/abs/2511.16649" target="_blank" rel="noopener noreferrer">2511.16649</a><br><br>
    
    <li value="78">
 <b>Dark Matter Freeze-in from a Z' Reheaton</b>.<br>
@@ -121,7 +131,7 @@ appear here, please let us know and we will gladly include it!
 <li value="72">
 <b>Preheating and gravitational waves in large-field hilltop inflation</b>.<br>
   Diganta Das, Shreyas Revankar<br>
-   arXiv: <a href="https://arxiv.org/abs/2508.07442" target="_blank" rel="noopener noreferrer">2508.07442</a><br><br>
+   <i>Eur.Phys.J.ST 235 (2026) 7, 1915-1928</i>. arXiv: <a href="https://arxiv.org/abs/2508.07442" target="_blank" rel="noopener noreferrer">2508.07442</a><br><br>
 
 <li value="71">
 <b>Nonperturbative and perturbative dynamics of a light QCD axion: Dark matter and the strong CP problem</b>.<br>
