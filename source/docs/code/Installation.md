@@ -1,6 +1,6 @@
 # Download &amp; Installation
 
-The code can be downloaded from our <a href="https://github.com/cosmolattice/cosmolattice_private" target="_blank">
+The code can be downloaded from our <a href="https://github.com/cosmolattice/cosmolattice" target="_blank">
 **$\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ GitHub repository**
 </a>, see also the installation instructions below on how to do this directly from the command line.
 

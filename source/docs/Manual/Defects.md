@@ -7,7 +7,7 @@ In this section, we summarize the defect models that are implemented in $\mathca
 Before moving on, we note that simulations of cosmic defects are typically performed in conformal time, $\tau$, and we will be focusing on this case in this section. This means that the associated $\alpha$ parameter in $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is set to one in the model file by default, `alpha = 1`. While this can be changed by the user, the correctness of the defect-specific techniques presented below has not been tested for other values of $\alpha$.
 
 !!! warning "Caution"
-    Version 2.0 of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ implements a significant casuistic of choices to simulate cosmic defects. While the most common cases have been thoroughly tested, the use of this software is at user's responsibility. We recommend properly testing the models before running large-scale simulations. If you find any bug or inconsistency, please report it via the "Issues" tab in our <a href="https://github.com/cosmolattice/cosmolattice_private" target="_blank"> GitHub repository </a>.
+    Version 2.0 of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ implements a significant casuistic of choices to simulate cosmic defects. While the most common cases have been thoroughly tested, the use of this software is at user's responsibility. We recommend properly testing the models before running large-scale simulations. If you find any bug or inconsistency, please report it via the "Issues" tab in our <a href="https://github.com/cosmolattice/cosmolattice" target="_blank"> GitHub repository </a>.
 
 
 ### **Simulations of global defects** { #sec_simulationsGlobalDefects }
