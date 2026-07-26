@@ -48,6 +48,29 @@ theme:
       quote: fontawesome/solid/quote-left
 
 plugins:
+  # URL continuity with the retired Jekyll site: every old permalink gets a
+  # meta-refresh stub at its old path (papers cite these URLs). Old URLs are
+  # directory-style (/features/), so each maps from <old>/index.md.
+  - redirects:
+      redirect_maps:
+        'features/index.md': 'CL.md'
+        'download/index.md': 'code/Download.md'
+        'documentation/index.md': 'index.md'
+        'usermanual/index.md': 'Manual/About This Manual.md'
+        'review/index.md': 'th_framework/MonographicReviews.md'
+        'technicalnotes/index.md': 'th_framework/TechnicalNotes.md'
+        'school/index.md': 'events/EventsGuide.md'
+        'school22material/index.md': 'events/EventsGuide.md'
+        'school23/index.md': 'events/EventsGuide.md'
+        'school25/index.md': 'events/EventsGuide.md'
+        'allversions/index.md': 'code/Versions.md'
+        'version10/index.md': 'code/Versions.md'
+        'version11/index.md': 'code/Versions.md'
+        'version12/index.md': 'code/Versions.md'
+        'version13/index.md': 'code/Versions.md'
+        'people/index.md': 'people/People.md'
+        'publications/index.md': 'publications/Publications.md'
+        'tags/index.md': 'index.md'
   - bibtex:
       bib_file: "refs.bib"
   - mkdoxy:

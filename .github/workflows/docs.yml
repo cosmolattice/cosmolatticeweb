@@ -1,0 +1,59 @@
+# Docs build for the MkDocs site (cosmolattice_private#75, Stage B).
+#
+# Build + artifact upload ONLY. There is deliberately NO deploy step: GitHub
+# Pages on this repository serves the live Jekyll site from `main`, and it must
+# not be touched until the Stage C flip (#75 Phase 7). At the flip, a
+# deploy-pages step is added and the trigger moves to `main`.
+name: docs
+
+on:
+  push:
+    branches: [mkdocs-site]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install doxygen
+        run: sudo apt-get update && sudo apt-get install -y doxygen
+
+      - name: Build site
+        run: bash build.sh
+
+      - name: Check publications list in sync (strict)
+        run: tmp/.venv/bin/python scripts/gen_publications.py --check
+
+      - name: Check model registry in sync (strict)
+        run: tmp/.venv/bin/python scripts/check_models_registry.py
+
+      # Known drift: the public code branch lags the private repo (currently
+      # the `dx` parameter), so this check cannot go green until the public
+      # branch catches up — see cosmolattice_private#75, risk 1. Reported,
+      # not enforced.
+      - name: Check parameter database (advisory)
+        run: bash scripts/check_params_sync.sh
+        continue-on-error: true
+
+      - name: Assert CNAME, 404 and redirect stubs in output
+        run: |
+          test -f website/site/CNAME
+          grep -qx 'cosmolattice.net' website/site/CNAME
+          test -f website/site/404.html
+          for p in features download documentation usermanual review \
+                   technicalnotes school school22material school23 school25 \
+                   allversions version10 version11 version12 version13 \
+                   people publications tags; do
+            test -f "website/site/$p/index.html" || { echo "missing redirect stub: $p"; exit 1; }
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: website/site
