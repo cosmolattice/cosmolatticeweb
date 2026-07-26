@@ -63,3 +63,28 @@ If direction 1 fails, run `make gen-params` and commit the result. If direction
 — for an intentional code-only / YAML-only name — add a justified entry to the
 `ALLOWLIST` in `scripts/check_params_code.py`. The check is git-independent and
 self-contained, so it can be wired into CI unchanged later.
+## Repository layout: docs vs code (two-repo workflow)
+
+Since July 2026 the documentation lives in its own repository
+(`cosmolattice/cosmolatticeweb`, branch `mkdocs-site`), extracted with full
+git history from the `documentation/` folder of the CosmoLattice code
+repository. Documentation changes are made **here**; code changes stay in the
+code repository.
+
+The build needs **no access to any private repository**: `build.sh` shallow-clones
+the public code (branch `CLV2.0Alpha` by default) into
+`tmp/code_source/cosmolattice` for the API reference (mkdoxy), `@emgithub`
+line-number resolution, and the parameter/model drift checks.
+
+Developers working alongside a local code checkout can point the build at it
+instead:
+
+```bash
+CL_CODE_SOURCE=/path/to/cosmolattice bash build.sh   # use a local checkout
+CL_CODE_BRANCH=SomeBranch bash build.sh              # or another public branch
+```
+
+If a code change adds or renames run parameters or models, update
+`source/data/parameters.yaml` here and re-run `make check-params` /
+`make check-models`; drift against the public code branch is reported by the
+build.
