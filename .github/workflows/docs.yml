@@ -53,7 +53,14 @@ jobs:
             test -f "website/site/$p/index.html" || { echo "missing redirect stub: $p"; exit 1; }
           done
 
+      # Tarred because the site contains a page with a colon in its filename
+      # (Manual/HDF5: Output and Backups.html), which upload-artifact rejects
+      # file-by-file. The Pages deploy action used at the Stage C flip tars
+      # internally, so it is not affected.
+      - name: Pack site
+        run: tar czf site.tar.gz -C website site
+
       - uses: actions/upload-artifact@v4
         with:
           name: site
-          path: website/site
+          path: site.tar.gz
