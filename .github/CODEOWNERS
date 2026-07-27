@@ -1,0 +1,28 @@
+# Code owners for cosmolatticeweb.
+#
+# GitHub only acts on this file for pull requests, and only requests a review
+# automatically when branch protection has "Require review from Code Owners"
+# enabled. Neither is the case today -- people push straight to the branch --
+# so treat this as documentation of who looks after what, and as the wiring
+# that is already in place should the repo move to a PR workflow later.
+#
+# Later rules win over earlier ones, so the catch-all comes first.
+# Every handle listed must keep write access, or GitHub silently ignores it.
+
+*                                   @aflorio2 @dgfigueroa @satfra
+
+# Build, CI and the generation scripts.
+/build.sh                           @satfra @aflorio2
+/setup_python.sh                    @satfra @aflorio2
+/requirements.txt                   @satfra @aflorio2
+/Makefile                           @satfra @aflorio2
+/scripts/                           @satfra @aflorio2
+/source/hooks/                      @satfra @aflorio2
+/.github/                           @satfra @aflorio2
+
+# Documentation content.
+/source/docs/Manual/                @dgfigueroa @aflorio2
+/source/docs/th_framework/          @dgfigueroa @aflorio2
+
+# Generated from YAML -- edit the data, not the page.
+/source/data/publications.yaml      @JorgeBaezaBallesteros
