@@ -87,59 +87,17 @@ $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is freely available to anyo
 As explained in the previous [Overview][subsec_OV] section, rather than being a conventional code designed to solve a predetermined set of equations and compute a fixed collection of observables, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ constitutes a *platform* for the implementation of field-theoretical systems governed by partial differential equations that can be discretized on a lattice. Written in C++, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ follows a modular architecture that cleanly separates the underlying physics from its technical implementation. It also introduces a dedicated symbolic language in which field variables and the operations acting on them are expressed in a form closely resembling their continuum counterparts. To be more specific, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is characterized by a number of aspects that we list below, which constitute all together a clear advantage for using $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ to investigate early Universe scenarios, over writing your own code from scratch:
 
 
-<div class="cl-claim" markdown>
+$~~~~~\bullet$ To begin with, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is ready to simulate not only the evolution of singlet scalar theories, but also Abelian U(1) and non-Abelian SU(2) gauge theories. Since $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ $\tt v2.0$ was released (on July 2026), one can also simulate scalars with a non-minimal coupling to gravity, $\phi^2R$, and axion-like particle (ALP) interactions with gauge fields, $\phi F_{\mu\nu}\tilde F^{\mu\nu}$; it incorporates methods to set up special field configurations, like cosmic defect networks in *scaling* (*e.g.* cosmic strings and domain walls), or arbitrary field power spectra; it incorporates non-symplectic evolution algorithms suitable *e.g.* for non-minimal scalar kinetic theories of the type $\mathcal{G}_{ab}(\lbrace\phi_c\rbrace)\partial_\mu\phi^a\partial^\mu\phi^b$; it also allows for optimized gravitational wave dynamics on the lattice sourced by scalar and gauge fields, as well as for scalar field dynamics in $d + 1$ dimensions with $d = 1, 2$. All simulations can be done either in a flat space-time background, or in an expanding background.
 
-**Beyond singlet scalars**
-{: .cl-minihead }
+$~~~~~\bullet$ The *lattice engine* of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is `TempLat`, which has been designed as a *platform* to implement any system of dynamical equations suitable for discretization on a lattice. $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is therefore not just a code for one type of simulation, but rather a more evolved concept. Via `TempLat`, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ uses a **symbolic language** that incorporates real, complex and SU(2) algebras, allowing to use vectorial and matrix notations without sacrificing performance. Once the user becomes familiar with the basic 'vocabulary' of the new language, they can modify $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ for their own purpose: let it be for the time evolution of new field variables in a given relevant model of interest, or for some other operation, like *e.g.* a Monte-Carlo generator for thermal configurations. 
 
-$\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is ready to simulate not only the evolution of singlet scalar theories, but also Abelian U(1) and non-Abelian SU(2) gauge theories. Since $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ $\tt v2.0$ was released (on July 2026), one can also simulate scalars with a non-minimal coupling to gravity, $\phi^2R$, and axion-like particle (ALP) interactions with gauge fields, $\phi F_{\mu\nu}\tilde F^{\mu\nu}$; it incorporates methods to set up special field configurations, like cosmic defect networks in *scaling* (*e.g.* cosmic strings and domain walls), or arbitrary field power spectra; it incorporates non-symplectic evolution algorithms suitable *e.g.* for non-minimal scalar kinetic theories of the type $\mathcal{G}_{ab}(\lbrace\phi_c\rbrace)\partial_\mu\phi^a\partial^\mu\phi^b$; it also allows for optimized gravitational wave dynamics on the lattice sourced by scalar and gauge fields, as well as for scalar field dynamics in $d + 1$ dimensions with $d = 1, 2$. All simulations can be done either in a flat space-time background, or in an expanding background.
+$~~~~~\bullet$ The *heart* of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is `CosmoInterface`, which handles all relevant aspects of the physical theories, such as the field content, initialization, evolution equations, or relevant output observables. This makes the physics part of the code easy to understand and well separated from technical details from `TempLat`. This separation significantly simplifies the process of writing new operations for your own purposes. `CosmoInterface` represents essentially a *library* where $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ includes all the necessary ingredients that make possible to simulate a rich variety of scenarios. At the time of writing (July 2026), $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ ${\tt v2.0}$ is ready to simulate scenarios that include interacting singlet scalar fields; charged scalar fields under a U(1) and/or SU(2) gauge symmetries, and their corresponding Abelian and/or non-Abelian gauge vector fields; axion-like-particles (ALP) interacting with gauge sectors, non-minimal scalar field dynamics, and soon enough fluid dynamics and other interactions (see above [*Upcoming Physics*][UpcomingPhysics]). Simulations can be done in a flat space-time background, or in a spatially flat expanding FLRW background. In the latter case the fields can evolve either over an external background (e.g. with a power-law scale factor), or **self-consistently**, *i.e.* 'dictating' themselves the expansion of the universe as sourced by their volume averaged energy and pressure densities. 
 
-</div>
+$~~~~~\bullet$ One of the main advantages of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is that it clearly separates the *physics* (*e.g.* definition of the field content, operations between fields, evolution equations, etc) in `CosmoInterface`, from the more *technical details* (e.g. parallelization aspects, Fourier transforms, etc) in `TempLat` [which is actually not stored inside the $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ source tree, as it is an external dependency fetched upon compilation of the code]. `TempLat` automates tecnical tasks fully, and many user will not never need to edit it. For example, if we have two fields `f` and `g` on a lattice and we want to sum them. Typically, one would explicitly write a loop that sums the amplitudes of both fields at each node of the lattice. Instead, in $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ we can just write `f + g`, and `TempLat` handles the whole operation of summing their values everywhere on the lattice. Essentially, all the technicalities such as memory handling or parallelization tasks, remain mostly hidden from a typical user. 
 
-<div class="cl-claim" markdown>
+$~~~~~\bullet$ As a consequence of the above separation between physics and technicalities, a beginner user, say with little experience in programming and no experience at all in parallelization techniques, will be able to run a fully parallelized simulation of their favourite model (perhaps using thousands of processors in a cluster), while being completely oblivious to the technical details. They will just need to write a basic *model file* in the language of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$, containing the details of the model being simulated. If, on the contrary, the user is rather an experienced programmer and wants to look inside the core routines of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ and `TempLat`, and modify, say the MPI-implementation, they can always do so, and perhaps even contribute to their improvement. 
 
-**TempLat, the lattice engine**
-{: .cl-minihead }
-
-The *lattice engine* of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is `TempLat`, which has been designed as a *platform* to implement any system of dynamical equations suitable for discretization on a lattice. $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is therefore not just a code for one type of simulation, but rather a more evolved concept. Via `TempLat`, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ uses a **symbolic language** that incorporates real, complex and SU(2) algebras, allowing to use vectorial and matrix notations without sacrificing performance. Once the user becomes familiar with the basic 'vocabulary' of the new language, they can modify $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ for their own purpose: let it be for the time evolution of new field variables in a given relevant model of interest, or for some other operation, like *e.g.* a Monte-Carlo generator for thermal configurations. 
-
-</div>
-
-<div class="cl-claim" markdown>
-
-**CosmoInterface, the physics library**
-{: .cl-minihead }
-
-The *heart* of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is `CosmoInterface`, which handles all relevant aspects of the physical theories, such as the field content, initialization, evolution equations, or relevant output observables. This makes the physics part of the code easy to understand and well separated from technical details from `TempLat`. This separation significantly simplifies the process of writing new operations for your own purposes. `CosmoInterface` represents essentially a *library* where $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ includes all the necessary ingredients that make possible to simulate a rich variety of scenarios. At the time of writing (July 2026), $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ ${\tt v2.0}$ is ready to simulate scenarios that include interacting singlet scalar fields; charged scalar fields under a U(1) and/or SU(2) gauge symmetries, and their corresponding Abelian and/or non-Abelian gauge vector fields; axion-like-particles (ALP) interacting with gauge sectors, non-minimal scalar field dynamics, and soon enough fluid dynamics and other interactions (see above [*Upcoming Physics*][UpcomingPhysics]). Simulations can be done in a flat space-time background, or in a spatially flat expanding FLRW background. In the latter case the fields can evolve either over an external background (e.g. with a power-law scale factor), or **self-consistently**, *i.e.* 'dictating' themselves the expansion of the universe as sourced by their volume averaged energy and pressure densities. 
-
-</div>
-
-<div class="cl-claim" markdown>
-
-**Lattice loops written for you**
-{: .cl-minihead }
-
-One of the main advantages of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is that it clearly separates the *physics* (*e.g.* definition of the field content, operations between fields, evolution equations, etc) in `CosmoInterface`, from the more *technical details* (e.g. parallelization aspects, Fourier transforms, etc) in `TempLat` [which is actually not stored inside the $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ source tree, as it is an external dependency fetched upon compilation of the code]. `TempLat` automates tecnical tasks fully, and many user will not never need to edit it. For example, if we have two fields `f` and `g` on a lattice and we want to sum them. Typically, one would explicitly write a loop that sums the amplitudes of both fields at each node of the lattice. Instead, in $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ we can just write `f + g`, and `TempLat` handles the whole operation of summing their values everywhere on the lattice. Essentially, all the technicalities such as memory handling or parallelization tasks, remain mostly hidden from a typical user. 
-
-</div>
-
-<div class="cl-claim" markdown>
-
-**From beginner to core developer**
-{: .cl-minihead }
-
-As a consequence of the above separation between physics and technicalities, a beginner user, say with little experience in programming and no experience at all in parallelization techniques, will be able to run a fully parallelized simulation of their favourite model (perhaps using thousands of processors in a cluster), while being completely oblivious to the technical details. They will just need to write a basic *model file* in the language of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$, containing the details of the model being simulated. If, on the contrary, the user is rather an experienced programmer and wants to look inside the core routines of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ and `TempLat`, and modify, say the MPI-implementation, they can always do so, and perhaps even contribute to their improvement. 
-
-</div>
-
-<div class="cl-claim" markdown>
-
-**High-order integrators, parallel FFTs**
-{: .cl-minihead }
-
-$\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ provides symplectic integrators in `CosmoInterface`, with accuracy ranging from $\mathcal{O}(\delta t^2)$ up to $\mathcal{O}(\delta t^{10})$, to simulate the non-linear dynamics of the appropriate fields in comoving two- or three-dimensional lattices. Appropriate observables are also provided for each case, like the energy density components of each field, their relevant spectra, or dynamical constraints. Our algorithms conserve energy up to the accuracy set by the order of the evolution algorithm, reaching down to machine precision in the case of the highest order integrators. Algorithms for gauge theories, either Abelian or non-Abelian, respect (independently of the integrator) the Gauss constraint to machine precision, even when considering self-consistent expansion. Moreover, through `TempLat` $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ uses a discrete Fourier Transform parallelized in multiple spatial dimensions [@Pi13], this enables the code to run simulations with very high resolution, very long time scales, or well-separated scales. 
-
-</div>
+$~~~~~\bullet$ Furthermore, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ provides symplectic integrators in `CosmoInterface`, with accuracy ranging from $\mathcal{O}(\delta t^2)$ up to $\mathcal{O}(\delta t^{10})$, to simulate the non-linear dynamics of the appropriate fields in comoving two- or three-dimensional lattices. Appropriate observables are also provided for each case, like the energy density components of each field, their relevant spectra, or dynamical constraints. Our algorithms conserve energy up to the accuracy set by the order of the evolution algorithm, reaching down to machine precision in the case of the highest order integrators. Algorithms for gauge theories, either Abelian or non-Abelian, respect (independently of the integrator) the Gauss constraint to machine precision, even when considering self-consistent expansion. Moreover, through `TempLat` $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ uses a discrete Fourier Transform parallelized in multiple spatial dimensions [@Pi13], this enables the code to run simulations with very high resolution, very long time scales, or well-separated scales. 
 
 The basic folder tree structure of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is the following:
 
@@ -155,18 +113,20 @@ The basic folder tree structure of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{a
     <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include" target="_blank" rel="noopener">include</a><ul>
     <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface" target="_blank" rel="noopener">CosmoInterface</a><ul>
     <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/abstractmodel" target="_blank" rel="noopener">abstractmodel</a></li>
-    <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/definitions" target="_blank" rel="noopener">definitions</a><ul><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/definitions/defectsmodule" target="_blank" rel="noopener">defectsmodule</a></li></ul></li>
+    <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/definitions" target="_blank" rel="noopener">definitions</a></li>
     <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/evolvers" target="_blank" rel="noopener">evolvers</a><ul><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/evolvers/kernels" target="_blank" rel="noopener">kernels</a></li></ul></li>
     <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/initializers" target="_blank" rel="noopener">initializers</a></li>
-    <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/measurements" target="_blank" rel="noopener">measurements</a><ul><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/measurements/measurementsIO" target="_blank" rel="noopener">measurementsIO</a><ul><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/measurements/measurementsIO/hdf5" target="_blank" rel="noopener">hdf5</a></li><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/measurements/measurementsIO/std" target="_blank" rel="noopener">std</a></li></ul></li></ul></li>
+    <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/measurements" target="_blank" rel="noopener">measurements</a><ul><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/include/CosmoInterface/measurements/measurementsIO" target="_blank" rel="noopener">measurementsIO</a></li></ul></li>
     <li><a class="cl-tnode cl-tnode-file" href="https://github.com/cosmolattice/cosmolattice/blob/CLV2.0Alpha/include/CosmoInterface/cosmointerface.h" target="_blank" rel="noopener">cosmointerface.h</a></li>
     <li><a class="cl-tnode cl-tnode-file" href="https://github.com/cosmolattice/cosmolattice/blob/CLV2.0Alpha/include/CosmoInterface/runparameters.h" target="_blank" rel="noopener">runparameters.h</a></li>
     <li><a class="cl-tnode cl-tnode-file" href="https://github.com/cosmolattice/cosmolattice/blob/CLV2.0Alpha/include/CosmoInterface/simulationmanager.h" target="_blank" rel="noopener">simulationmanager.h</a></li>
     </ul></li>
     </ul></li>
-    <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/models" target="_blank" rel="noopener">models</a><ul><li><span class="cl-tnode cl-tnode-file">*.h</span></li><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/models/parameter-files" target="_blank" rel="noopener">parameter-files</a></li></ul></li>
+    <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/models" target="_blank" rel="noopener">models</a><ul><li><span class="cl-tnode cl-tnode-gen">*.h</span></li><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/models/parameter-files" target="_blank" rel="noopener">parameter-files</a></li></ul></li>
     <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/tests" target="_blank" rel="noopener">tests</a><ul><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/tests/CosmoInterface" target="_blank" rel="noopener">CosmoInterface</a></li><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/tests/benchmarks" target="_blank" rel="noopener">benchmarks</a></li></ul></li>
+    <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/documentation" target="_blank" rel="noopener">documentation</a><ul><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/documentation/source" target="_blank" rel="noopener">source</a></li><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/documentation/scripts" target="_blank" rel="noopener">scripts</a></li><li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/documentation/tools" target="_blank" rel="noopener">tools</a></li></ul></li>
     <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/profile" target="_blank" rel="noopener">profile</a></li>
+    <li><a class="cl-tnode cl-tnode-dir" href="https://github.com/cosmolattice/cosmolattice/tree/CLV2.0Alpha/thoughts" target="_blank" rel="noopener">thoughts</a></li>
     <li><span class="cl-tnode cl-tnode-gen">build</span><ul>
     <li><span class="cl-tnode cl-tnode-gen">_deps</span><ul>
     <li><a class="cl-tnode cl-tnode-ext" href="https://github.com/cosmolattice/templat" target="_blank" rel="noopener">templat-src</a><ul><li><a class="cl-tnode cl-tnode-ext" href="https://github.com/cosmolattice/templat/tree/main/include/TempLat" target="_blank" rel="noopener">include/TempLat</a></li><li><a class="cl-tnode cl-tnode-ext" href="https://github.com/cosmolattice/templat/tree/main/cmake" target="_blank" rel="noopener">cmake</a></li><li><a class="cl-tnode cl-tnode-ext" href="https://github.com/cosmolattice/templat/tree/main/tests" target="_blank" rel="noopener">tests</a></li><li><a class="cl-tnode cl-tnode-ext" href="https://github.com/cosmolattice/templat/tree/main/external" target="_blank" rel="noopener">external</a></li></ul></li>
@@ -179,7 +139,7 @@ The basic folder tree structure of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{a
     </li>
     </ul>
     </div>
-    <p class="cl-tree-hint">Click any node to open it on GitHub; dashed nodes are generated locally at build time.</p>
+    <p class="cl-tree-hint">Click any node to open it on GitHub (branch <code>CLV2.0Alpha</code>); dashed nodes are generated locally at build time.</p>
 
 === "What each folder contains"
 
@@ -193,15 +153,13 @@ The basic folder tree structure of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{a
     | `include/CosmoInterface`   | CosmoLattice physics interface: model abstraction, field definitions, evolution algorithms, initial conditions, measurements, and simulation management   |
     | `abstractmodel`            | base classes and shared data structures for scalar, gauge, scale-factor, gravitational-wave, and non-minimal-coupling model sectors                       |
     | `definitions`              | reusable physical definitions such as potentials, gauge derivatives, Gauss laws, power-spectrum helpers, and anisotropic-stress tensors                   |
-    | `definitions/defectsmodule`| cosmic-defect machinery: defect observables, diffusion, resolution-preserving evolution, and the associated lattice weights                               |
     | `evolvers`                 | evolution algorithms and evolution kernels                                                                                                                |
     | `initializers`             | initialization for fields, scale factor and model state                                                                                                   |
     | `measurements`             | observables, spectra, energy outputs, gravitational-wave outputs, and measurement I/O helpers                                                             |
-    | `measurements/measurementsIO` | output back-ends: `std` writes the plain-text measurement and spectra files, `hdf5` writes the same data as HDF5                                       |
     | `models`                   | user-facing model files selected with `-DMODEL=...`                                                                                                       |
     | `models/parameter-files`   | example input parameter files for the implemented models                                                                                                  |
     | `tests`                    | CosmoInterface tests and benchmarks, enabled with `-DCOSMOINTERFACE_TEST=ON`                                                                              |
-    | `profile`                  | profiling helpers: `gprof`/`massif` scripts, a sample input file, and a standalone thread-scaling executable                                              |
+    | `documentation`            | Documentation source                                                                                                                                      |
     | `build`                    | local build directory generated by CMake; contains object files and fetched dependency sources under `_deps/`. This directory is **created by the user.** |
     | `build/_deps/templat-src`  | generated checkout of the external `TempLat` repository, which provides the lattice language and technical infrastructure                                 |
     | `build/_deps/kokkos-src`   | generated Kokkos source tree used by `TempLat` as the default device backend                                                                              |
@@ -216,33 +174,61 @@ The CMake configuration first selects the model to compile from `models/`, then 
 
 ## Basic Field Equations implemented (so far) <!-- in $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$  --> { #subsec_BasicEOM .cl-sec-fold }
 
-We introduce now the equations of motion (EOM) that the latest version of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ can solve. These include EOM of canonical scalar-gauge theories, various non-canonical theories, and gravitational waves, all embedded in an expanding FLRW background. The derivation of these EOM can be found in our monographic reviews: $\mathtt{The~Art-I}$ (Ref. [@Figueroa_2020rrl]), and $\mathtt{The~Art-II}$ (Ref. [@BaezaBallesteros_2025tme]), see [Lattice-Cosmology Reviews](../th_framework/MonographicReviews.md).
+We introduce now the equations of motion (EOM) that the latest version of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ can solve. First we review the FLRW solution describing an expanding Universe, and then introduce the EOM of canonical scalar-gauge theories, various non-canonical theories, and gravitational waves, all embedded in a spatially-flat FLRW background. The derivation of the EOM can be found in our monographic reviews: $\mathtt{The~Art-I}$ (Ref. [@Figueroa_2020rrl]), and $\mathtt{The~Art-II}$ (Ref. [@BaezaBallesteros_2025tme]), see [Lattice-Cosmology Reviews](../th_framework/MonographicReviews.md).
+
+<div style="height: 20px;"></div>
+
+<span style="font-size: 30px; font-weight: bold;">
+**FLRW Expanding Background**
+</span>
+
+In $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$, we consider all fields living in a spatially-flat homogeneous and isotropic spacetime background. This is described by the *Friedmann–Lemaître–Robertson–Walker* (FLRW) solution, characterized by the line element
+[](){ #eq_FLRWlineElem }
+```math
+\begin{equation}
+d s^2 \equiv g_{\mu\nu}d x^\mu d x^\nu = - a^{2\alpha}d \eta^2 + a^2(\eta) \delta_{ij} d x^i d x^j \ , 
+\label{eq_FLRWlineElem}
+\end{equation}
+```
+where $a(\eta)$ is the scale factor, and $\eta$ the so-called **$\alpha$-time**. The parameter $\alpha$ is a constant that can be fixed conveniently depending on the scenario. The choice $\alpha = 0$ identifies $\eta$ with the *coordinate time* $t$, whereas $\alpha = 1$ makes $\eta$ the *conformal time* $\tau \equiv \int {dt'\over a(t')}$. In general, we will keep $\alpha$ as an unspecified real number, writing all equations in $\alpha$-time. Only when a physical problem is chosen, then one needs to make a concrete choice for $\alpha$.
+
+The evolution of the scale factor is dictated by the first and second *Friedmann equations* (Ref. [@Figueroa_2020rrl])
+[](){ #eq_Friedmann-full }
+```math
+\begin{eqnarray}
+    \mathcal{H}^2 \equiv \left({a'\over a}\right)^2 = a^{2 \alpha} \frac{\bar {\rho}}{3 m_p^2} 
+    \,,~~~~~~~
+    {a''\over a} = \frac{a^{2 \alpha}}{6 m_p^2}\Big[ (2 \alpha - 1) \bar{\rho} - 3 \bar{ p} \Big]\,, \label{eq_Friedmann-full}
+\end{eqnarray}
+```
+where $\bar{p}$ and $\bar{\rho}$ are the background values of the total pressure and energy densities of the field sectors, we use the notation ${f}' \equiv \text{d} f/ \text{d} \eta$, and $m_p \simeq 2.435\cdot10^{18}$ GeV is the reduced Planck mass. 
+
+In $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$, all field sectors are considered to live by default in the above spatially-flat FLRW background. The user can either choose between an external expanding background, characterized by a constant equation of state $w$, or *self-consistent expansion* of the Universe, solving the Friedmann Eqs. (\ref{eq_Friedmann-full}) as sourced with the volume-avaraged pressure and energy densities of the field sectors, $\bar{p}$ and $\bar{\rho}$. Alternatively, the user can choose instead to enforce the matter field sectors to live in flat-spacetime, *i.e.* using the Minkowski metric $\eta_{\mu\nu} = (-,+,+,+)$. 
+
+<div style="height: 20px;"></div>
 
 <span style="font-size: 30px; font-weight: bold;">
 **Canonical Scalar-Gauge Theories**
 </span>
 
-We start with canonical scalar-gauge theories with three kinds of canonically-normalized scalar fields: a real scalar singlet $\phi$, a U(1)-charged complex scalar field $\varphi$, and a $[SU(2) \times U(1)]$-charged doublet scalar field $\Phi$. In the last two cases, there are also present, respectively, Abelian and non-Abelian gauge fields, $A_{\mu}$ and $C_{\mu} \equiv C_{\mu}^a T_a$, with $T_a \equiv \sigma_a / 2$ the SU(2) group generators, where $a=1,2,3$ and $\sigma_a$ are the *Pauli matrices*. Like any $SU(N)$ Lie algebra, the generators satisfy that $[T_a, T_b] = i f_{abc} T_c$ , ${\rm Tr}(T_a) = 0$ , ${\rm Tr}(T_a T_b) = \frac{1}{2} \delta_{ab}$, and $T^{\dagger}_a = T_a$, with $[\cdot,\cdot]$ the usual matrix commutator, and $f_{abc}$ the totally anti-symmetric *structure constants*, which in SU(2) are the totally anti-symmetric tensor, $f_{abc} = \epsilon_{abc}$. For further details see Chapter 2 of $\mathtt{The~Art-I}$ (Ref. [@Figueroa_2020rrl]). The scalar fields can be explicitly written in terms of real components as follows,
+In canonical scalar-gauge theories we consider three types of scalar fields: a real scalar singlet $\phi$, a U(1)-charged complex scalar field $\varphi$, and a $[SU(2) \times U(1)]$-charged doublet scalar field $\Phi$. In the last two cases, there are also present, respectively, Abelian and non-Abelian gauge fields, $A_{\mu}$ and $C_{\mu} \equiv C_{\mu}^a T_a$, with $T_a \equiv \sigma_a / 2$ the SU(2) group generators, where $a=1,2,3$ and $\sigma_a$ are the *Pauli matrices*. Like any $SU(N)$ Lie algebra, the generators satisfy that $[T_a, T_b] = i f_{abc} T_c$ , ${\rm Tr}(T_a) = 0$ , ${\rm Tr}(T_a T_b) = \frac{1}{2} \delta_{ab}$, and $T^{\dagger}_a = T_a$, with $[\cdot,\cdot]$ the usual matrix commutator, and $f_{abc}$ the totally anti-symmetric *structure constants*, which in SU(2) are the totally anti-symmetric tensor, $f_{abc} = \epsilon_{abc}$. For further details see Chapter 2 of $\mathtt{The~Art-I}$ (Ref. [@Figueroa_2020rrl]). The scalar fields can be explicitly written in terms of real components as follows,
 [](){ #eq_ChargedScalars }
 ```math
 \begin{eqnarray} \label{eq_ChargedScalars}
     \begin{array}{ccccc}
-        \phi \in \mathcal{R}e & , &  \varphi \equiv {1\over\sqrt{2}}(\varphi_1 +i\varphi_2) & , & \Phi = \left(
-        \begin{array}{c}
-            \varphi^{(1)} \\ \varphi^{(2)} \\ \vdots \\ \varphi^{(N)}
-        \end{array}
-        \right) =
-        {1\over\sqrt{2}}
-        \left(
-        \begin{array}{c}
-            \varphi_1 +i\varphi_2 \\ \varphi_3 +i\varphi_3 \\ \vdots \\ \varphi_{2N -1} +i\varphi_{2N}
-        \end{array}
-        \right) \,.
-    \end{array}
+        \phi \in \mathcal{R}e & , &  \varphi \equiv {1\over\sqrt{2}}(\varphi_1 +i\varphi_2) & , & 
+        \Phi \equiv \begin{pmatrix}
+                    \varphi^{(1)} \\[1mm]
+                    \varphi^{(2)}
+                    \end{pmatrix} = \frac{1}{\sqrt{2}} \begin{pmatrix}
+                                    \varphi_1+i\varphi_2 \\[1mm]
+                                    \varphi_3+i\varphi_4
+                                    \end{pmatrix}\,.
+                    \end{array}
 \end{eqnarray}
 ```
 
-More specifically, for canonical scalar-gauge theories we consider the action $S = \int d^4x  \sqrt{-g}\, \mathcal{L}$, with $g \equiv {\rm det} (g_{\mu \nu})$, and the Lagrangian
+More specifically, for canonically-normalized scalar-gauge theories, we consider an action $S = \int d^4x  \sqrt{-g}\, \mathcal{L}$, with $g \equiv {\rm det} (g_{\mu \nu})$ and Lagrangian
 [](){ #eq_lagrangian }
 ```math
 \begin{align} 
@@ -250,7 +236,7 @@ More specifically, for canonical scalar-gauge theories we consider the action $S
 \label{eq_lagrangian} 
 \end{align}
 ```
-with $V \equiv V(\phi,|\varphi|, |\Phi|)$ the potential describing the interactions between the scalar fields. The *covariant derivatives* and *field strength tensors* associated to the gauge fields, are defined as
+where $V \equiv V(\phi,|\varphi|, |\Phi|)$ is the potential describing the interactions between the scalar fields. The *covariant derivatives* and *field strength tensors* associated to the gauge fields, are defined as
 [](){ #eq_AbCovDerivCont }
 [](){ #eq_CovDerivCont }
 ```math
@@ -268,7 +254,7 @@ with $g_{A}$ and $g_C$ the Abelian and non-Abelian gauge couplings, $Q_{A}$ and 
 \begin{equation}\label{eq_ElectricMagneticDefs}
 E_i \equiv F_{0i} , \,\,\,\,\,\,\,\,  B_i \equiv \frac{1}{2} \epsilon_{i j k} F^{j k} , \,\,\,\,\,\,\,\,   E_i^a \equiv G_{0i}^a , \,\,\,\,\,\,\,\,  B_i^a \equiv \frac{1}{2} \epsilon_{i j k} G^{j k}_a \ , \end{equation}
 ```
-where $\epsilon_{ijk}$ is the Levi-Civita symbol in three dimensions with normalization $\epsilon_{123}=+1$, and $G_{\mu \nu}^a \equiv {\rm Tr}(2G_{\mu \nu} T_a) = {\rm Tr}(G_{\mu \nu} \sigma_a)$. Here it is important to note that **the electric field definitions above depend on the $\alpha$-time $\eta$, as $F_{0i}$ and $G_{0i}$ are defined with respect to $\eta$, not $t$.**
+where $\epsilon_{ijk}$ is the Levi-Civita symbol in three dimensions with normalization $\epsilon_{123}=+1$, and $G_{\mu \nu}^a \equiv {\rm Tr}(2G_{\mu \nu} T_a) = {\rm Tr}(G_{\mu \nu} \sigma_a)$. We note that **the electric field definitions above depend on the $\alpha$-time $\eta$, as $F_{0i}$ and $G_{0i}$ are defined with respect to $\eta$, not $t$.**
 
 The equations of motion for the matter fields and the scale factor have been derived in more detail in $\mathtt{The~Art-I}$ (Ref. [@Figueroa_2020rrl]). Here we simply quote their resulting form, which read
 [](){ #eq_singlet-eomCONT }
@@ -286,7 +272,7 @@ The equations of motion for the matter fields and the scale factor have been der
     \\
     \partial_0 F_{0i} - a^{-2(1 - \alpha )}\partial_j F_{ji} + (1 - \alpha) \mathcal{H} F_{0i} &=&
     a^{2 \alpha}J^A_i \ , \label{eq_U1eom}
-    \\
+    \\[2em]
     (\mathcal{D}_0 )_{a b} (G_{0i})^b - a^{-2(1 - \alpha )} ( \mathcal{D}_j )_{a b} (G_{ji} )^b + (1 - \alpha) \mathcal{H} (G_{0i} )^b &=& a^{2 \alpha}(J_i)_a \ , \label{eq_SU2eom}
 \end{eqnarray}
 ```
@@ -307,7 +293,7 @@ We note that the Gauss constraints of the Abelian and non-Abelian sectors, respe
 ```math
 \begin{eqnarray}
     \partial_i F_{0i} &=& a^2J^A_0 \ , \label{eq_GaussU1-eom}\\
-    (\mathcal{D}_i )_{a b} (G_{0i})^b &=& a^2(J_0)_a \ , \label{eq_GaussSU2-eom}
+    (\mathcal{D}_i )_{a b} (G_{0i})^b &=& a^2(J_0)_a \ . \label{eq_GaussSU2-eom}
 \end{eqnarray}
 ```
 
@@ -324,12 +310,12 @@ If the fields dominate the energy budget of the Universe, the expansion rate can
 & \hspace{2cm} \left. +  (\alpha-1)(E_K^A + E_K^B + E_G^A + E_G^B) \right]  ,\nonumber
 \end{align}
 ```
-where $\langle \dots \rangle$ denotes an average over sufficiently large volumes that encompass all relevant wavelengths of the fields, and we have defined the volume-averaged energy contributions as $E_{K}^{f} = \langle K_{f} \rangle$ and $E_{G}^{f} = \langle G_{f} \rangle$ for the scalar fields $f=\phi,\varphi,\Phi$, $E_{K}^{A} = \langle K_{U(1)} \rangle$, $E_{G}^{A} = \langle G_{U(1)} \rangle$, $E_{K}^{B} = \langle K_{SU(2)} \rangle$, and $E_{G}^{B} = \langle G_{SU(2)} \rangle$ for the gauge fields, and ${E}_V = \langle {V} \rangle$ for the potential energy, where the different energy density contributions are given by
+where $\langle \dots \rangle$ denotes an average over sufficiently large volumes that encompass all relevant wavelengths of the fields, and we have defined the volume-averaged energy contributions as $E_{K}^{f} = \langle K_{f} \rangle$ and $E_{G}^{f} = \langle G_{f} \rangle$ for the scalar fields $f=\phi,\varphi,\Phi$, $E_{K}^{A} = \langle K_{U(1)} \rangle$, $E_{G}^{A} = \langle G_{U(1)} \rangle$, $E_{K}^{B} = \langle K_{SU(2)} \rangle$, and $E_{G}^{B} = \langle G_{SU(2)} \rangle$ for the gauge fields, and ${E}_V = \langle {V} \rangle$ for the potential energy. The different energy density contributions are given by
 [](){ #eq_energy-contributions }
 ```math
 \begin{align}
 \label{eq_energy-contributions}
-\hspace{-1cm}\left\lbrace
+\hspace{-2cm}\left\lbrace
 \begin{array}{rcl}
 {K}_{\phi} &=& \frac{1}{2 a^{2\alpha} } \phi'^2 \\
 {K}_{\varphi} &=& \frac{1}{a^{2\alpha} } (D_0^A \varphi)^*(D_0^A \varphi)
@@ -362,7 +348,7 @@ where $\langle \dots \rangle$ denotes an average over sufficiently large volumes
 \text{(Kinetic-Scalar)} \hspace{5cm} \text{(Gradient-Scalar)} \hspace{6.5cm} \text{(Electric & Magnetic)} \hspace{3.0cm}\nonumber\\
 \end{align}
 ```
-In $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ we use Eq. (\ref{eq_FriedmannD2a}) to solve for the scale factor, while monitoring that the constraint equation (\ref{eq_FriedmannHub}) is verified throughout the evolution to some desired accuracy, see Section [*Evolution Algorithms*][subsec_Algorithms].
+In $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ we use Eq. (\ref{eq_FriedmannD2a}) to solve for the scale factor, while monitoring that the Hubble constraint (\ref{eq_FriedmannHub}) is verified throughout the evolution to some desired accuracy, see Section [*Evolution Algorithms*][subsec_Algorithms].
 
 <div style="height: 20px;"></div>
 
@@ -470,7 +456,7 @@ where the energy density and pressure of the non-minimally coupled scalar field 
 ```
 with $V_{,\phi}\equiv\partial V/\partial\phi$, and $\langle \dots \rangle$ denoting volume-averaging over sufficiently large scales that encompass all relevant wavelengths of the fields. The scale factor may, in principle, be evolved using the Friedmann equations in $~$\eqref{eq_Hu}. We note, however, that contrary to canonical scenarios, the *r.h.s.* of the Friedmann equations depend on time derivatives of $a(\eta)$, given the expression of $\bar\rho_\phi(\eta), \bar p_\phi(\eta)$.
 
-As proposed in Ref. [@Figueroa_2021iwm], the scale factor evolution can be obtained alternatively from the trace of the energy-momentum tensor of the non-minimally coupled field, $T_\phi$. Given the traced Einstein equations $R = -\frac{1}{m_p^2}g^{\mu\nu}\left(T^\phi_{\mu\nu}+T^{\rm m}_{\mu\nu}\right)$ = $-\frac{1}{m_p^2}\left(T_\phi+T_{\rm m}\right)$, it follows that the background curvature satisfies
+Alternatively, the scale factor evolution can be obtained from the trace of the energy-momentum tensor of the non-minimally coupled field, $T_\phi$. Given the traced Einstein equations $R = -\frac{1}{m_p^2}g^{\mu\nu}\left(T^\phi_{\mu\nu}+T^{\rm m}_{\mu\nu}\right)$ = $-\frac{1}{m_p^2}\left(T_\phi+T_{\rm m}\right)$, it follows that the background curvature satisfies (Ref. [@Figueroa_2021iwm])
 
 [](){ #eq_EFEtrBack }
 ```math
@@ -556,7 +542,7 @@ S =
 -\frac{1}{4}F_{\mu\nu}F^{\mu\nu}
 +\frac{1}{4}\frac{\phi}{\Lambda}
 F_{\mu\nu}\tilde F^{\mu\nu}
-\right]\,.
+\right]\,,
 \label{eq_AxionAction}
 ```
 where $\phi$ is a real pseudo-scalar field, the axion-like particle (ALP), $V(\phi)$ is its interaction potential (which might break the shift symmetry explicitly in some scenarios), and the field-strength tensor of the Abelian gauge field $A_\mu$ is defined as in standard canonical theories, $F_{\mu\nu}\equiv\partial_\mu A_\nu-\partial_\nu A_\mu$. To characterize the ALP-gauge coupling strength, we define a dimensionless parameter $\alpha_\Lambda\equiv m_p/\Lambda$ associated to the scale $\Lambda$. The dual field-strength tensor is defined as $\tilde F_{\mu\nu}\equiv\frac{1}{2}\epsilon_{\mu\nu\rho\sigma}F^{\rho\sigma}$, where $\epsilon_{\mu\nu\rho\sigma}$ is the four-dimensional Levi-Civita pseudotensor in curved spacetime, normalized as $\epsilon_{0123}=1/\sqrt{-g}$. Varying the action with respect to $\phi$ and $A_i$ in a FLRW background, and considering the temporal gauge, $A_0=0$, leads to the equations of motion in $\alpha$-time as
@@ -630,7 +616,7 @@ The individual kinetic and gradient contributions of the scalar and vector field
 **Gravitational Waves**
 </span>
 
-Gravitational waves (GWs) are transverse and traceless tensor perturbations, $h_{ij}$, of the background metric. Considering the FLRW solution as the background metric, the perturbed line element (in $\alpha$-time) is
+$\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ can compute the generation of gravitational waves (GWs) sourced by singlet-scalar, Abelian gauge-scalar, and Abelian axion-gauge sectors. Technically, GWs are transverse and traceless tensor perturbations $h_{ij}$ of a spacetime metric $g_{ij}$. Over the FLRW background, the perturbed line element in $\alpha$-time reads
 [](){ #eq_GWmetric }
 ```math
 \begin{align}
@@ -641,7 +627,7 @@ ds^2
 +a^2(\eta)\left(\delta_{ij}+h_{ij}\right)dx^idx^j\,,
 \end{align}
 ```
-which are transverse, $\partial_i h_{ij}=0$, and traceless, $h_{ii}=0$. Linearizing the Einstein equations in $h_{ij}$, the equation of motion of GWs reads
+with $\partial_i h_{ij}=0$ (transverse) and $h_{ii}=0$ (traceless) Linearizing the Einstein equations in $h_{ij}$, leads to the equation of motion of the GWs as
 [](){ #eq_GWEOMcontinuum }
 ```math
 \begin{align}
@@ -696,15 +682,14 @@ Finally, it is worth mentioning GW observables. The most relevant quantity relat
 &=
 {m_p^2\over 4a^{2\alpha}V}
 \int_V d^3{\bf x}\,
-h'_{ij}({\bf x},\eta)h'_{ij}({\bf x},\eta) \nonumber
-\\
-&\simeq
+h'_{ij}({\bf x},\eta)h'_{ij}({\bf x},\eta) 
+\simeq
 {m_p^2\over 4a^{2\alpha}V}
 \int_V {d^3{\bf k}\over(2\pi)^3}
-h'_{ij}({\bf k},\eta)h_{ij}^{\prime *}({\bf k},\eta) \nonumber
-\\
+h'_{ij}({\bf k},\eta)h_{ij}^{\prime *}({\bf k},\eta) 
+\nonumber \\
 &\equiv
-\int {d\rho_{\rm GW}\over d\log k}d\log k \,,
+\int \left({d\rho_{\rm GW}\over d\log k}d\log k\right) \,,
 \end{align}
 ```
 from which the spectral density can be defined as
@@ -726,8 +711,7 @@ For stochastic sources the volume average can be replaced by an ensemble average
 \rho_{\rm GW}(\eta)
 &= \dfrac{m_p^2}{4a^{2\alpha}}
 \left\langle h'_{ij}({\bf x},\eta) h_{ij}^{\prime *}({\bf x},\eta)\right\rangle
-\nonumber \\
-&= \dfrac{m_p^2}{4a^{2\alpha}}
+= \dfrac{m_p^2}{4a^{2\alpha}}
 \int \dfrac{\text{d}^3{\bf k}}{(2\pi)^3}
 \dfrac{\text{d}^3{\bf k'}}{(2\pi)^3}
 e^{-i {\bf x}\cdot({\bf k} - {\bf k'})}
