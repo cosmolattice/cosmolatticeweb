@@ -1,15 +1,35 @@
-# Docs build for the MkDocs site (cosmolattice_private#75, Stage B).
+# Build and publish the MkDocs site (cosmolattice_private#75).
 #
-# Build + artifact upload ONLY. There is deliberately NO deploy step: GitHub
-# Pages on this repository serves the live Jekyll site from `main`, and it must
-# not be touched until the Stage C flip (#75 Phase 7). At the flip, a
-# deploy-pages step is added and the trigger moves to `main`.
+# The deploy job is gated on `main`, and that gate is the whole safety story
+# before the Stage C flip:
+#
+#   * A workflow always runs from the branch that was pushed. This file lives
+#     only on `mkdocs-site`, so a push to today's Jekyll `main` does not run it
+#     at all -- listing `main` in the trigger below cannot touch the live site.
+#   * Once `mkdocs-site` is renamed to `main` at the flip, this file is on the
+#     branch Pages will serve and the deploy job starts firing. Nothing here
+#     needs editing on the day.
+#
+# Note a branch rename emits no push event, so after the rename the first
+# deployment has to be started by hand with `gh workflow run docs.yml`.
 name: docs
 
 on:
   push:
-    branches: [mkdocs-site]
+    branches: [mkdocs-site, main]
   workflow_dispatch:
+
+# deploy-pages needs these; the default GITHUB_TOKEN has neither.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two runs race the same deployment. Not cancel-in-progress: an
+# interrupted deploy is worse than a queued one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -67,14 +87,30 @@ jobs:
             test -f "website/site/$u/index.html" || { echo "feed link has no target: $u"; exit 1; }
           done
 
-      # Tarred because the site contains a page with a colon in its filename
-      # (Manual/HDF5: Output and Backups.html), which upload-artifact rejects
-      # file-by-file. The Pages deploy action used at the Stage C flip tars
-      # internally, so it is not affected.
-      - name: Pack site
-        run: tar czf site.tar.gz -C website site
-
-      - uses: actions/upload-artifact@v4
+      # Do NOT add a tar step here and do NOT swap this for upload-artifact.
+      #
+      # This action tars the directory itself and publishes it under the
+      # reserved name `github-pages`, which is the only artifact deploy-pages
+      # will consume. Packing the site ourselves first would still deploy
+      # green -- and would serve a site whose entire content is one file named
+      # site.tar.gz.
+      #
+      # The tar is also why the colon in `Manual/HDF5: Output and Backups.html`
+      # is fine here, where upload-artifact used to reject it file-by-file.
+      - uses: actions/upload-pages-artifact@v3
         with:
-          name: site
-          path: site.tar.gz
+          path: website/site
+
+  deploy:
+    needs: build
+    # The live site is only ever published from `main`. On `mkdocs-site` the
+    # build above still runs, so prep pushes keep their checks, but nothing
+    # reaches production.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
