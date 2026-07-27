@@ -453,7 +453,7 @@ The Friedmann equations in $\alpha$-time read
 \right]\,,
 \end{eqnarray}
 ```
-where the energy density and pressure of the non-minimally coupled scalar field are [@Figueroa:2021iwm]
+where the energy density and pressure of the non-minimally coupled scalar field are [@Figueroa_2021iwm]
 
 [](){ #eq_nmcrho }
 ```math

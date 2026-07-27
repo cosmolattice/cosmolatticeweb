@@ -283,7 +283,7 @@ Assuming homogeneity and isotropy on large scales, the energy-momentum tensor ta
 \end{eqnarray}
 ```
 
-where the energy density and pressure of the non-minimally coupled scalar field are [@Figueroa:2021iwm]
+where the energy density and pressure of the non-minimally coupled scalar field are [@Figueroa_2021iwm]
 
 [](){ #eq_nmcrho }
 ```math

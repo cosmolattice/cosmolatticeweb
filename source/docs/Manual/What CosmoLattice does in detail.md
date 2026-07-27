@@ -30,7 +30,7 @@ Following this, we create a `MemoryToolBox` object (or, more precisely, a shared
 
 @emgithub(source/cosmolattice.cpp:main_model)
 
-Here we create our model as defined in the model header file we specified, for instance in `models/lphi4.h` of Section [*Definition and declaration of the model*][subsubsec_DefAndDeclModel]. We also allocate an `ExtraFields` object: a small collection of temporary field buffers that some evolvers need internally (for instance, the generic Runge-Kutta evolver described below uses it to store its stage increments), and that we allocate once here so it can be shared between the initializer and the evolver. Finally, we print the model's name, so we can make sure that the model running is actually the one we wanted. Then we have:
+Here we create our model as defined in the model header file we specified, for instance in `models/lphi4.h` of Section [*Definition and declaration of the model*][subsec_DefAndDeclModel]. We also allocate an `ExtraFields` object: a small collection of temporary field buffers that some evolvers need internally (for instance, the generic Runge-Kutta evolver described below uses it to store its stage increments), and that we allocate once here so it can be shared between the initializer and the evolver. Finally, we print the model's name, so we can make sure that the model running is actually the one we wanted. Then we have:
 
 @emgithub(source/cosmolattice.cpp:main_infofile)
 
@@ -381,7 +381,7 @@ For each field, this saves its power spectrum, the (rescaled) power spectrum of 
 
 @emgithub(include/CosmoInterface/measurements/powerspectrum.h:powerspectrum_measure)
 
-The normalization applied here ensures that the discrete power spectrum recovers the expected continuum-limit expression (see the [*discrete power spectrum*][eq_discretePS] definition), and branches on the requested `PS_type`, the `PS_version`, and the number of spatial dimensions of the model. A companion class, `UnbinnedPowerSpectrumMeasurer` (`unbinnedpowerspectrum.h`), exposes the same interface but returns the individual Fourier modes rather than radially-binned averages, and is used instead whenever unbinned spectra are requested; it requires the HDF5 output backend.
+The normalization applied here ensures that the discrete power spectrum recovers the expected continuum-limit expression (see the [*discrete power spectrum*][eq_discretePST1] definition), and branches on the requested `PS_type`, the `PS_version`, and the number of spatial dimensions of the model. A companion class, `UnbinnedPowerSpectrumMeasurer` (`unbinnedpowerspectrum.h`), exposes the same interface but returns the individual Fourier modes rather than radially-binned averages, and is used instead whenever unbinned spectra are requested; it requires the HDF5 output backend.
 
 Let us move briefly to `SU2Measurer`, to highlight a few features not present in the scalar case:
 
