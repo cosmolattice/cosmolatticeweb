@@ -499,9 +499,10 @@ body.nav-collapsed .md-sidebar--primary {
     margin-top: 0.4em;
 }
 
-/* === Full-width claim blocks (Home page) ===
-   The prose of "Features & Capabilities" and "What makes CL different?":
-   each block is a <div class="cl-claim" markdown> holding a mini-title
+/* === Full-width claim blocks (Home page, Manual introduction) ===
+   The prose of "Features & Capabilities" and "What makes CL different?" on
+   the Home page, and of "Capabilities and structure" in the Manual's
+   introduction: each block is a <div class="cl-claim" markdown> holding a mini-title
    (restyled as a small eyebrow label) plus its full paragraph, always
    visible at full line measure behind a thin left rule. No fold, no JS.
    Kept neutral on purpose: on this page color always means a physics
