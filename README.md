@@ -24,6 +24,50 @@ That flag is deliberately off by default so the published site does not carry
 the shim and the duplicated search index it adds. It changes nothing else --
 in particular, no URLs.
 
+## Deployment
+
+**Pushing to `main` publishes to <https://cosmolattice.net>.** There is no
+separate deploy step to remember and no staging site: `.github/workflows/docs.yml`
+builds on every push, and its `deploy` job -- gated on
+`github.ref == 'refs/heads/main'` -- ships the result to GitHub Pages. Pushes to
+any other branch build and check but never publish.
+
+GitHub Pages is set to `build_type: workflow`, meaning GitHub builds nothing
+itself and serves **only** what that workflow deploys. Two consequences worth
+knowing before editing it:
+
+- **Do not replace `actions/upload-pages-artifact` with `actions/upload-artifact`,
+  and do not tar the site first.** `deploy-pages` consumes only the reserved
+  `github-pages` artifact that the former produces. Packing it yourself still
+  deploys *green*, and serves a site whose entire content is one file named
+  `site.tar.gz`.
+- **`source/docs/CNAME` must keep reaching the built output.** Jekyll used to copy
+  a repo-root `CNAME` automatically; MkDocs does not, which is why it lives in
+  `docs/`. Deploying without it makes GitHub clear the custom domain, and
+  re-attaching re-provisions the TLS certificate -- hours of certificate warnings
+  on the live domain. CI asserts its presence; keep that assertion.
+
+A branch rename emits no push event, so if `main` is ever renamed the first
+deployment afterwards has to be started by hand:
+
+```bash
+gh workflow run docs.yml --ref main
+```
+
+### Rollback
+
+The site was migrated from a beautiful-jekyll site in July 2026 (issue #2). That
+site is still intact, so reverting is a settings change -- the domain never moves
+and DNS is never touched:
+
+```bash
+gh api -X PUT repos/cosmolattice/cosmolatticeweb/pages \
+  -f build_type=legacy -f 'source[branch]=jekyll-legacy' -f 'source[path]=/'
+```
+
+The Jekyll content lives on the protected `jekyll-legacy` branch and the
+`jekyll-final` tag.
+
 ## Parameter appendix (generated)
 
 The parameter tables in `source/docs/Manual/Appendix_Parameters.md` are **generated**
