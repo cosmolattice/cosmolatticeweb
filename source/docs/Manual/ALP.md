@@ -140,7 +140,7 @@ H0 = ...
 ```
 in the parameter file. In such case, the scale factor is not sourced by the lattice fields, but by an external homogeneous component with constant equation of state $\omega_{\rm EoS}$, see Eq. ([*11*](My first model of (singlet) scalar fields.md#eq_ScaleFactorPowerLaw)) of [Scalar-Scalar interactions](My first model of (singlet) scalar fields.md).
 
-### Output files { #subsubsec_output }
+### **Output files** { #subsubsec_output }
 
 An axion-$\mathrm{U}(1)$ simulation generates the standard output files for both the scalar-singlet (the axion) and the $\mathrm{U}(1)$ gauge field, following the default conventions described in [Scalar-Gauge Interactions](My first model of gauge fields.md), as well as two additional files related to the power spectra. The specific novelties and additional files for this module are:
 
@@ -222,7 +222,7 @@ To satisfy the initial Gauss constraint—which, under BD initial conditions for
 
 Following the initialization in the BD vacuum, it is recommended to evolve the fields in the linear regime to prevent the appearance of discretization effects related to UV modes of the BD spectrum. More details on this regime and how to control it are provided in [*Linear Regime*][sec_evolution-axionU1_linear_regime].
 
-### Evolution equations { #sec_evolution-axionU1 }
+### **Evolution equations** { #sec_evolution-axionU1 }
 
 For self-consistent expansion, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ evolves the fields by solving a set of first-order differential equations. Defining the conjugate momenta
 [](){ #eq_AxionU1momentum }
@@ -295,7 +295,7 @@ evolver = RK2
 Higher-order RK algorithms can be used if better time-integration accuracy is needed. <!--During the run, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ always monitors the Friedmann constraint using the total energy density, while the dynamical update of the scale factor is performed through the kernel equation defined above.-->
 
 
-### Linear Regime { #sec_evolution-axionU1_linear_regime }
+### **Linear Regime** { #sec_evolution-axionU1_linear_regime }
 
 The linear regime represents a specific simplified case of the full axion-gauge dynamics where the backreaction from the gauge sector onto the axion field is switched off. Operationally, this means the topological backreaction term proportional to $\sum_i \left(\tilde{\pi}_A\right)_i^{(2)}\tilde{B}_i^{(4)}$ is explicitly removed from the axion equation of motion. As a direct consequence of neglecting this backreaction, no spatial gradients are generated for the axion field, which is initially homogeneous. This causes the spatial Laplacian to vanish ($\sum_i \tilde{\nabla}_i^-\tilde{\nabla}_i^+ \tilde{\phi} = 0$) and, as a consequence, the discrete terms containing spatial derivatives of the axion field in the gauge field kernel become strictly zero
 ```math
@@ -324,5 +324,4 @@ Additionally, the contribution of the gauge sector to the cosmic expansion is co
 The motivation for simulating linearly from an initial time `t0` up to `tNonLinearAxionU1`, and only then switching to the full non-linear dynamics until `tMax`, stems from the physical behavior of the initial state. In certain scenarios, the UV tail of the initial Bunch-Davies vacuum solution can unphysically dominate the early-time dynamics rather than remaining subdominant. Through this multi-stage procedure, instead, we allow the gauge modes to first undergo chiral excitation within the homogeneous scalar field background. Once this physical excitation grows to dominate over the unphysical UV tail, the full non-linear dynamics can be safely activated. Crucially, this transition must be triggered before the backreaction of the gauge sector becomes non-negligible.
 
 Note that any preliminary analysis—such as determining the optimal time thresholds, assessing the impact of the UV tail for the specific range of momentum modes simulated on the lattice, etc.—is not performed automatically by $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$. It is the user's responsibility to fix the `tNonLinearAxionU1` parameter and carry out these checks beforehand to ensure the correct and physical application of this hybrid evolution scheme.
-
 

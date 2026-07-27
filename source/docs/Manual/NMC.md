@@ -351,7 +351,7 @@ To define a new NMC model, start from a scalar-singlet model file and add the NM
 
 The `NonMinimalCouplings` typedef activates the NMC module. Its first template argument is the total number of scalar singlets, while the second one is the number of non-minimally coupled scalar fields. In this model, field index `1` is the NMC scalar $\chi$, while field index `0` is the minimally coupled inflaton $\phi$.
 
-### The potential and its derivatives { #sec_PotDerivsNMC }
+### **The potential and its derivatives** { #sec_PotDerivsNMC }
 
 The model has one non-zero program-potential term, Eq.$~$\eqref{eq_NMCExampleProgramPotential}, which is the inflationary potential:
 
