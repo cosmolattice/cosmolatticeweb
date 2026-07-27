@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>CosmoLattice</title>
+    
+    
+    <link>https://cosmolattice.net/</link>
+    <atom:link href="https://cosmolattice.net/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Release of version 1.2</title>
+        <description>
+          
+          Version 1.2 of CosmoLattice is now publicly available. The main new feature is an update of the gravitational wave module, so it can now simulate gravitational waves sourced by U(1) gauge theories. A number of bugs are also fixed. New features: Gravitational waves sourced by U(1) gauge theories. Bug corrections:...
+        </description>
+        <pubDate>Wed, 21 Jun 2023 00:00:00 -0400</pubDate>
+        <link>https://cosmolattice.net/2023-06-21-release-v12/</link>
+        <guid isPermaLink="true">https://cosmolattice.net/2023-06-21-release-v12/</guid>
+      </item>
+    
+      <item>
+        <title>School material uploaded</title>
+        <description>
+          
+          The material prepared for the CosmoLattice School 2022 (which took place in Valencia in early September)
+is now available at our website, see the “Documentation” tab above. We have uploaded the presentation slides, as well as
+mathematica and python notebooks to read and plot the code output.
+
+        </description>
+        <pubDate>Mon, 19 Sep 2022 00:00:00 -0400</pubDate>
+        <link>https://cosmolattice.net/2022-09-19-school-material/</link>
+        <guid isPermaLink="true">https://cosmolattice.net/2022-09-19-school-material/</guid>
+      </item>
+    
+      <item>
+        <title>Bug fixes for v 1.1.2</title>
+        <description>
+          Bug fixes for v1.1 - 
+          We just released two bug fixes for v1.1 of CosmoLattice.
+
+v1.1.2 (16.06.22):
+
+  Corrected a wrong factor 2 introduced in v1.1.1 in Type I spectra.
+
+
+v1.1.1 (10.06.22):
+
+  The output of the occupation number and the multiplicities was wrong in v1.1. Fixed.
+
+
+        </description>
+        <pubDate>Fri, 17 Jun 2022 00:00:00 -0400</pubDate>
+        <link>https://cosmolattice.net/2022-06-17-bugfix-112/</link>
+        <guid isPermaLink="true">https://cosmolattice.net/2022-06-17-bugfix-112/</guid>
+      </item>
+    
+      <item>
+        <title>Cosmolattice school</title>
+        <description>
+          Looking forward to welcoming you in Valencia! - 
+          We will be hosting a school in Valencia (Spain) on September 5th-8th 2022. We will lecture about everything you need to know about lattice simulations of early universe dynamics, while providing and hands-on sessions with CosmoLattice. For more information and to apply to the school, go to the school webpage:...
+        </description>
+        <pubDate>Thu, 05 May 2022 00:00:00 -0400</pubDate>
+        <link>https://cosmolattice.net/2022-05-05-school/</link>
+        <guid isPermaLink="true">https://cosmolattice.net/2022-05-05-school/</guid>
+      </item>
+    
+      <item>
+        <title>Release of version 1.1</title>
+        <description>
+          Gravitational waves are here! - 
+          We are glad to announce the release of version 1.1 of CosmoLattice! In particular, this new version comes together with a gravitational wave module. We summarize below the main features and bug corrections that version 1.1 has added with respect to version 1.0. New features: Gravitationnal waves sourced by the...
+        </description>
+        <pubDate>Thu, 05 May 2022 00:00:00 -0400</pubDate>
+        <link>https://cosmolattice.net/2022-05-05-release-v11/</link>
+        <guid isPermaLink="true">https://cosmolattice.net/2022-05-05-release-v11/</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -41,16 +41,30 @@ jobs:
         run: bash scripts/check_params_sync.sh
         continue-on-error: true
 
-      - name: Assert CNAME, 404 and redirect stubs in output
+      - name: Assert CNAME, 404, feed and redirect stubs in output
         run: |
           test -f website/site/CNAME
           grep -qx 'cosmolattice.net' website/site/CNAME
           test -f website/site/404.html
+          # Frozen copy of the Jekyll RSS feed. Papers and readers may still
+          # poll this URL, so it has to survive the flip even though it stopped
+          # gaining entries in June 2023.
+          test -f website/site/feed.xml
+          grep -q '<rss' website/site/feed.xml
           for p in features download documentation usermanual review \
                    technicalnotes school school22material school23 school25 \
                    allversions version10 version11 version12 version13 \
-                   people publications tags; do
+                   people publications tags \
+                   2023-06-21-release-v12 2022-09-19-school-material \
+                   2022-06-17-bugfix-112 2022-05-05-school \
+                   2022-05-05-release-v11; do
             test -f "website/site/$p/index.html" || { echo "missing redirect stub: $p"; exit 1; }
+          done
+          # Every <link> in the feed must have a stub behind it.
+          for u in $(grep -oE '<link>https://cosmolattice\.net/[^<]+</link>' website/site/feed.xml \
+                     | sed -E 's|<link>https://cosmolattice\.net/||; s|</link>||; s|/$||'); do
+            [ -z "$u" ] && continue
+            test -f "website/site/$u/index.html" || { echo "feed link has no target: $u"; exit 1; }
           done
 
       # Tarred because the site contains a page with a colon in its filename

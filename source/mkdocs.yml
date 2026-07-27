@@ -71,6 +71,14 @@ plugins:
         'people/index.md': 'people/People.md'
         'publications/index.md': 'publications/Publications.md'
         'tags/index.md': 'index.md'
+        # The five Jekyll blog posts. They are not linked from the nav, but they
+        # are the <link>/<guid> targets of every item in feed.xml, so dropping
+        # them would leave the feed we keep serving pointing at dead URLs.
+        '2023-06-21-release-v12/index.md': 'CL_News/CLnews.md'
+        '2022-09-19-school-material/index.md': 'events/EventsGuide.md'
+        '2022-06-17-bugfix-112/index.md': 'CL_News/CLnews.md'
+        '2022-05-05-school/index.md': 'events/EventsGuide.md'
+        '2022-05-05-release-v11/index.md': 'CL_News/CLnews.md'
   - bibtex:
       bib_file: "refs.bib"
   - mkdoxy:
