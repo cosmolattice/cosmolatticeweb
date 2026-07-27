@@ -23,14 +23,35 @@
 # Override the interpreter with PYTHON=... (defaults to python3); PyYAML must be
 # importable by it (pip install pyyaml).
 
-# NOTE: failures here are reported as WARNINGS and never abort the build. The
-# checks flag drift between parameters.yaml, the generated appendix, and the C++
-# call sites, but a docs build should still succeed so the site can be published.
-# Run the checks directly (or via CI) when you want a hard pass/fail.
+# By default failures are reported as WARNINGS and the script exits 0, so a docs
+# build still succeeds and the site can be published. Pass --strict (CI does) to
+# exit non-zero instead when anything is out of sync.
+#
+# IMPORTANT: $PYTHON must be an interpreter that can import yaml. The default,
+# bare `python3`, is usually NOT that interpreter outside an activated venv --
+# and when the import fails every check below "fails" identically, which looks
+# exactly like real drift. CI therefore passes PYTHON=tmp/.venv/bin/python
+# explicitly. If every check fails at once, suspect the interpreter first.
 set -uo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PYTHON="${PYTHON:-python3}"
+
+strict=0
+for arg in "$@"; do
+    case "$arg" in
+        --strict) strict=1 ;;
+        *) echo "usage: $(basename "$0") [--strict]" >&2; exit 2 ;;
+    esac
+done
+
+# Fail fast and unambiguously if the interpreter cannot do the job, rather than
+# letting it surface as four identical "out of sync" warnings.
+if ! "$PYTHON" -c "import yaml" 2>/dev/null; then
+    echo "error: '$PYTHON' cannot import yaml -- the checks below cannot run." >&2
+    echo "       Re-run with PYTHON=/path/to/venv/bin/python (or pip install pyyaml)." >&2
+    exit 2
+fi
 
 warned=0
 
@@ -89,8 +110,13 @@ run_check "the model registry (models.yaml) does not match the models in the cod
 
 if [ "$warned" -eq 0 ]; then
     echo "OK: parameter database is in sync (appendix, code, and model registry)."
-else
-    echo "WARNING: parameter database checks reported issues (see above); continuing anyway." >&2
+    exit 0
 fi
 
+if [ "$strict" -eq 1 ]; then
+    echo "ERROR: parameter database is out of sync (see above)." >&2
+    exit 1
+fi
+
+echo "WARNING: parameter database checks reported issues (see above); continuing anyway." >&2
 exit 0

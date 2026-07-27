@@ -53,13 +53,16 @@ jobs:
       - name: Check model registry in sync (strict)
         run: tmp/.venv/bin/python scripts/check_models_registry.py
 
-      # Known drift: the public code branch lags the private repo (currently
-      # the `dx` parameter), so this check cannot go green until the public
-      # branch catches up — see cosmolattice_private#75, risk 1. Reported,
-      # not enforced.
-      - name: Check parameter database (advisory)
-        run: bash scripts/check_params_sync.sh
-        continue-on-error: true
+      # PYTHON must be the venv interpreter. The wrapper defaults to a bare
+      # `python3`, which on the runner cannot import yaml -- and that made all
+      # four of its checks "fail" identically, in a way indistinguishable from
+      # real drift. Because the wrapper always exited 0 and this step was
+      # continue-on-error, nobody saw it: the check had never once run.
+      #
+      # It is strict now. The `dx` lag it used to be excused for is resolved --
+      # code and parameters.yaml agree (114 reads across 10 scopes).
+      - name: Check parameter database (strict)
+        run: PYTHON=tmp/.venv/bin/python bash scripts/check_params_sync.sh --strict
 
       - name: Assert CNAME, 404, feed and redirect stubs in output
         run: |
