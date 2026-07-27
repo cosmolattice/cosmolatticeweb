@@ -12,6 +12,18 @@ The output will be placed in the `website/site/` folder. You can simply view the
 xdg-open website/site/index.html
 ```
 
+Search does not work when the site is opened this way, because the browser
+refuses to start the search worker over `file://`. If you need it, build with
+the offline plugin enabled:
+
+```bash
+CL_OFFLINE=true bash build.sh
+```
+
+That flag is deliberately off by default so the published site does not carry
+the shim and the duplicated search index it adds. It changes nothing else --
+in particular, no URLs.
+
 ## Parameter appendix (generated)
 
 The parameter tables in `source/docs/Manual/Appendix_Parameters.md` are **generated**

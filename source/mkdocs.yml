@@ -85,7 +85,19 @@ plugins:
       full-doc: True # if you want to generate full documentation
   - search
   - autorefs
-  - offline
+  # Off by default, i.e. for the published site: the offline plugin exists to
+  # make site/ browsable over file://, and it pays for that by pulling an
+  # iframe-worker shim from unpkg.com into every page and writing a second,
+  # inlined copy of the 3.6 MB search index that a served site never reads.
+  #
+  #   CL_OFFLINE=true bash build.sh
+  #
+  # turns it back on for the local `xdg-open website/site/index.html` workflow
+  # in the README, where search needs it. It also force-sets use_directory_urls
+  # to false, which is what this config sets explicitly further down anyway --
+  # so toggling it never changes a single URL.
+  - offline:
+      enabled: !ENV [CL_OFFLINE, false]
   - gen-files:
       scripts:
         - exclusions.py
@@ -136,7 +148,13 @@ extra_javascript:
   - javascripts/publications.js #Publications/Citations: histogram, top users, search & filter
   - javascripts/researcher-map.js #Researcher map page: world map of where Using CL researchers are based
   - javascripts/news-bar.js #Added by DGF (July 3rd 2026) for have a news bar on top
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #Added by DGF (July 5th 2026) to have latex
+  # Do NOT re-add a second MathJax bundle here (a jsdelivr copy was added on
+  # July 5th 2026 "to have latex"). MathJax is already loaded above, from
+  # unpkg, immediately after javascripts/mathjax.js -- and that order is
+  # required, since mathjax.js sets window.MathJax as the startup config. A
+  # second copy loads MathJax twice and re-runs startup.pageReady() over an
+  # already-typeset document. If equations are not rendering, the cause is in
+  # mathjax.js or the arithmatex fence config, not a missing library.
 
 extra_css:
   # Likewise no hljs theme here: it was loaded unscoped and leaked page-wide,
