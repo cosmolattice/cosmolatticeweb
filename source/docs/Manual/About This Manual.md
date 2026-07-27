@@ -42,6 +42,9 @@ Provides an overview on $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$, in
 
 </div>
 
+First physics module
+{: .cl-toc-group }
+
 <div class="cl-toc-row cl-ch-scalar cl-v-all" markdown>
 
 **[Scalar-Scalar Interactions](My first model of (singlet) scalar fields.md)** <span class="cl-toc-brief">your first run: compile, define a model, set parameters, read the output</span>
@@ -51,7 +54,7 @@ Presents all necessary steps to run an example model with interacting singlet sc
 
 </div>
 
-Physics modules
+More physics modules
 {: .cl-toc-group }
 
 <div class="cl-toc-row cl-ch-u1 cl-v-all" markdown>
