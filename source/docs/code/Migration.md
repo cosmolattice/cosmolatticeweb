@@ -1,25 +1,22 @@
 # Migrating from $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ 1.x
 
-If you already have a working 1.x setup, this page is the complete list of what you have to change. Your physics does not change: model files, input files and output formats are essentially the same.
+If you already have a working CL v1.x setup, this page is the complete list of what you have to change. Your physics does not change: model files, input files and output formats stay all essentially the same.
 
-## The 5-minute upgrade
+## Minimal upgrade
 
+Inside your old CL v1.x folder, you only need to do the following:
 ```bash
-git clone https://github.com/cosmolattice/cosmolattice.git   # fresh clone, do not pull on top of 1.x
-cp /old/cosmolattice/src/models/myModel.h            cosmolattice/models/
-# edit myModel.h: one line, see below
-cd cosmolattice && mkdir build && cd build
-cmake -DMODEL=myModel ..        # add -DMPI=ON -DHDF5=ON as before
+git pull  # update your v1.x clone to the latest 2.x commit. 
+```
+The above will update your local repository to the latest version of CosmoLattice 2.x. If you did not change any of the `CosmoInterface` code, the only other change you need to make is to edit your model file as described below. Then you can build and run your model as before:
+```
+mkdir build && cd build
+cmake -DMODEL=myModel .. # add -DMPI=ON -DHDF5=ON as before
 make -j8
 ./myModel input=myModel.in
 ```
 
 Nothing else is needed if you have not changed $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ internals.
-
-!!! warning "Do not upgrade in place"
-
-    The layout changed (see [below](#folder-structure)) and TempLat is no longer vendored in the repository. Clone v2 fresh and copy your model and input files over.
-
 
 ## 1. Your model file: one required change
 
@@ -39,11 +36,13 @@ The toolbox argument of the model constructor changed type. Replacing it by `aut
 
 ??? tip "Migrating larger changes to CosmoInterface"
 
-    If you have modified the CosmoInterface layer, you will have to port those changes manually. CosmoInterface and the code itself have not changed much beyond the abstract model (which has now a modular structure) and the new physics features introduced with $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ 2.0. The symbolic language interface is unchanged.
-
-??? tip "Optional: you can now run your model in single precision"
-
-    Add `using FloatType = float;` to your `ModelPars` and replace `double` by `FloatType` throughout the model (including `RunParameters<FloatType>&` and `parser.get<FloatType>(...)`). It halves field memory. Left out, `FloatType` defaults to `double` and everything behaves as in 1.x.
+    If you have modified the CosmoInterface layer, you will have to port those changes manually. CosmoInterface and the code itself have not changed much beyond the abstract model (which has now a modular structure) and the new physics features introduced with $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ 2.0. 
+    The symbolic language interface is unchanged.
+    However, the folder structure has changed, and many files are structured differently. You will have to check the new folder structure and adapt your changes accordingly. See [Folder Structure](#folder-structure) for details.
+    In particular, note that changes in `CosmoInterface` will be flagged as a merge conflict when you pull the latest version of CosmoLattice 2.x. To resolve these:
+    - Port your changes from `src/include/CosmoInterface/` to the `include/CosmoInterface/` folder in the new structure.
+    - Remove `src`/
+    - Run `git add .` and `git commit` to finalize your merge.
 
 ## 2. External libraries: no more shell scripts
 
