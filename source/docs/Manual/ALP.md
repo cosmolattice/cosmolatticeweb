@@ -47,7 +47,7 @@ If we consider that the background expansion is driven by both the ALP and the g
 [](){ #eqn_Friedmann }
 ```math
 \begin{align}
-\ddot{a} &= -\frac{a}{3m_p^2}\big( E_{K} - E_{V} + E_{EM} \big)\,, \label{eqn:ddaAxion} \\
+\ddot{a} &= -\frac{a}{3m_p^2}\big( 2 E_{K} - E_{V} + E_{EM} \big)\,, \label{eqn:ddaAxion} \\
 H^2 &= \frac{1}{3m_p^2}\big(E_{K} + E_{G} + E_{V} + E_{EM}\big)\,, \quad\quad\quad \text{[Hubble Constraint]} \label{eqn:HubbleAxion}
 \end{align}
 ```
@@ -128,7 +128,7 @@ The parameter syntax for lattice parameters, output frequencies and scalar initi
 
 In addition, this particular model requires the keyword `Mass` that specifies the mass of the axion in GeV. In addition, initial conditions are provided via `initial_amplitudes` and `initial_momenta`, both of which contain only one entry corresponding to the axion field $\phi$.
 
-#### Fixed background expansion
+**Fixed background expansion**
 
 Axion-gauge models in $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ can also be run in a fixed-expanding background. This is activated by indicating
 
@@ -140,7 +140,7 @@ H0 = ...
 ```
 in the parameter file. In such case, the scale factor is not sourced by the lattice fields, but by an external homogeneous component with constant equation of state $\omega_{\rm EoS}$, see Eq. ([*11*](My first model of (singlet) scalar fields.md#eq_ScaleFactorPowerLaw)) of [Scalar-Scalar interactions](My first model of (singlet) scalar fields.md).
 
-#### Output files { #subsubsec_output }
+### Output files { #subsubsec_output }
 
 An axion-$\mathrm{U}(1)$ simulation generates the standard output files for both the scalar-singlet (the axion) and the $\mathrm{U}(1)$ gauge field, following the default conventions described in [Scalar-Gauge Interactions](My first model of gauge fields.md), as well as two additional files related to the power spectra. The specific novelties and additional files for this module are:
 
@@ -182,7 +182,7 @@ The definition of a `ScalarU1AxionCouplings` alias activates the axion-$\mathrm{
 !!! warning "Current scope of the axion-gauge module"
     As of version 2.0 of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$, it is only possible to run axion-gauge simulations with a single scalar field. This will be extended in the future to make it possible to simulate multiple ALPs and also scalar species not coupled to the topological term. <!--While couplings to more scalar fields are It is possible to define a model with more than one scalar field (`NScalars > 1`); and by default, all included scalars will be coupled to the $\mathrm{U}(1)$ gauge field. Please be aware that the module has not been formally tested with more than one coupled scalar. If you wish to add an additional scalar field that is *not* coupled to the gauge sector, you must set the coupling flag to `false` for that specific field index. Please note that this configuration is also untested.-->
 
-#### **The potential and its derivatives** { #sec_PotDerivsNMC }
+**The potential and its derivatives**
 
 In addition to specifying the number of fields and setting on the axion-gauge coupling, you also need to specify the model potential. For the provided example, the model only contains one term, Eq.$~$\eqref{eq_AxionExampleProgramPotential}, which is the inflationary potential:
 
@@ -214,7 +214,7 @@ This is a particular example of a potential, any other option can be implemented
 
 ### **Axion-$\mathrm{U}(1)$ physics inside $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$** { #sec_WhatHappensAutoinALP }
 
-#### Initial conditions { #sec_InitAxionU1 }
+**Initial conditions** 
 
 By default, simulations of ALPs initialize each chirality of the $\mathrm{U}(1)$ gauge field and its conjugate momenta (the electric field) using the Bunch-Davies (BD) solution, while the longitudinal components of both fields are set to zero. Consequently, the user does not need to specify any initialization parameters in the input parameter file for the Abelian gauge sector, as the BD initial conditions are automatically applied across the momentum range $[\tilde{k}_{\rm IR}, \tilde{k}_{\rm UV}]$.
 
@@ -222,7 +222,7 @@ To satisfy the initial Gauss constraint—which, under BD initial conditions for
 
 Following the initialization in the BD vacuum, it is recommended to evolve the fields in the linear regime to prevent the appearance of discretization effects related to UV modes of the BD spectrum. More details on this regime and how to control it are provided in [*Linear Regime*][sec_evolution-axionU1_linear_regime].
 
-#### Evolution equations { #sec_evolution-axionU1 }
+### Evolution equations { #sec_evolution-axionU1 }
 
 For self-consistent expansion, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ evolves the fields by solving a set of first-order differential equations. Defining the conjugate momenta
 [](){ #eq_AxionU1momentum }
@@ -295,7 +295,7 @@ evolver = RK2
 Higher-order RK algorithms can be used if better time-integration accuracy is needed. <!--During the run, $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ always monitors the Friedmann constraint using the total energy density, while the dynamical update of the scale factor is performed through the kernel equation defined above.-->
 
 
-#### Linear Regime { #sec_evolution-axionU1_linear_regime }
+### Linear Regime { #sec_evolution-axionU1_linear_regime }
 
 The linear regime represents a specific simplified case of the full axion-gauge dynamics where the backreaction from the gauge sector onto the axion field is switched off. Operationally, this means the topological backreaction term proportional to $\sum_i \left(\tilde{\pi}_A\right)_i^{(2)}\tilde{B}_i^{(4)}$ is explicitly removed from the axion equation of motion. As a direct consequence of neglecting this backreaction, no spatial gradients are generated for the axion field, which is initially homogeneous. This causes the spatial Laplacian to vanish ($\sum_i \tilde{\nabla}_i^-\tilde{\nabla}_i^+ \tilde{\phi} = 0$) and, as a consequence, the discrete terms containing spatial derivatives of the axion field in the gauge field kernel become strictly zero
 ```math

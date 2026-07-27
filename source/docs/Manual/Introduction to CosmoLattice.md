@@ -563,11 +563,11 @@ a^{\alpha-3}\vec E\cdot\vec B\,,
 \\
 E_i'
 +(1-\alpha)\mathcal{H}E_i
--a^{2(\alpha-1)}\epsilon_{ijk}\partial_jB_k
++a^{2(\alpha-1)}\epsilon_{ijk}\partial_jB_k
 &=&
-\frac{\alpha_\Lambda}{m_p}a^{\alpha-1}
+-\frac{\alpha_\Lambda}{m_p}a^{\alpha-1}
 \left(
-\phi'B_i+\epsilon_{ijk}\partial_j\phi\,E_k
+\phi'B_i-\epsilon_{ijk}\partial_j\phi\,E_k
 \right)\,.
 \label{eq_axion_gauge_eom}
 \end{eqnarray}

@@ -54,7 +54,7 @@ We introduce now the equations of motion resulting in a scalar-gauge theory with
         {1\over\sqrt{2}}
         \left(
         \begin{array}{c}
-            \varphi_1 +i\varphi_2 \\ \varphi_3 +i\varphi_3 \\ \vdots \\ \varphi_{2N -1} +i\varphi_{2N}
+            \varphi_1 +i\varphi_2 \\ \varphi_3 +i\varphi_4 \\ \vdots \\ \varphi_{2N -1} +i\varphi_{2N}
         \end{array}
         \right) \,.
     \end{array}
@@ -106,7 +106,7 @@ The equations of motion for the matter fields and the scale factor have been der
     \partial_0 F_{0i} - a^{-2(1 - \alpha )}\partial_j F_{ji} + (1 - \alpha) \mathcal{H} F_{0i} &=&
     a^{2 \alpha}J^A_i \ , \label{eq_U1eom}
     \\
-    (\mathcal{D}_0 )_{a b} (G_{0i})^b - a^{-2(1 - \alpha )} ( \mathcal{D}_j )_{a b} (G_{ji} )^b + (1 - \alpha) \mathcal{H} (G_{0i} )^b &=& a^{2 \alpha}(J_i)_a \ , \label{eq_SU2eom}
+    (\mathcal{D}_0 )_{a b} (G_{0i})^b - a^{-2(1 - \alpha )} ( \mathcal{D}_j )_{a b} (G_{ji} )^b + (1 - \alpha) \mathcal{H} (G_{0i} )_a &=& a^{2 \alpha}(J_i)_a \ , \label{eq_SU2eom}
     \\
     \partial_i F_{0i} &=& a^2J^A_0 \ , \label{eq_GaussU1-eom}\\
     (\mathcal{D}_i )_{a b} (G_{0i})^b &=& a^2(J_0)_a \ , \label{eq_GaussSU2-eom}
@@ -129,7 +129,7 @@ The energy-momentum tensor of a system characterized by a lagrangian $\mathcal{L
 [](){ #eq_auto_002 }
 ```math
 \begin{equation}
-T_{\mu \nu} \equiv -\frac{2}{\sqrt{g}}\frac{\delta(\sqrt{g} \mathcal{L})}{\delta g^{\mu \nu}}\,.
+T_{\mu \nu} \equiv -\frac{2}{\sqrt{-g}}\frac{\delta(\sqrt{-g} \mathcal{L})}{\delta g^{\mu \nu}}\,.
 \label{eq_auto_002}
 \end{equation}
 ```
@@ -587,11 +587,11 @@ a^{\alpha-3}\vec E\cdot\vec B\,,
 \\
 E_i'
 +(1-\alpha)\mathcal{H}E_i
--a^{2(\alpha-1)}\epsilon_{ijk}\partial_jB_k
++a^{2(\alpha-1)}\epsilon_{ijk}\partial_jB_k
 &=&
-\frac{\alpha_\Lambda}{m_p}a^{\alpha-1}
+-\frac{\alpha_\Lambda}{m_p}a^{\alpha-1}
 \left(
-\phi'B_i+\epsilon_{ijk}\partial_j\phi\,E_k
+\phi'B_i-\epsilon_{ijk}\partial_j\phi\,E_k
 \right)\,.
 \label{eq_axion_gauge_eom}
 \end{eqnarray}

@@ -502,7 +502,7 @@ An iterative scheme is then written as
 \tilde\pi_{i,+0/2} & = & \tilde\pi_{i,-0/2} + \delta\tilde\eta\mathcal{K}^{\rm L}_{i}[a,\lbrace \tilde\phi_j \rbrace]\, ,\\[1.5mm]
 b_{+0/2} &=& b_{-0/2} + \delta\tilde\eta \mathcal{K}^{\rm L}_{a}[a,\overline{{\widetilde E}}_{K},{\widetilde E}_G,{\widetilde E}_V]\, ,\\[1.5mm]
 a_{+0} &=&  a + \delta\tilde\eta\, b_{+0/2},\ ~~~~ \longrightarrow ~~~~ a_{+0/2} \equiv (a_{+0} + a)/2\,,\\[1.5mm]
-\tilde\phi_{i,+0} &=& \tilde\phi_a + \delta\tilde\eta\,\tilde\pi_{i,+0/2}a_{+0/2}^{-(3-\alpha)}\,,
+\tilde\phi_{i,+0} &=& \tilde\phi_i + \delta\tilde\eta\,\tilde\pi_{i,+0/2}a_{+0/2}^{-(3-\alpha)}\,,
 \end{array}
 \right. \\[1mm]
 && HC : b_{+0/2}^2 = \frac{1}{3} \left( \frac{ f_*}{m_p} \right)^2a_{+0/2}^{2(\alpha+1)} \Big({{\widetilde E}_{K}} + \overline{{\widetilde E}}_{G} + \overline{{\widetilde E}}_{V} \,\Big)\,,\nonumber
@@ -522,7 +522,7 @@ where $\overline{{\widetilde E}}_{K} \equiv \left({\widetilde E}_{K, -0/2} + {\w
 \begin{array}{@{}l}
 b_{+0/2} = b +{\dfrac{\delta\tilde\eta}{2}} 
 \mathcal{K}^{\rm L}_{a}[a,{\widetilde E}_{K},{\widetilde E}_G,{\widetilde E}_V]\,,\\
-\tilde\pi_{i,+0/2} = \tilde\pi^{(b)} + 
+\tilde\pi_{i,+0/2} = \tilde\pi_{i} + 
 {\dfrac{\delta\tilde\eta}{2}} \mathcal{K}^{\rm L}_{i}[a,\{\tilde\phi_j\}]\,,~\\
 a_{+0} =  a +  {\delta\tilde\eta}b_{+0/2}\,,~a_{+0/2} = \dfrac{a_{+0}+a}{2}\,,\\
 \tilde\phi_{i,+0} = \tilde\phi_i + 

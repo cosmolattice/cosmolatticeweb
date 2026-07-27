@@ -247,7 +247,7 @@ Standard scalar-singlet parameters still apply. In particular, `initial_amplitud
 
 which runs the model on a $64^3$ lattice and sets $\xi=50$.
 
-#### Fixed background expansion
+**Fixed background expansion**
 
 NMC models can also be run in a fixed expanding background, analogously to the scalar-singlet setup around Eq. ([*11*](My first model of (singlet) scalar fields.md#eq_ScaleFactorPowerLaw)). This is activated with
 ```text
@@ -285,7 +285,7 @@ p+\tilde{\mathcal H}_*
 
 where $\tilde{\mathcal H}_* \equiv H_0/\omega_*$ and $p=2/[3(1+\omega_{\rm EoS})-2\alpha]$. The fixed-background Ricci scalar vanishes for radiation domination, $\omega_{\rm EoS}=1/3$, as expected.
 
-#### Output files
+**Output files**
 
 An NMC run generates the usual scalar-singlet output files listed in Section [*Outputs*](My first model of (singlet) scalar fields.md#subsec_Outputs). The NMC module adds the following information:
 
@@ -351,7 +351,7 @@ To define a new NMC model, start from a scalar-singlet model file and add the NM
 
 The `NonMinimalCouplings` typedef activates the NMC module. Its first template argument is the total number of scalar singlets, while the second one is the number of non-minimally coupled scalar fields. In this model, field index `1` is the NMC scalar $\chi$, while field index `0` is the minimally coupled inflaton $\phi$.
 
-#### The potential and its derivatives { #sec_PotDerivsNMC }
+### The potential and its derivatives { #sec_PotDerivsNMC }
 
 The model has one non-zero program-potential term, Eq.$~$\eqref{eq_NMCExampleProgramPotential}, which is the inflationary potential:
 
@@ -382,7 +382,7 @@ The numbering of these functions must be consistent with the scalar-field number
 
 ### **The NMC physics inside CosmoLattice** { #sec_WhatHappensAutoinNMC }
 
-#### Initialization of fluctuations { #sec_InitNMC }
+**Initialization of fluctuations** 
 
 Any scalar singlet can be initialized from an external spectrum, following the prescription described in Section [*External power spectrum for scalar singlet initialization*](IC.md#subsubsec_ExternalPSSingletIC). The NMC-specific use case is to apply this mechanism to the non-minimally coupled scalar. For the present model this is done with
 ```text
@@ -391,7 +391,7 @@ ext_PS1 = path/to/spectrum.dat
 
 because in $\texttt{NMC_lphi4.h}$ field `1` is $\chi$. The corresponding inflaton parameter is `ext_PS0`; it can remain `none` if the inflaton fluctuations use the default scalar prescription. The `PS_type` value must match the convention used to produce the external file, and the momenta in that file must be expressed in units compatible with $\omega_*$. This is useful when the NMC spectator fluctuations have first been evolved in the linear regime and are then passed to the nonlinear lattice simulation.
 
-#### Evolution equations { #eq_evolution-NMC }
+**Evolution equations** 
 
 For self-consistent expansion, CosmoLattice evolves the fields by solving a set of first-order differential equations. Defining the conjugate momenta
 [](){ #eq_NMCmomentumChi }

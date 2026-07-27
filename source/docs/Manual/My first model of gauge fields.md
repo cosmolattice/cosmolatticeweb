@@ -155,7 +155,7 @@ a^{2 \alpha}\widetilde J^A_i  , %\tag{61}
 \\
 \label{eq_SU2eom}
 
-(\widetilde{\mathcal{D}}_0 )_{a b} (\widetilde G_{0i})^b - a^{-2(1 - \alpha )} (  \widetilde{\mathcal{D}}_j )_{a b} (\widetilde{G}_{ji} )^b + (1 - \alpha) \frac{{a'}}{a} (\widetilde{G}_{0i} )^b &= \left( \frac{f_*}{\omega_*} \right)^2 a^{2 \alpha}(\widetilde{J}_i)_a  , %\tag{62}
+(\widetilde{\mathcal{D}}_0 )_{a b} (\widetilde G_{0i})^b - a^{-2(1 - \alpha )} (  \widetilde{\mathcal{D}}_j )_{a b} (\widetilde{G}_{ji} )^b + (1 - \alpha) \frac{{a'}}{a} (\widetilde{G}_{0i} )_a &= \left( \frac{f_*}{\omega_*} \right)^2 a^{2 \alpha}(\widetilde{J}_i)_a  , %\tag{62}
 \\
 \label{eq_GaussU1-eom}
 \tilde \partial_i \widetilde F_{0i} &= \left( \frac{f_*}{\omega_*} \right)^2 a^2 \widetilde J^A_0  , %\tag{63}\\
@@ -587,7 +587,7 @@ With these definitions the equations of motion can be then written as
 ```math
 \begin{align}
 (\tilde\pi_\phi)'    &=   \mathcal{K}_{\phi}[a,\tilde\phi,|\tilde{\varphi}|,|\widetilde{\Phi}|] & &   \equiv     - a^{3 + \alpha} \widetilde V_{,\tilde\phi}  + a^{1 + \alpha} {\widetilde \nabla}^{2} \tilde\phi    ,\label{eq_kernelsingletscalar}\\
-(\tilde\pi_\varphi)'    &=   \mathcal{K}_{\varphi}[a,\tilde\phi,\tilde\varphi,|\widetilde{\Phi}|,\widetilde A_j]  & &   \equiv     a^{3 + \alpha} \widetilde V_{,|\tilde\varphi|} \frac{1}{2} \frac{\tilde\varphi}{|\tilde\varphi |} + a^{1 + \alpha} {\vec{\widetilde D}}_{\hspace{-0.5mm}A}^{ 2}\tilde\varphi    , \label{eq_kernelcomplexscalar} \\
+(\tilde\pi_\varphi)'    &=   \mathcal{K}_{\varphi}[a,\tilde\phi,\tilde\varphi,|\widetilde{\Phi}|,\widetilde A_j]  & &   \equiv   -  a^{3 + \alpha} \widetilde V_{,|\tilde\varphi|} \frac{1}{2} \frac{\tilde\varphi}{|\tilde\varphi |} + a^{1 + \alpha} {\vec{\widetilde D}}_{\hspace{-0.5mm}A}^{ 2}\tilde\varphi    , \label{eq_kernelcomplexscalar} \\
 (\widetilde\pi_\Phi)'    &=   \mathcal{K}_{\Phi}[a,\tilde\phi,|\tilde\varphi|,\widetilde\Phi,\widetilde B_j^a] & &    \equiv     - a^{3 + \alpha} \widetilde V_{,|\widetilde\Phi|} \frac{1}{2} \frac{\widetilde\Phi}{|\widetilde\Phi |} + a^{1 + \alpha} {\vec{\widetilde{D}}}_{\hspace{-0.5mm}A}^{ 2}\widetilde\Phi  \label{eq_kerneldoubletscalar}    ,\\
 \left(\tilde\pi_A\right)'_i    &=   \mathcal{K}_{A_i}[a,\tilde\varphi,\widetilde \Phi,\widetilde A_j] & &   \equiv     a^{1+ \alpha}\widetilde J^A_i + a^{\alpha - 1}\tilde{\partial}_j \widetilde F_{ji}     ,   \label{eq_kernelU1}\\
 \left(\left(\tilde\pi_B\right)_i^a\right)'   &=   \mathcal{K}_{B_i}[a,\widetilde\Phi,\widetilde A_j,\widetilde B_j^a] & &    \equiv     a^{1+ \alpha}\widetilde J^a_i + a^{\alpha - 1}( \mathcal{\widetilde D}_j )_{a b} (\widetilde G_{ji} )^b      . \label{eq_kernelSU2}

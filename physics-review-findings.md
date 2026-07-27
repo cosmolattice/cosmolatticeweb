@@ -24,58 +24,6 @@ Every finding carries a verbatim quote so you can locate it without re-deriving 
 These are cases where two pages disagreed. A second reviewer was given the conflict and
 asked to settle it from the code. All three came back with a clear verdict.
 
-### 1.1 `Manual/ALP.md:50` — missing factor of 2 on the kinetic term
-
-```
-\ddot{a} &= -\frac{a}{3m_p^2}\big( E_{K} - E_{V} + E_{EM} \big)
-```
-
-**Verdict: ALP.md is wrong.** The coefficient on `E_K` should be `2E_K` (at `alpha = 0`).
-
-Three independent lines of evidence:
-
-- `include/CosmoInterface/evolvers/kernels/scalefactorkernels.h:73-76` carries the
-  coefficient `(alpha-2)` on `E_K`, which at `alpha = 0` gives `-2E_K`.
-- The same equation in program units *on ALP.md itself* (line 264) carries `(alpha-2)`.
-- `Manual/My first model of gauge fields.md` `eq_FriedmannDDa` also carries `(alpha-2)`,
-  and was separately verified against `scalefactorkernels.h` **and** by an independent
-  derivation from `a''/a = (a^{2alpha}/omega_*^2)(alpha H^2 + adotdot/a)`.
-- General relativity gives `rho + 3p = 4E_K - 2E_V` for a scalar, consistent with `2E_K`.
-
-The `E_V` and `E_EM` coefficients on ALP.md are correct. Only the kinetic term is affected.
-
-### 1.2 `th_framework/Brief_Review_On_Continuum_Dynamics.md:223` — two of three signs wrong
-
-```
-E'_i + (1 - \alpha)\mathcal{H} E_i - a^{2(\alpha-1)}\epsilon_{ijk}\partial_jB_k
-  &=& \frac{\alpha_\Lambda}{m_p} a^{\alpha-1}\left(\phi'B_i+\epsilon_{ijk}\partial_j\phi E_k\right)
-```
-
-**Verdict: the continuum-review page is wrong; `Manual/ALP.md` is right.**
-
-The curl term and the `phi' B_i` term both have the wrong sign. The
-`eps_{ijk} d_j phi E_k` term happens to come out right.
-
-Three independent checks:
-
-- **Code.** `include/CosmoInterface/definitions/axioncouplings.h::U1AxionCoupling` has
-  `AxionCoupl1 = -0.5 * alphaLambda * (piS * B4 + ...)`. Substituting
-  `(pi_A)_i = a^{1-alpha} E_i` and `pi_phi = a^{3-alpha} phi'` gives a **minus** on the
-  `alpha_Lambda phi' B_i` term.
-- **Internal.** This page's own `eq_U1eom` (line 106) has `-a^{-2(1-alpha)} d_j F_{ji}`,
-  and `F_{ji} = -eps_{ijk} B_k`, so the curl term on the LHS must be
-  `+a^{2(alpha-1)} eps_{ijk} d_j B_k` — the opposite of what is printed.
-- **Analytic.** Taking `d_i` of the E-field EOM and using `d_i B_i = 0`,
-  `B'_i = eps_{ijk} d_j E_k` reproduces the eta-derivative of `eq_axion_gauss`
-  (line 229, identical on both pages) *only* with the ALP.md right-hand side.
-
-The intended form is
-`E'_i + (1-alpha)H E_i + a^{2(alpha-1)} eps_{ijk} d_j B_k = -(alpha_Lambda/m_p) a^{alpha-1} (phi'B_i - eps_{ijk} d_j phi E_k)`.
-
-**This block is duplicated.** `Manual/Introduction to CosmoLattice.md:353` carries the
-identical wrong signs (copied in commit `80447e7c`, "needs to be incorporated properly").
-Both copies need the same correction, or the duplicate should be deleted.
-
 ### 1.3 Discrete Fourier transform sign convention
 
 `Manual/Conventions and Notation.md:29` (the notation authority) and two `th_framework`
@@ -114,43 +62,6 @@ nevertheless built and published.
 
 ## 2. Confirmed discrepancies between the docs and the code
 
-### 2.1 `Manual/GW.md:171` — Forward/Backward derivative tags swapped
-
-```
-[\texttt{Forward derivative}],
-```
-
-The bracket tags on `k^-_{L,j}` and `k^+_{L,j}` in `eq_GWLatticeMomenta_1` are swapped.
-
-The page contradicts *itself*: line 181 says "the forward and backward momenta,
-`k^{\pm}_L`" (+ = forward), and the projector table at lines 402-404 says type 2 =
-"Backward projector, built from `k^-_L`" / type 3 = "Forward projector, built from
-`k^+_L`".
-
-The code agrees with the table, not the tags: `gwsprojector.h` `GWProjectorType2` builds
-`kL = complex(sin, -1+cos) = sin - i(1-cos) = k^-_L`; `GWProjectorType3` builds
-`sin + i(1-cos) = k^+_L`.
-
-Fix is to swap the two tags. Confirm against The Art-II before editing.
-
-### 2.2 `Manual/My first model of gauge fields.md:590` — missing minus sign
-
-```
-(\tilde\pi_\varphi)' = \mathcal{K}_{\varphi}[...] \equiv a^{3+\alpha} \widetilde V_{,|\tilde\varphi|} \frac{1}{2} \frac{\tilde\varphi}{|\tilde\varphi|} + a^{1+\alpha} \vec{\widetilde D}_A^2 \tilde\varphi
-```
-
-The potential-derivative term has no minus sign, unlike the singlet kernel (line 589) and
-the doublet kernel (line 591), which both start with `- a^{3+\alpha}`.
-
-`include/CosmoInterface/evolvers/kernels/complexscalarkernels.h:33` returns
-`pow(aI,1+alpha)*covLaplacianCS(...) - pow(aI,3+alpha)/2*Potential::derivCS(...)` — a
-**minus** on the potential term.
-
-Found independently by two reviewers (the gauge-fields reviewer and the
-`What CosmoLattice does in detail` reviewer, the latter noting that a reader following the
-cross-link sees the opposite sign from the snippet embedded next to it).
-
-`Manual/What CosmoLattice does in detail.md:147` links directly to this anchor.
 
 ### 2.3 `Manual/IC.md:444` — wrong claim about U(1) initial-condition types
 
@@ -249,15 +160,6 @@ Not settleable from the code — these need an author's decision.
   strength. `Canonical_Field_Theory.md:77` writes the same expression in terms of a rescaled
   field, so this may be an inherited convention rather than an error.
 
-- **`th_framework/Brief_Review_On_Continuum_Dynamics.md:132`** — `T_{μν}` defined with `√g`
-  where the signature `(-,+,+,+)` requires `√(-g)`. Line 64 of the same page writes the action
-  as `∫d⁴x √(-g) L`, so the two are internally inconsistent.
-
-- **`th_framework/Brief_Review_On_Continuum_Dynamics.md:196`** — an orphan sentence glosses
-  `⟨...⟩`, but no such symbol appears in the Friedmann equations it follows. Those equations
-  introduce `E_K^φ, E_G^φ, E_V, E_K^A, E_K^B, E_G^A, E_G^B`, none of which is defined anywhere
-  on the page; `eq_energy-contributions` defines the *unaveraged local* densities under
-  different names.
 
 ---
 
@@ -281,18 +183,6 @@ Individually minor; collectively they make the manual hard to read across chapte
 
 Small, mechanical, but they are wrong as printed:
 
-- `Brief_Review_On_Continuum_Dynamics.md:57` — `eq_ChargedScalars` has `φ_3 + iφ_3`
-  (repeated index 3); the pattern requires `φ_3 + iφ_4`. Same typo in the orphan
-  `Canonical_Field_Theory.md:53`.
-- `Brief_Review_On_Continuum_Dynamics.md:109` and
-  `My first model of gauge fields.md:158` — SU(2) EOM friction term carries free index `b`
-  where every other term has free index `a`, with nothing to contract against.
-- `Introduction to CosmoLattice.md:241` — same free-index mismatch, inherited from the
-  continuum page.
-- `Brief_Review_On_Lattice_Techniques.md:505` — leapfrog drift reads `φ̃_a`; the scale-factor
-  subscript `a` makes no sense on a field amplitude. The Velocity-Verlet copy at line 528
-  correctly reads `φ̃_i`.
-- `Brief_Review_On_Lattice_Techniques.md:525` — `π̃^{(b)}` is undefined; appears nowhere else.
 - `singlet scalars:200, 203` — stray subscript on `φ̃'_a` / `χ̃'_a` in the friction term; the
   continuum equations at lines 93/96 correctly have no subscript.
 - `singlet scalars:575` — missing tilde: LHS should be `φ̃'` since the RHS is `π̃_φ`.
@@ -357,47 +247,9 @@ Found while checking documentation claims. These are bugs in the C++/input files
 
 ---
 
-## 6. Verified correct
-
-Recorded so nobody re-derives them.
-
-- **`Manual/GW.md` `eq_GWvEOM`** — self-consistent with the page's own first-order system,
-  reproduces the `gwskernels.h` kernel exactly, and matches
-  `Brief_Review_On_Continuum_Dynamics.md` `eq_GWEOMcontinuum`. The prime on the
-  `(3−α)(a'/a)v_ij'` friction term is correct. This is what established that `CL.md:29` was
-  missing its prime — the one physics-adjacent edit actually applied on the branch.
-
-- **`Manual/My first model of gauge fields.md` `eq_FriedmannDDa`** — its
-  `(α−2)/α/(α−1)/(α+1)` coefficients match `scalefactorkernels.h:73-76` exactly, and match an
-  independent derivation. This is the reference that convicts `ALP.md:50`.
-
-- **`Manual/NMC.md:461`** — the Ricci scalar entering the NMC kernels was checked term by term
-  against `NonMinimalCoupling::R` in `definitions/nonminimalcoupling.h`. Correct (the
-  surrounding *sentence* is broken, but the equation is not).
-
-- **`Manual/NMC.md:280`** — despite the circular notation, the value is right: the code's
-  `FixedBackgroundExpansion::R` at `deltaT = 0` gives exactly `−9H̃_*²(ω_EoS − 1/3)`.
-
-- **`Manual/Appendix_Generic_Model_variables.md`** — all 36 symbols in the table resolve to a
-  real declaration in `abstractmodel.h` or its sector base classes (after two wrong names were
-  corrected on the branch).
-
-- **`Manual/Defects.md`** — all `\eqref` targets resolve to a real label and all section
-  references to a real anchor, after the branch's link fixes.
-
-- **`events/Workshops/School2026.md`** — all seven people's names and affiliations match the
-  Indico record character for character, including an affiliation change that looked like an
-  error but is real.
-
----
-
 ## Suggested order of attack
 
-1. **§1** — three adjudicated contradictions. Highest confidence, and two of them
-   (`ALP.md`, the continuum axion EOM) are equations a reader would copy into their own work.
 2. **§5** — the code defects, especially the negated variance and the silently-ignored
    charge keys, since those affect *results*, not just documentation.
-3. **§2** — confirmed doc↔code drift, worst first: `GW.md` swapped tags, the gauge-fields
-   missing minus, the `IC.md` false claim.
 4. **§3** — the open questions, which need you rather than more searching.
 5. **§4** — notation, best done as one deliberate sweep rather than page by page.
