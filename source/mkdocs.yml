@@ -53,7 +53,7 @@ plugins:
   # directory-style (/features/), so each maps from <old>/index.md.
   - redirects:
       redirect_maps:
-        'features/index.md': 'CL.md'
+        'features/index.md': 'index.md'
         'download/index.md': 'code/Download.md'
         'documentation/index.md': 'index.md'
         'usermanual/index.md': 'Manual/About This Manual.md'
@@ -161,8 +161,12 @@ validation:
     unrecognized_links: warn
 
 nav:
-  - Home: #CL.md
-      - "<span style='font-weight:bold;'>What is CosmoLattice ?</span>": "CL.md"
+  - Home: #index.md
+      # This page is docs/index.md on purpose: it builds to site/index.html, which
+      # is what https://cosmolattice.net/ serves and where the header logo/title
+      # link points. Renaming it away from index.md would hand the domain root to
+      # whatever other index.md exists.
+      - "<span style='font-weight:bold;'>What is CosmoLattice ?</span>": "index.md"
       #           - "What is CosmoLattice ?": "CLnutshell/WhatIsCL.md"
       #           - "Features & Capabilities of CosmoLattice": "CLnutshell/FeaturesCapabilitiesCL.md"
       #           - "What makes CosmoLattice different ?": "CLnutshell/CLisDifferent.md"

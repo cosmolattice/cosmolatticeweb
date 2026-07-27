@@ -1,11 +1,18 @@
+---
+hide:
+  - toc
+---
+
 # $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ News
 
 <!-- Chronological feed. Each entry keeps its original title, date line and
      body verbatim; the 42px <span> pseudo-titles are now real headings (so they
-     reach the page TOC and can be linked to), and the stacks of spacer <div>s
-     and horizontal rules are replaced by one hairline between entries.
+     can be linked to), and the stacks of spacer <div>s and horizontal rules are
+     replaced by one hairline between entries.
      The cl-v2-release and cl-workshop-2026 ids are the targets of the site
-     news bar (javascripts/news-bar.js) — do not rename them. -->
+     news bar (javascripts/news-bar.js) — do not rename them.
+     The TOC is hidden: with theme feature toc.integrate the headings would
+     otherwise list every news entry in the left sidebar. -->
 
 <div class="cl-newsfeed-item" markdown="1">
 
