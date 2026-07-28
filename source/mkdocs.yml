@@ -187,23 +187,23 @@ validation:
     unrecognized_links: warn
 
 nav:
-  - Home: #index.md
+  - Home: index.md
       # This page is docs/index.md on purpose: it builds to site/index.html, which
       # is what https://cosmolattice.net/ serves and where the header logo/title
       # link points. Renaming it away from index.md would hand the domain root to
       # whatever other index.md exists.
-      - "<span style='font-weight:bold;'>What is CosmoLattice ?</span>": "index.md"
+      #- "<span style='font-weight:bold;'>What is CosmoLattice ?</span>": "index.md"
       #           - "What is CosmoLattice ?": "CLnutshell/WhatIsCL.md"
       #           - "Features & Capabilities of CosmoLattice": "CLnutshell/FeaturesCapabilitiesCL.md"
       #           - "What makes CosmoLattice different ?": "CLnutshell/CLisDifferent.md"
       #           - "CosmoLattice Versions": "CLnutshell/CLversions.md"
       #           - "Upcoming features": "CLnutshell/CLupcoming.md"
       # - "<span style='font-weight:bold;'>CosmoLattice News </span>": "CLnews.md"
-      - "<span style='font-weight:bold;'>If you use CosmoLattice </span>": "CLcitation.md"
+      # - "<span style='font-weight:bold;'>If you use CosmoLattice </span>": "CLcitation.md"
   - Code:
       #- "What is CosmoLattice": "code/HowToCiteCL.md"
-      #- "How to cite CosmoLattice": "code/HowToCiteCL.md"
       - "Quick installation and execution": "code/Quick installation and execution.md"
+      - "<span style='font-weight:bold;'>How to cite CosmoLattice</span>": "code/CLcitation.md"
       - "<span style='font-weight:bold;'>Installation - Full details</span>": "code/Installation.md"
       #- "<span style='font-weight:bold;'>Code Features </span>": "code/Features.md"
       - "<span style='font-weight:bold;'>Migrating from v1.x </span>": "code/Migration.md"
