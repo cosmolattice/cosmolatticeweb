@@ -228,3 +228,10 @@ As $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ is continuously evolving
 </div>
 
 As all these new physics capabilities are being developed simultaneously in parallel by different teams, it is difficult to predict which aspects will become publicly available first. It is therefore important to keep an eye on the tab [**$\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ Version Guide**](code/Versions.md), to check for new code releases, which may include new features such as new field variable definitions, options, evolution algorithms, and/or new interactions as those listed just above. All these changes are gradually incorporated in successive updated versions of $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$, and whenever a new code release is made, this is announced in the [**$\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ News**](CL_News/CLnews.md) tab. 
+
+<div style="height: 20px;"></div>
+
+<details class="cl-visit-counter">
+  <summary>Site statistics</summary>
+  <span>Total visits: <span id="visit-count">—</span></span>
+</details>

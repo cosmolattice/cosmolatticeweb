@@ -2928,3 +2928,21 @@ body.nav-collapsed .md-sidebar--primary {
         transform: none;
     }
 }
+
+/* Visit Counter - added by DGF July 28th 2026  */
+.cl-visit-counter {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--lighter);
+  opacity: 0.65;
+}
+
+.cl-visit-counter summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.cl-visit-counter summary::-webkit-details-marker {
+  display: none;
+}
