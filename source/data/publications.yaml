@@ -2,15 +2,77 @@
 # Grow with: python3 add_new_citation.py <arxiv-id>
 # Fields flagged in needs_review want a human eye; empty the list once curated.
 
+- arxiv: '2607.25073'
+  inspire: 3183955
+  title: Fixing IR tail of gravitational waves from domain walls
+  authors:
+  - name: Ivan Dankovsky
+    id: 2801981
+    inst: null
+  - name: Dmitry Gorbunov
+    id: 1007949
+    inst: null
+  journal: null
+  doi: null
+  date: '2026-07-27'
+  needs_review:
+  - author 1 affiliation
+  - author 2 affiliation
+- arxiv: '2607.24978'
+  inspire: 3183940
+  title: CosmoLattice 2.0
+  authors:
+  - name: Jorge Baeza-Ballesteros
+    id: 1869008
+    inst: null
+  - name: Daniel G. Figueroa
+    id: 1046060
+    inst: null
+  - name: Adrien Florio
+    id: 1844184
+    inst: null
+  - name: Nicolás Loayza
+    id: 1903971
+    inst: null
+  - name: Franz R. Sattler
+    id: 2629259
+    inst: null
+  - name: Francisco Torrentí
+    id: 1274773
+    inst: null
+  - name: Ander Urio
+    id: 1854931
+    inst: null
+  journal: null
+  doi: null
+  date: '2026-07-27'
+  needs_review:
+  - author 1 affiliation
+  - author 2 affiliation
+  - author 3 affiliation
+  - author 4 affiliation
+  - author 5 affiliation
+  - author 6 affiliation
+  - author 7 affiliation
 - arxiv: '2607.18381'
   inspire: 3182202
   title: Gravitational waves from self-resonance during reheating with a quantum-corrected inflaton potential
   authors:
-  - {name: Tomoya Inada, id: 2952888, inst: 903277}
-  - {name: Noel Jonathan Jobu, id: 2418765, inst: 1847255}
-  - {name: Kenji Nishiwaki, id: 1259387, inst: 1847255}
-  - {name: Toshifumi Noumi, id: 1274257, inst: 903277}
-  - {name: Naoki Yamatsu, id: 1050618, inst: 902943}
+  - name: Tomoya Inada
+    id: 2952888
+    inst: 903277
+  - name: Noel Jonathan Jobu
+    id: 2418765
+    inst: 1847255
+  - name: Kenji Nishiwaki
+    id: 1259387
+    inst: 1847255
+  - name: Toshifumi Noumi
+    id: 1274257
+    inst: 903277
+  - name: Naoki Yamatsu
+    id: 1050618
+    inst: 902943
   journal: null
   doi: null
   date: '2026-07-20'
@@ -244,20 +306,19 @@
   authors:
   - name: Yuan-Jie Li
     id: 2962152
-    inst: null
+    inst: 1636674
   - name: Jing Liu
     id: 1896010
-    inst: null
+    inst: 1636674
   - name: Zong-Kuan Guo
     id: 1027868
-    inst: null
+    inst: 903895
   journal: null
   doi: null
   date: '2026-01-27'
-  needs_review:
-  - author 1 affiliation
-  - author 2 affiliation
-  - author 3 affiliation
+  needs_review: []
+  note: affiliations hand-added — INSPIRE never curated this record and arXiv carries none; first affiliations
+    read off the paper's own author block (v1, p1)
 - arxiv: '2601.09784'
   inspire: 3105645
   title: Classical equipartition dynamics between axions and non-Abelian gauge fields
@@ -850,7 +911,7 @@
   - name: Wen Yin
     id: 1421892
     inst: 903272
-  journal: null
+  journal: PTEP 2025 (2025) 053B02
   doi: 10.1093/ptep/ptaf053
   date: '2024-12-27'
   needs_review: []
