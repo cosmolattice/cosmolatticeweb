@@ -85,12 +85,36 @@ def _get(url, cache_key):
     return data
 
 
+def forget_literature(arxiv):
+    """Drop the cached INSPIRE answer for one paper so the next fetch goes to the network.
+
+    The cache never expires, which is right for settled records but wrong for fresh
+    preprints: INSPIRE ingests the arXiv posting within hours but fills in affiliations
+    (and later the journal ref) in a curation pass days afterwards. refresh_citations.py
+    calls this before re-asking about an entry that is still incomplete.
+    """
+    cf = os.path.join(CACHE, "lit_%s.json" % arxiv)
+    if os.path.exists(cf):
+        os.remove(cf)
+        return True
+    return False
+
+
 def fetch_literature(arxiv):
     fields = "titles.title,authors.full_name,authors.record,authors.affiliations," \
              "publication_info,dois,earliest_date,control_number"
     url = "https://inspirehep.net/api/literature?q=arxiv:" + urllib.parse.quote(arxiv) + "&fields=" + fields
     hits = _get(url, "lit_" + arxiv).get("hits", {}).get("hits", [])
     return hits[0]["metadata"] if hits else None
+
+
+def forget_institution(iid):
+    """Drop the cached INSPIRE answer for one institution. See forget_literature()."""
+    cf = os.path.join(CACHE, "inst_%s.json" % iid)
+    if os.path.exists(cf):
+        os.remove(cf)
+        return True
+    return False
 
 
 def fetch_institution(iid):
@@ -154,22 +178,38 @@ def format_journal(pub_info):
 
 
 # ----------------------------------------------------------- the core op ------
-def ensure_institution(iid, insts):
-    """Fetch + normalise an institution into `insts` if not already present. Returns the record."""
-    key = int(iid)
-    if key in insts:
-        return insts[key]
-    md = fetch_institution(iid) or {}
+def institution_name(md):
+    """Best display name for an INSPIRE institution record, or None if it has none.
+
+    INSPIRE marks a superseded record with the literal ICN 'obsolete' while keeping
+    the real name in legacy_ICN, so the sentinel has to be cleared *before* falling
+    back — 'obsolete' is truthy, and an `ICN or legacy_ICN` chain would stop there
+    and never consult the fallback.
+    """
+    icn = ((md.get("ICN") or [""])[0] or "").strip()
+    if icn.lower() == "obsolete":
+        icn = ""
+    return icn or (md.get("legacy_ICN") or "").strip() or None
+
+
+def normalize_institution(md):
+    """INSPIRE institution record -> the shape institutions.yaml stores."""
     addr = (md.get("addresses") or [{}])[0]
-    name = ((md.get("ICN") or [""])[0] or md.get("legacy_ICN") or "")
-    name = "" if name.lower() == "obsolete" else name
-    insts[key] = {
-        "name": name or None,
+    return {
+        "name": institution_name(md),
         "city": normalize_city((addr.get("cities") or [None])[0]),
         "country": addr.get("country_code"),
         "lat": addr.get("latitude"),
         "lon": addr.get("longitude"),
     }
+
+
+def ensure_institution(iid, insts):
+    """Fetch + normalise an institution into `insts` if not already present. Returns the record."""
+    key = int(iid)
+    if key in insts:
+        return insts[key]
+    insts[key] = normalize_institution(fetch_institution(iid) or {})
     return insts[key]
 
 

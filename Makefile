@@ -20,7 +20,7 @@ PYTHON ?= $(shell [ -x "$(VENV_PYTHON)" ] && echo "$(VENV_PYTHON)" || echo pytho
 GEN    := scripts/gen_param_appendix.py
 
 .PHONY: help gen-params gen-model-caps check-params check-params-code check-model-caps check-models test-params docs \
-        gen-pubs check-pubs test-pubs gen-map add-citation
+        gen-pubs check-pubs test-pubs gen-map add-citation refresh-citations refresh-institutions
 
 help:
 	@echo "CosmoLattice documentation — make targets:"
@@ -34,6 +34,8 @@ help:
 	@echo "  make gen-pubs           Regenerate the Using CL list in Publications.md from publications.yaml"
 	@echo "  make gen-map            Regenerate researcher-locations.json from the publications YAML"
 	@echo "  make add-citation A=ID  Add arXiv paper ID to publications.yaml (fetches INSPIRE, regenerates)"
+	@echo "  make refresh-citations  Re-ask INSPIRE about entries still missing an affiliation"
+	@echo "  make refresh-institutions  Fill missing institution names/coords from INSPIRE"
 	@echo "  make check-pubs         Verify Publications.md is in sync with publications.yaml (no write)"
 	@echo "  make test-pubs          Run the publications generator unit tests"
 	@echo "  make docs               Build the full documentation site (runs build.sh)"
@@ -86,12 +88,33 @@ gen-map:
 add-citation:
 	$(PYTHON) scripts/add_new_citation.py $(A)
 
+# INSPIRE publishes a record as soon as a paper hits arXiv but only curates the
+# affiliations (then the journal ref) days later, so fresh preprints land with
+# inst: null. This sweeps every such entry, re-asks INSPIRE, and merges in what
+# has arrived — hand-edited values are never overwritten. Run it now and then.
+#   make refresh-citations                    every entry missing an affiliation
+#   make refresh-citations A=2607.25073       just that one
+#   make refresh-citations ARGS=--journals    also chase journal refs for preprints
+#   make refresh-citations ARGS=--dry-run     report only, write nothing
+refresh-citations:
+	$(PYTHON) scripts/refresh_citations.py $(A) $(ARGS)
+
+# The same idea one level down: fill gaps in institutions.yaml (a missing name,
+# missing coordinates) from INSPIRE. Hand-edited values are never overwritten.
+#   make refresh-institutions                 every institution with a null field
+#   make refresh-institutions A=903237        just that one
+#   make refresh-institutions ARGS=--dry-run  report only, write nothing
+refresh-institutions:
+	$(PYTHON) scripts/refresh_institutions.py $(A) $(ARGS)
+
 # No-write check that Publications.md matches publications.yaml.
 check-pubs:
 	$(PYTHON) scripts/gen_publications.py --check
 
 test-pubs:
 	$(PYTHON) scripts/test_gen_publications.py
+	$(PYTHON) scripts/test_refresh_citations.py
+	$(PYTHON) scripts/test_clpubs.py
 
 # Full documentation build (Doxygen + MkDocs). Output goes to website/site/.
 docs:
