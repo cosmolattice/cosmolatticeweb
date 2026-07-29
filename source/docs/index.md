@@ -233,5 +233,8 @@ As all these new physics capabilities are being developed simultaneously in para
 
 <details class="cl-visit-counter">
   <summary>Site statistics</summary>
-  <span>Total visits: <span id="visit-count">—</span></span>
+  <!-- <span>Total visits: <span id="visit-count">—</span></span> -->
+  <img
+  src="https://api.visitorbadge.io/api/visitors?path=cosmolattice.net&label=Total%20visits&countColor=%233f51b5&style=flat"
+  alt="Total website visits">
 </details>
