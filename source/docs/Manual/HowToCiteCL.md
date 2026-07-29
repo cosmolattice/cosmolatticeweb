@@ -18,9 +18,9 @@ For example, if you use only fundamental fields (*i.e.* scalar and/or gauge fiel
     <button type="button" class="cl-cite__copy" data-copy aria-label="Copy the LaTeX citation">
       <span class="cl-cite__copy-label">Copy</span>
     </button>
-    <pre class="cl-cite__code"><code>In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026XYZ,Florio:2026XXX},
+    <pre class="cl-cite__code"><code>In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026uao,Florio:2026vde},
 based on the lattice-cosmology techniques presented
-in~\cite{Figueroa_2020rrl,Baeza-Ballesteros:2025tme}.</code></pre>
+in~\cite{Figueroa:2020rrl,Baeza-Ballesteros:2025tme}.</code></pre>
   </section>
 
   <section class="cl-cite__pane" role="tabpanel" data-pane="bibtex" hidden>
@@ -36,24 +36,45 @@ in~\cite{Figueroa_2020rrl,Baeza-Ballesteros:2025tme}.</code></pre>
     year    = "2023",
     doi     = "10.1016/j.cpc.2022.108586",
     eprint  = "2102.01031",
-    archivePrefix = "arXiv"
+    archivePrefix = "arXiv",
+    primaryClass  = "astro-ph.CO"
 }
 
-@article{Figueroa_2020rrl,
+@article{Baeza-Ballesteros:2026uao,
+    author  = "Baeza-Ballesteros, Jorge and Figueroa, Daniel G. and Florio, Adrien and Loayza, Nicol{\'a}s and Sattler, Franz R. and Torrent{\'\i}, Francisco and Urio, Ander",
+    title   = "{CosmoLattice 2.0}",
+    year    = "2026",
+    eprint  = "2607.24978",
+    archivePrefix = "arXiv",
+    primaryClass  = "astro-ph.CO",
+    reportNumber  = "MS-TP-26-22"
+}
+
+@article{Florio:2026vde,
+    author  = "Florio, Adrien and Sattler, Franz R.",
+    title   = "{TempLat: a versatile C++ engine for lattice field theories}",
+    year    = "2026",
+    eprint  = "2607.24908",
+    archivePrefix = "arXiv",
+    primaryClass  = "hep-lat"
+}
+
+@article{Figueroa:2020rrl,
     author  = "Figueroa, Daniel G. and Florio, Adrien and Torrent{\'\i}, Francisco and Valkenburg, Wessel",
-    title   = "{The art of simulating the early Universe. Part I. Integration techniques and canonical cases}",
+    title   = "{The art of simulating the early Universe -- Part I: Integration techniques and canonical cases}",
     journal = "JCAP",
     volume  = "04",
     pages   = "035",
     year    = "2021",
     doi     = "10.1088/1475-7516/2021/04/035",
     eprint  = "2006.15122",
-    archivePrefix = "arXiv"
+    archivePrefix = "arXiv",
+    primaryClass  = "astro-ph.CO"
 }
 
 @article{Baeza-Ballesteros:2025tme,
     author  = "Baeza-Ballesteros, Jorge and Figueroa, Daniel G. and Florio, Adrien and Lizarraga, Joanes and Loayza, Nicol{\'a}s and Marschall, Kenneth and Opferkuch, Toby and Stefanek, Ben A. and Torrent{\'\i}, Francisco and Urio, Ander",
-    title   = "{The art of simulating the early Universe. Part II. Non-canonical cases \& gravitational waves}",
+    title   = "{The art of simulating the early Universe. Part II. Non-canonical cases {\&} gravitational waves}",
     journal = "JCAP",
     volume  = "06",
     pages   = "087",
@@ -61,25 +82,16 @@ in~\cite{Figueroa_2020rrl,Baeza-Ballesteros:2025tme}.</code></pre>
     doi     = "10.1088/1475-7516/2026/06/087",
     eprint  = "2512.15627",
     archivePrefix = "arXiv",
+    primaryClass  = "astro-ph.CO",
     reportNumber  = "DESY-25-191"
-}
-
-@article{Florio:2026XXX,
-    author  = "Florio, Adrien and others",
-    title   = "{TempLat code paper (in preparation)}",
-    journal = "in preparation",
-    year    = "2026"
-}
-
-% Baeza-Ballesteros:2026XYZ — CosmoLattice v2.0 code paper (reference to be finalized)
-% Florio:2026XXX — TempLat library paper (proxy key, reference to be finalized)</code></pre>
+}</code></pre>
   </section>
 </div>
 
 <!--
 If you also use fluids, then the previous acknowledgements should extend also to $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ *version 3.0* and to the theory review $\mathtt{The~Art\text{-}III}$ (Ref. [@Figueroa_2026XYZ]), and read something like
 
-*"In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026XYZ,Figueroa:2026XYZ}, based on the lattice-cosmology techniques presented in~\cite{Figueroa_2020rrl,Baeza-Ballesteros:2025tme,Figueroa:2026RST}"*
+*"In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026uao,Figueroa:2026XYZ}, based on the lattice-cosmology techniques presented in~\cite{Figueroa:2020rrl,Baeza-Ballesteros:2025tme,Figueroa:2026RST}"*
 -->
 
 If you have added new features — new dynamics (*e.g.* new interactions), a new observable (*e.g.* a field correlator), etc. — you can also add, after the citation, a line such as:
@@ -92,11 +104,11 @@ OLD STUFF:
 
 We welcome everyone to use CosmoLattice for their own projects. Whenever using CosmoLattice in your research, no matter how much (or little) you modify (or use) the code, and independently of which part of the code you touch (or use), please cite the basic versions of the code (namely version 1.0 & version 2.0), together with our lattice cosmology technique monographs $\mathtt{The~Art-I}$[@Figueroa_2020rrl] and $\mathtt{The~Art-II}$[@BaezaBallesteros_2025tme] where the basic ideas, algorithms and field theory methods implemented in CosmoLattice are explained. For example, if you use only fundamental fields (*i.e.* scalar and/or gauge fields), you could use a line as follows:
 
-*"In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026XYZ}, based on the lattice-cosmology techniques presented in~\cite{Figueroa_2020rrl,Baeza-Ballesteros:2025tme}"*
+*"In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026uao}, based on the lattice-cosmology techniques presented in~\cite{Figueroa:2020rrl,Baeza-Ballesteros:2025tme}"*
 
 If you also use fluids, then the previous acknowledgements should extend also to CosmoLattice *version 3.0* and to theory review $\mathtt{The~Art-III}$[@Figueroa:2026XYZ], and read something like
 
-*"In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026XYZ,Figueroa:2026XYZ}, based on the lattice-cosmology techniques presented in~\cite{Figueroa_2020rrl,Baeza-Ballesteros:2025tme,Figueroa:2026RST}"*
+*"In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026uao,Figueroa:2026XYZ}, based on the lattice-cosmology techniques presented in~\cite{Figueroa:2020rrl,Baeza-Ballesteros:2025tme,Figueroa:2026RST}"*
 
 If you have added new features, like new dynamics (*e.g.* new interactions), or built some new observable (*e.g.* a field correlator), etc, after citation, you can also add something like
 
