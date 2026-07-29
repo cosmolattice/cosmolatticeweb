@@ -22,7 +22,7 @@ log = logging.getLogger("mkdocs.hooks.resolve_emgithub")
 EMGITHUB_PATTERN = re.compile(r"@emgithub\(([^)]+)\)")
 
 SOURCE_ROOTS = [
-    ("cosmolattice", "https://github.com/cosmolattice/cosmolattice/blob/CLV2.0Alpha"),
+    ("cosmolattice", "https://github.com/cosmolattice/cosmolattice/blob/master"),
     ("templat", "https://github.com/cosmolattice/templat/blob/main"),
 ]
 

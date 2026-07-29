@@ -17,7 +17,7 @@ mkdir -p ${tmp_dir}/code_source
 # which stages that checkout's tracked files (including uncommitted edits).
 # NOTE: @emgithub line numbers are only correct where a labeled file matches
 # CL_CODE_BRANCH line-for-line in its labeled region.
-CL_CODE_BRANCH=${CL_CODE_BRANCH:-CLV2.0Alpha}
+CL_CODE_BRANCH=${CL_CODE_BRANCH:-master}
 code_dir=${tmp_dir}/code_source/cosmolattice
 if [ -n "${CL_CODE_SOURCE:-}" ]; then
     rm -rf ${code_dir}
