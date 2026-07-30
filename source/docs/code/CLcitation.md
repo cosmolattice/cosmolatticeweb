@@ -93,9 +93,9 @@ in~\cite{Figueroa:2020rrl,Baeza-Ballesteros:2025tme}.</code></pre>
 </div>
 
 <!--
-If you also use fluids, then the previous acknowledgements should extend also to $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ *version 3.0* and to the theory review $\mathtt{The~Art\text{-}III}$ (Ref. [@Figueroa_2026XYZ]), and read something like
+If you also use fluids, then the previous acknowledgements should extend also to $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$ *version 3.0* and to the theory review $\mathtt{The~Art\text{-}III}$ (Ref. [@Figueroa_2026esg]), and read something like
 
-*"In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026uao,Figueroa:2026XYZ}, based on the lattice-cosmology techniques presented in~\cite{Figueroa:2020rrl,Baeza-Ballesteros:2025tme,Figueroa:2026RST}"*
+*"In this work we use CosmoLattice~\cite{Figueroa:2021yhd,Baeza-Ballesteros:2026uao,Florio:2026vde}, based on the lattice-cosmology techniques presented in~\cite{Figueroa:2020rrl,Baeza-Ballesteros:2025tme,Figueroa:2026esg}"*
 -->
 
 If you have added new features — new dynamics (*e.g.* new interactions), a new observable (*e.g.* a field correlator), etc. — you can also add, after the citation, a line such as:
