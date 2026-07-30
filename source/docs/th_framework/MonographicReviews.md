@@ -6,7 +6,7 @@ The theoretical basis for the equations implemented in $\mathcal{C}\mathtt{osmo}
 
 - *Part II. Non-canonical cases and gravitational waves.* (Ref. [@BaezaBallesteros_2025tme]) 
 
-- *Part III. Scalar-Gauge-Fluid dynamics.* (Ref. [@Figueroa_2026XYZ]) 
+- *Part III. Scalar-Gauge-Fluid dynamics.* (Ref. [@Figueroa_2026esg]) 
 
 which we will often refer to as $\mathtt{The~Art-I}$, $\mathtt{The~Art-II}$ and $\mathtt{The~Art-III}$ monographs. These reviews provide comprehensive discussions of lattice-cosmology methods for scalar–gauge field theories in an expanding universe ($\mathtt{The~Art-I}$); gravitational waves and non-canonical aspects of field theory, including interactions, initial conditions, and dimensionality ($\mathtt{The~Art-II}$); and fluid dynamics as a description of an ensemble of interacting scalar, gauge, and fermion particles ($\mathtt{The~Art-III}$). 
 
@@ -16,9 +16,9 @@ You can download the monographs from:
 |:--------|:-----------:|:--------------:|:---------:|:---------:|:---------------:|
 | $\mathtt{The~Art-I}$ (Ref. [@Figueroa_2020rrl]) | <a href="https://inspirehep.net/literature/1803326" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://arxiv.org/abs/2006.15122" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://arxiv.org/pdf/2006.15122" target="_blank" rel="noopener noreferrer">File</a> | <a href="./pdfs/Art_I.pdf" target="_blank" rel="noopener noreferrer">Open</a> | <a href="https://doi.org/10.1088/1475-7516/2021/04/035" target="_blank" rel="noopener noreferrer">Link</a> |
 | $\mathtt{The~Art-II}$ (Ref. [@BaezaBallesteros_2025tme]) | <a href="https://inspirehep.net/literature/3093619" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://arxiv.org/abs/2512.15627" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://arxiv.org/pdf/2512.15627" target="_blank" rel="noopener noreferrer">File</a> | <a href="./pdfs/Art_II.pdf" target="_blank" rel="noopener noreferrer">Open</a> | <a href="https://doi.org/10.1088/1475-7516/2026/06/087" target="_blank" rel="noopener noreferrer">Link</a> |
-| $\mathtt{The~Art-III}$ (Ref. [@Figueroa_2026XYZ]) | <a href="https://inspirehep.net/literature/3093619" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://arxiv.org/abs/2512.15627" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://arxiv.org/pdf/2512.15627" target="_blank" rel="noopener noreferrer">File</a> | <a href="./pdfs/Art_III.pdf" target="_blank" rel="noopener noreferrer">Open</a> | <a href="https://doi.org/10.1088/1475-7516/2026/06/087" target="_blank" rel="noopener noreferrer">Link</a> |
+| $\mathtt{The~Art-III}$ (Ref. [@Figueroa_2026esg]) | <a href="https://inspirehep.net/literature/3184486" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://arxiv.org/abs/2607.27141" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://arxiv.org/pdf/2607.27141" target="_blank" rel="noopener noreferrer">File</a> | <a href="./pdfs/Art_III.pdf" target="_blank" rel="noopener noreferrer">Open</a> | ---- |
 
-(<span style="color:red;">**CHANGE last row to ART-III **</span>)
+<!-- (<span style="color:red;">**CHANGE last row to ART-III **</span>) -->
 
 <!--
   space
@@ -118,9 +118,9 @@ This monograph serves as the theoretical basis for scalar–gauge–fluid intera
 
 Our evolution algorithms accommodate self-consistent expansion sourced by all scalar, gauge, and fluid sectors, preserving gauge invariance to machine precision in some cases. We also review lattice methods to set up the initial conditions for a fluid and the implementation of GW dynamics sourced by all scalar, gauge, and fluid degrees of freedom. 
 
-You can download $\mathtt{The~Art-III}$ (Ref. [@Figueroa_2026XYZ]) from: &nbsp; <a href="https://inspirehep.net/literature/3093619" target="_blank" rel="noopener noreferrer">INSPIRE-HEP</a> ; &nbsp;
-<a href="https://arxiv.org/abs/2512.15627" target="_blank" rel="noopener noreferrer">ArXiv Abstract</a> ; &nbsp;
-<a href="https://arxiv.org/pdf/2512.15627" target="_blank" rel="noopener noreferrer">ArXiv PDF</a> ; &nbsp;
-<a href="./pdfs/Art_II.pdf" target="_blank" rel="noopener noreferrer" download>Local PDF </a>; &nbsp; <a href="https://doi.org/10.1088/1475-7516/2026/06/087" target="_blank" rel="noopener noreferrer"> Publication URL</a>
+You can download $\mathtt{The~Art-III}$ (Ref. [@Figueroa_2026esg]) from: &nbsp; <a href="https://inspirehep.net/literature/3184486" target="_blank" rel="noopener noreferrer">INSPIRE-HEP</a> ; &nbsp;
+<a href="https://arxiv.org/abs/2607.27141" target="_blank" rel="noopener noreferrer">ArXiv Abstract</a> ; &nbsp;
+<a href="https://arxiv.org/pdf/2607.27141" target="_blank" rel="noopener noreferrer">ArXiv PDF</a> ; &nbsp;
+<a href="./pdfs/Art_III.pdf" target="_blank" rel="noopener noreferrer" download>Local PDF </a>; &nbsp; ----------
 
-(<span style="color:red;">**CHANGE to ART-III links**</span>)
+<!-- (<span style="color:red;">**CHANGE to ART-III links**</span>) -->
