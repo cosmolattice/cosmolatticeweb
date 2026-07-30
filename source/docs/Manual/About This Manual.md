@@ -16,7 +16,7 @@ This is the user manual for $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$
 
 <div class="cl-art-card" markdown>
 
-*Part III. Scalar-Gauge-Fluid dynamics.* (Ref. [@Figueroa_2026XYZ])
+*Part III. Scalar-Gauge-Fluid dynamics.* (Ref. [@Figueroa_2026esg])
 
 </div>
 
