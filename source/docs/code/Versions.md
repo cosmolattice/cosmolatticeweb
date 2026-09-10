@@ -47,11 +47,13 @@ Latest version of the code, released on July 27th 2026. $\mathcal{C}\mathtt{osmo
 
 **Bug corrections:**
 
-- <span style="color:red;">**SU(2) evolution**</span>
+- <span style="color:red;">**SU(2) evolution**. The links were wrongly projected on the positive branch of the group at every time step. Did not impact typical evolution much. Now corrected to use proper exponential integrators.</span>. 
 
-- <span style="color:red;">**U(1) magnetic power spectrum**</span>
+- <span style="color:red;">**U(1) magnetic power spectrum**. The implemented U(1) power spectrum was wrong; it is now correct.</span>
 
-- <span style="color:red;">**Binned power spectrum for $\Delta k \neq k_{\rm IR}$**</span>
+- <span style="color:red;">**Binned power spectrum for $\Delta k \neq k_{\rm IR}$**. Bin sizes were slightly off.</span>
+
+- <span style="color:red;"> arg.h: wrong atan usage corrected; returns now the correct complex number arg. Only affected usage of the expression template arg function on the Complex algebra, not used in standard CL expressions. </span>
 
 <br>
 
