@@ -2,6 +2,18 @@
 # Grow with: python3 add_new_citation.py <arxiv-id>
 # Fields flagged in needs_review want a human eye; empty the list once curated.
 
+- arxiv: '2607.28214'
+  inspire: 3184886
+  title: Domain walls through different cosmologies
+  authors:
+  - {name: I. Dankovsky, id: 2801981, inst: 914910}
+  - {name: D. Gorbunov, id: 1007949, inst: 903030}
+  - {name: S. Ramazanov, id: 1059045, inst: 1758644}
+  - {name: A. Vikman, id: 1024335, inst: 903135}
+  journal: null
+  doi: null
+  date: '2026-07-30'
+  needs_review: []
 - arxiv: '2607.25073'
   inspire: 3183955
   title: Fixing IR tail of gravitational waves from domain walls

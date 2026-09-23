@@ -85,7 +85,7 @@
 912045: {name: 'Nagoya U., KMI', city: Nagoya, country: JP, lat: 35.1542164, lon: 136.9675489}
 912221: {name: 'Unlisted, FR', city: Paris, country: FR, lat: 48.8566, lon: 2.3522, note: 'Khlopov: French affil = APC Paris; INSPIRE record unlisted'}
 912501: {name: Al Farabi Kazakh Natl. U., city: Almaty, country: KZ, lat: 43.238, lon: 76.945, note: coords hand-added (Al-Farabi KazNU)}
-914910: {name: Moscow State U., city: Moscow, country: RU, lat: 55.7033, lon: 37.5297, note: 'coords hand-fixed (Lomonosov MSU main building; INSPIRE had lon 42.02 — some 280 km east of Moscow)'}
+914910: {name: Moscow State U., city: Moscow, country: RU, lat: 55.7033, lon: 37.5297, note: coords hand-fixed (Lomonosov MSU main building; INSPIRE had lon 42.02 — some 280 km east of Moscow)}
 920171: {name: U. Melbourne, city: Melbourne, country: AU, lat: -37.7962849, lon: 144.9598069}
 946080: {name: U. Chicago, city: Chicago, country: US, lat: 41.7805099, lon: -87.603826}
 1091238: {name: 'U. Texas, Austin', city: Austin, country: US, lat: 30.2835151, lon: -97.7348805}

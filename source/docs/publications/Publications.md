@@ -17,6 +17,11 @@ Research done with $\mathcal{C}\mathtt{osmo}\mathcal{L}\mathtt{attice}$: the pap
      `python3 scripts/add_new_citation.py <arxiv>`) and commit the regenerated block. -->
 <!-- @gen:publications:using-cl -->
 <ol>
+<li value="101">
+<b>Domain walls through different cosmologies</b>.<br>
+<span class="clau" data-aid="2801981">I. Dankovsky</span>, <span class="clau" data-aid="1007949">D. Gorbunov</span>, <span class="clau" data-aid="1059045">S. Ramazanov</span>, <span class="clau" data-aid="1024335">A. Vikman</span><br>
+arXiv: <a href="https://arxiv.org/abs/2607.28214" target="_blank" rel="noopener noreferrer">2607.28214</a><br><br>
+</li>
 <li value="100">
 <b>Fixing IR tail of gravitational waves from domain walls</b>.<br>
 <span class="clau" data-aid="2801981">Ivan Dankovsky</span>, <span class="clau" data-aid="1007949">Dmitry Gorbunov</span><br>
