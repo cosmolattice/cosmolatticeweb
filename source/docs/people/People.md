@@ -169,7 +169,7 @@
 <div class="cl-ppl-grid">
 
   <article class="cl-ppl-card" data-mods="alp">
-    <img class="cl-ppl-avatar" src="../assets/img/people/joanes.png" alt="Joanes Lizarraga">
+    <img class="cl-ppl-avatar" src="../assets/img/people/joanes3.png" alt="Joanes Lizarraga">
     <div class="cl-ppl-name">Joanes Lizarraga</div>
     <div class="cl-ppl-affil">UPV/EHU, Bilbao, Spain</div>
     <div class="cl-ppl-badges">
